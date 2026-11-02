@@ -1,0 +1,149 @@
+{
+  "scope": "Synthetic structural validation only; not reproduction of manuscript experiments",
+  "gurobi_version": [
+    13,
+    0,
+    3
+  ],
+  "results": [
+    {
+      "case": "one_operation",
+      "objective": "time",
+      "value": 3.0,
+      "expected": 3,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "one_operation",
+      "objective": "cost",
+      "value": 0.0,
+      "expected": 0,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "precedence_chain",
+      "objective": "time",
+      "value": 7.0,
+      "expected": 7,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "precedence_chain",
+      "objective": "cost",
+      "value": 0.6000000000000001,
+      "expected": 0.6,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "different_type_setup",
+      "objective": "time",
+      "value": 9.0,
+      "expected": 9,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "different_type_setup",
+      "objective": "cost",
+      "value": 0.4,
+      "expected": 0.4,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "same_type_no_setup",
+      "objective": "time",
+      "value": 7.0,
+      "expected": 7,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "same_type_no_setup",
+      "objective": "cost",
+      "value": 0.0,
+      "expected": 0,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "fork_join",
+      "objective": "time",
+      "value": 4.0,
+      "expected": 4,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "fork_join",
+      "objective": "cost",
+      "value": 0.6000000000000001,
+      "expected": 0.6,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "purchase_wait_unused_machine",
+      "objective": "time",
+      "value": 8.0,
+      "expected": 8,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "purchase_wait_unused_machine",
+      "objective": "cost",
+      "value": 11.0,
+      "expected": 11,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "pooled_units_independent_suppliers",
+      "objective": "time",
+      "value": 5.0,
+      "expected": 5,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "pooled_units_independent_suppliers",
+      "objective": "cost",
+      "value": 3.8,
+      "expected": 3.8,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "assembly_machine_cost_tradeoff",
+      "objective": "time",
+      "value": 2.0,
+      "expected": 2,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "assembly_machine_cost_tradeoff",
+      "objective": "cost",
+      "value": 1.0,
+      "expected": 1,
+      "status": "OPTIMAL"
+    },
+    {
+      "case": "original_self_pair",
+      "status": "INFEASIBLE",
+      "iis": [
+        "R0",
+        "R1",
+        "original_self_precedence_0"
+      ]
+    },
+    {
+      "case": "all_distinct_pairs_precedence",
+      "status": "INFEASIBLE"
+    },
+    {
+      "case": "cross_type_stock_rejected",
+      "status": "INFEASIBLE"
+    },
+    {
+      "case": "machine_self_pair_eq12",
+      "status": "INFEASIBLE"
+    },
+    {
+      "case": "decoder_fixed_schedule_full_model",
+      "schedules": 20,
+      "status": "PASS",
+      "checks": "all constraints; exact makespan; total cost; unit consumption; typed changeovers"
+    }
+  ]
+}

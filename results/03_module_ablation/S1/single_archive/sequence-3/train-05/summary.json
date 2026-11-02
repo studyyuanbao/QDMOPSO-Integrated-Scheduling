@@ -1,0 +1,134 @@
+{
+  "case": "S1",
+  "variant": "single_archive",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4864,
+    "kick": 50,
+    "reconstruction": 16,
+    "local_search": 20
+  },
+  "output_front": [
+    [
+      40.557137181038115,
+      248.89250046032868
+    ],
+    [
+      39.00642634572404,
+      260.77425075057965
+    ],
+    [
+      39.549820759685765,
+      250.20285071096072
+    ],
+    [
+      38.518140241098635,
+      264.75281268100287
+    ],
+    [
+      43.071906368965145,
+      248.53802776652458
+    ],
+    [
+      39.33910213220707,
+      251.75810458451403
+    ],
+    [
+      39.557137181038115,
+      249.49696334836213
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 7,
+    "DA": 0
+  },
+  "output_hv": 0.41373567634675446,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 5,
+  "mode": "train",
+  "seed": 51205,
+  "nfe": 5000,
+  "seconds": 3.5748981999931857,
+  "trace_emit_seconds": 0.11671839671907946,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 21,
+  "final_q_states": 24,
+  "unique_decision_states": 13,
+  "action_counts": {
+    "1": 17,
+    "5": 9,
+    "3": 15,
+    "2": 11,
+    "4": 11,
+    "6": 12,
+    "0": 23
+  },
+  "component_counts": [
+    {
+      "1": 98
+    },
+    {
+      "0": 89,
+      "-1": 5,
+      "1": 4
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 19,
+      "4": 20
+    },
+    {
+      "2": 98
+    },
+    {
+      "1": 3,
+      "0": 94,
+      "2": 1
+    }
+  ],
+  "unseen_initial_decisions": 3,
+  "equal_q_decisions": 3,
+  "analysis_hv": 0.41373567634675446,
+  "front_of_all_evaluations": [
+    [
+      38.518140241098635,
+      264.75281268100287
+    ],
+    [
+      39.00642634572404,
+      260.77425075057965
+    ],
+    [
+      39.33910213220707,
+      251.75810458451403
+    ],
+    [
+      39.549820759685765,
+      250.20285071096072
+    ],
+    [
+      39.557137181038115,
+      249.49696334836213
+    ],
+    [
+      40.557137181038115,
+      248.89250046032868
+    ],
+    [
+      43.071906368965145,
+      248.53802776652458
+    ]
+  ],
+  "reward_sum": -0.5242935204536343,
+  "sp_invalid_generations": 1,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "f0905eeaf03928031822dfe29b3053e4fd3a5609330c9c0d5448ca88ab63e220",
+  "q_output_sha256": "a9e0b40abfbd62cc789afd43ca64a103909983d5635e6fadd8477bc6437abc1a",
+  "status": "completed"
+}

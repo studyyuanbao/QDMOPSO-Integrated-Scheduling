@@ -1,0 +1,82 @@
+{
+  "case": "G300",
+  "algorithm": "MOACO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 587.0502451000502,
+  "total_seconds_including_finalization": 587.1038808000158,
+  "archive_finalization_seconds": 3.4599972423166037e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 6,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 2.9103830456733704e-11,
+  "measured_partial_overhead_seconds": {
+    "emit": 110.6934344979818,
+    "independent_checks": 26.26596919831354
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "G300-MOACO-test-57003",
+  "order": 624,
+  "mode": "test",
+  "episode": null,
+  "seed": 57003,
+  "parameters": {
+    "alpha": 1.0,
+    "beta": 2.0,
+    "rho": 0.5
+  },
+  "output_hv_normalized": 0.8522217884510827,
+  "output_spacing_raw": 426.23522157712586,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      393.97889999999995,
+      47363.19378000001
+    ],
+    [
+      406.3679999999998,
+      46515.07931
+    ],
+    [
+      415.4969,
+      44555.38600999997
+    ],
+    [
+      426.0981,
+      44424.84568
+    ],
+    [
+      427.7213999999999,
+      43655.98087
+    ],
+    [
+      435.1355000000002,
+      42479.79086000001
+    ]
+  ],
+  "analysis_reference": [
+    3780.5479800000003,
+    874248.4219260002
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

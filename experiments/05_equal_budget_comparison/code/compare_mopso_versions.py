@@ -1,0 +1,301 @@
+import numpy as np
+import random
+import matplotlib
+import matplotlib.pyplot as plt
+import os
+from init import Config
+from mopso_basic import run_mopso as run_plain_mopso
+from pso_rl_new import run_mopso as run_rl_mopso
+from utils import calculate_hypervolume, calculate_spacing
+import csv
+
+# 可选算法
+try:
+    from nsga2 import run_nsga2
+except Exception:
+    run_nsga2 = None
+try:
+    from moabc import run_moabc
+except Exception:
+    run_moabc = None
+try:
+    from spea2 import run_spea2
+except Exception:
+    run_spea2 = None
+
+# 设置支持中文的字体，确保只设置一次
+matplotlib.rcParams['font.family'] = 'SimHei'
+matplotlib.rcParams['axes.unicode_minus'] = False
+
+
+def summarize_mean_std(hv_list, igd_list, sp_list, avg_time_list, avg_cost_list):
+    """返回均值±标准差，便于论文汇报。"""
+
+    def ms(arr):
+        if not arr:
+            return (0.0, 0.0)
+        # 确保使用 numpy 的 nanmean 和 nanstd 来处理可能出现的 NaN
+        arr_np = np.array(arr, dtype=float)
+        return (float(np.nanmean(arr_np)), float(np.nanstd(arr_np)))
+
+    return {
+        'HV': ms(hv_list),
+        'IGD': ms(igd_list),
+        'SP': ms(sp_list),
+        'AvgTime': ms(avg_time_list),
+        'AvgCost': ms(avg_cost_list)
+    }
+
+
+def run_algorithm_once(name, alg_fn, config, q_table_path=None, fixed_action=None, allow_learning=False, seed=None):
+    """统一运行一次算法，返回 (da, hv_history, final_sp, igd_values)。"""
+    # 设置随机种子确保结果可重现
+    if seed is not None:
+        np.random.seed(seed)
+        random.seed(seed)
+    if name == 'RL-MOPSO' or (name.startswith('RL-fixed')):
+        result, _, _ = run_rl_mopso(
+            config,
+            total_iterations=getattr(config, 'num_iterations', 100),
+            load_q_table_path=q_table_path,
+            save_q_table_path=None,
+            exploit_only=not allow_learning,  # allow_learning=True时exploit_only=False
+            fixed_action=fixed_action
+        )
+        return result.get('convergence_archive', []) + result.get('diversity_archive', []), result.get('hv_history', []), result.get('final_sp', 0.0), result.get(
+            'igd_values', [])
+    else:
+        # run_result 结构: ca, da, ..., hv_history, final_sp, igd_values (假设至少有 10 个返回值)
+        run_result = alg_fn(config)
+        ca, da, _, _, _, _, _, hv_history, final_sp, igd_values = run_result[:10]
+        return (da+ca), hv_history, final_sp, igd_values
+
+
+def build_reference_set(collected_da_lists):
+    """从所有档案中提取全局非支配前沿作为参考集"""
+    all_points = []
+    for da in collected_da_lists:
+        if not da:
+            continue
+        for p in da:
+            # 确保 p.fitness 是 (Time, Cost) 的数值元组
+            if hasattr(p, 'fitness') and isinstance(p.fitness, (list, tuple)) and len(p.fitness) == 2:
+                try:
+                    fitness_tuple = (float(p.fitness[0]), float(p.fitness[1]))
+                    if not (np.isnan(fitness_tuple[0]) or np.isnan(fitness_tuple[1])):
+                        all_points.append(fitness_tuple)
+                except (ValueError, TypeError):
+                    continue
+    if not all_points:
+        return np.empty((0, 2))
+
+    # 筛选非支配解
+    pts = np.array(all_points, dtype=float)
+    keep = []
+    for i in range(len(pts)):
+        dominated = False
+        for j in range(len(pts)):
+            if i == j:
+                continue
+            # 检查 j 是否支配 i
+            if np.all(pts[j] <= pts[i]) and np.any(pts[j] < pts[i]):
+                dominated = True
+                break
+        if not dominated:
+            keep.append(i)
+    return pts[keep]
+
+
+def build_unified_ref_point(collected_da_lists, margin: float = 1.1):
+    """基于所有算法/多次运行的解，统一生成一个HV参考点。
+
+    规则：取全体可行解在 (Time, Cost) 两维上的最大值，并乘以 margin（>1）留安全边界。
+    若没有可行解，则返回一个保守的大参考点。
+    """
+    max_time = None
+    max_cost = None
+    for da in collected_da_lists:
+        if not da:
+            continue
+        for p in da:
+            if hasattr(p, 'fitness') and isinstance(p.fitness, (list, tuple)) and len(p.fitness) == 2:
+                try:
+                    t = float(p.fitness[0])
+                    c = float(p.fitness[1])
+                    if not (np.isnan(t) or np.isnan(c) or t == float('inf') or c == float('inf')):
+                        max_time = t if max_time is None else max(max_time, t)
+                        max_cost = c if max_cost is None else max(max_cost, c)
+                except (ValueError, TypeError):
+                    continue
+    if max_time is None or max_cost is None:
+        return (20000.0, 20000.0)
+    return (max_time * margin + 1.0, max_cost * margin + 1.0)
+
+
+def compute_metrics_for_da(da, ref_point, reference_set_array):
+    """计算 HV, IGD, SP, AvgTime 和 AvgCost 指标"""
+
+    valid_fitness_tuples = []
+    total_time_sum = 0.0  # Time 目标
+    total_cost_sum = 0.0  # Cost 目标
+
+    for p in da:
+        if hasattr(p, 'fitness') and isinstance(p.fitness, (list, tuple)) and len(p.fitness) == 2:
+            try:
+                # 假设 fitness[0] 是 Time (完工时间), fitness[1] 是 Cost (总成本)
+                f1_time = float(p.fitness[0])
+                f2_cost = float(p.fitness[1])
+
+                # 过滤掉无效值
+                if not (np.isnan(f1_time) or np.isnan(f2_cost) or f1_time == float('inf') or f2_cost == float('inf')):
+                    fitness_tuple = (f1_time, f2_cost)
+                    valid_fitness_tuples.append(fitness_tuple)
+                    total_time_sum += f1_time
+                    total_cost_sum += f2_cost
+            except (ValueError, TypeError):
+                continue
+
+    num_valid_solutions = len(valid_fitness_tuples)
+
+    if num_valid_solutions == 0:
+        return 0.0, np.nan, 0.0, np.nan, np.nan  # HV, IGD, SP, AvgTime, AvgCost
+
+    # --- 1. HV 计算 ---
+    hv = calculate_hypervolume(valid_fitness_tuples, ref_point)
+
+    # --- 2. IGD 计算 ---
+    if len(reference_set_array) > 0:
+        da_array = np.array(valid_fitness_tuples)
+        igd_distances = [np.min(np.linalg.norm(da_array - np.array(ref_point_i), axis=1)) for ref_point_i in
+                         reference_set_array]
+        igd = np.mean(igd_distances)
+    else:
+        igd = np.nan
+
+    # --- 3. SP 计算 ---
+    sp = calculate_spacing(valid_fitness_tuples)
+
+    # --- 4 & 5. AvgTime 和 AvgCost 计算 ---
+    avg_time = total_time_sum / num_valid_solutions
+    avg_cost = total_cost_sum / num_valid_solutions
+
+    return hv, igd, sp, avg_time, avg_cost
+
+
+def export_csv(summary_rows, out_path='comparison_summary_with_avg_objectives.csv'):
+    # CSV 头部保持不变
+    headers = ['Method', 'HV_mean', 'HV_std', 'IGD_mean', 'IGD_std', 'SP_mean', 'SP_std',
+               'AvgTime_mean', 'AvgTime_std', 'AvgCost_mean', 'AvgCost_std']
+    with open(out_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(headers)
+        for row in summary_rows:
+            writer.writerow(row)
+    print(f"\n结果已保存到 {out_path}")
+
+
+if __name__ == '__main__':
+    config = Config()
+    config.num_iterations = 100
+    config.num_particles = 50
+    num_runs = 20  # 设定运行次数
+
+    q_table_path = "1.0-q_table4.pkl"
+
+    # 算法注册表：MOPSO、RL自适应、RL固定动作（0..6），以及可选经典算法
+    algorithms = {
+        # 'MOPSO': run_plain_mopso,
+        'RL-MOPSO': run_rl_mopso
+    }
+    # for a in range(7):
+    #     algorithms[f'RL-fixed-{a}'] = run_rl_mopso
+    # algorithms[f'RL-fixed-{6}'] = run_rl_mopso
+    # if run_nsga2:
+    # algorithms['NSGA-II'] = run_nsga2
+    # if run_moabc:
+    #     algorithms['MOABC'] = run_moabc
+    # if run_spea2:
+    # algorithms['SPEA2'] = run_spea2
+
+    # 过滤掉未实现的算法
+    algorithms = {k: v for k, v in algorithms.items() if v is not None}
+
+    if not algorithms:
+        print("警告：未发现可运行的算法函数，请检查导入或注释。")
+        exit()
+
+    print("\n===== 运行各算法并收集前沿 (Run: {}) =====".format(num_runs))
+    collected = {name: [] for name in algorithms.keys()}
+
+    # 预定义种子，确保所有算法在相同条件下比较
+    base_seed = 42
+    seeds = [base_seed + i for i in range(num_runs)]
+    print(f"使用种子序列: {seeds} (确保结果可重现)")
+    
+    for name, fn in algorithms.items():
+        print(f">>> 正在运行 {name}...")
+        for run_id in range(num_runs):
+            print(f"Running {name} run {run_id + 1}/{num_runs}")
+            try:
+                fixed_action = int(name.split('-')[-1]) if name.startswith('RL-fixed-') else None
+                da, hv_hist, _, _ = run_algorithm_once(name, fn, config, q_table_path=q_table_path,
+                                                       fixed_action=fixed_action, allow_learning=False,
+                                                       seed=seeds[run_id])
+                collected[name].append(da)
+            except Exception as e:
+                # 忽略因算法未实现导致的错误
+                if 'not callable' in str(e):
+                    continue
+                print(f"  {name} Run {run_id + 1} 出错: {e}")
+
+    # 统一参考集
+    all_da = []
+    for runs in collected.values():
+        for da in runs:
+            if da:
+                all_da.append(da)
+    reference_set = build_reference_set(all_da)
+    np.save('reference_set.npy', reference_set)
+    print(f"\n统一参考集生成完成，包含 {len(reference_set)} 个解")
+
+    # 统一参考点（用于HV）：基于所有收集到的解动态生成，并覆盖 config.hv_ref_point
+    ref_point = build_unified_ref_point(all_da, margin=1.1)
+    print(f"统一HV参考点: {ref_point}（对所有算法/运行使用相同参考点）")
+
+    # 基于统一参考集计算指标
+    metrics = {}
+    print("\n===== 计算指标（统一参考集） =====")
+
+    csv_rows = []
+
+    for name, runs in collected.items():
+        hv_list, igd_list, sp_list, avg_time_list, avg_cost_list = [], [], [], [], []
+        for da in runs:
+            hv, igd, sp, avg_time, avg_cost = compute_metrics_for_da(da, ref_point, reference_set)
+            hv_list.append(hv)
+            igd_list.append(igd)
+            sp_list.append(sp)
+            avg_time_list.append(avg_time)
+            avg_cost_list.append(avg_cost)
+
+        metrics[name] = summarize_mean_std(hv_list, igd_list, sp_list, avg_time_list, avg_cost_list)
+
+        # 提取均值和标准差
+        hv_m, hv_s = metrics[name]['HV']
+        igd_m, igd_s = metrics[name]['IGD']
+        sp_m, sp_s = metrics[name]['SP']
+        avg_time_m, avg_time_s = metrics[name]['AvgTime']
+        avg_cost_m, avg_cost_s = metrics[name]['AvgCost']
+
+        # 打印你需要的简洁单行输出 (保留你新增的 AvgTime 和 AvgCost)
+        output_line = (
+            f"{name}: HV={hv_m:.4f}±{hv_s:.4f}, IGD={igd_m:.4f}±{igd_s:.4f}, SP={sp_m:.4f}±{sp_s:.4f}, "
+            f"AvgTime={avg_time_m:.1f}±{avg_time_s:.1f}, AvgCost={avg_cost_m:.1f}±{avg_cost_s:.1f}"
+        )
+        print(output_line)
+
+        # CSV 原始数值数据
+        csv_rows.append([name, hv_m, hv_s, igd_m, igd_s, sp_m, sp_s, avg_time_m, avg_time_s, avg_cost_m, avg_cost_s])
+
+    # 导出CSV
+    export_csv(csv_rows, out_path='comparison_summary_pk_all-1.0-4.csv')

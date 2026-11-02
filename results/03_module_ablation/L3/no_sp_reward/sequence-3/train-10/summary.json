@@ -1,0 +1,100 @@
+{
+  "case": "L3",
+  "variant": "no_sp_reward",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4840,
+    "reconstruction": 34,
+    "kick": 40,
+    "local_search": 36
+  },
+  "output_front": [
+    [
+      67.36160228705558,
+      783.0236835101822
+    ],
+    [
+      65.20391366672494,
+      893.7912123928149
+    ],
+    [
+      67.36160228705558,
+      783.0236835101822
+    ],
+    [
+      65.20391366672494,
+      893.7912123928149
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7379014575600829,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 10,
+  "mode": "train",
+  "seed": 51210,
+  "nfe": 5000,
+  "seconds": 10.593085500004236,
+  "trace_emit_seconds": 0.13160090247401968,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 95,
+  "decisions": 97,
+  "state_calls": 97,
+  "initial_q_states": 23,
+  "final_q_states": 23,
+  "unique_decision_states": 8,
+  "action_counts": {
+    "2": 13,
+    "5": 13,
+    "3": 13,
+    "6": 17,
+    "0": 13,
+    "4": 15,
+    "1": 13
+  },
+  "component_counts": [
+    {
+      "1": 97
+    },
+    {
+      "0": 96,
+      "-1": 1
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 19,
+      "4": 19
+    },
+    {
+      "2": 97
+    },
+    {
+      "1": 48,
+      "0": 49
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7379014575600829,
+  "front_of_all_evaluations": [
+    [
+      65.20391366672494,
+      893.7912123928149
+    ],
+    [
+      67.36160228705558,
+      783.0236835101822
+    ]
+  ],
+  "reward_sum": -0.8222755753975335,
+  "sp_invalid_generations": 46,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "b570cf7f0d1107d2d6f4b0ef888c93ff1fa4a5282c07a257a9c08c6783551da0",
+  "q_output_sha256": "2adc859b2ad4373d6133dc1e944b69feb71e4abdcbbad2c5773682237b1babb0",
+  "status": "completed"
+}

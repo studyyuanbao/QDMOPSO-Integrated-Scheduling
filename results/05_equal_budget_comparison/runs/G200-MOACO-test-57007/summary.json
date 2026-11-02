@@ -1,0 +1,74 @@
+{
+  "case": "G200",
+  "algorithm": "MOACO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 127.97861399996327,
+  "total_seconds_including_finalization": 128.002245199983,
+  "archive_finalization_seconds": 1.5300000086426735e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 4,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 2.1827872842550278e-11,
+  "measured_partial_overhead_seconds": {
+    "emit": 24.78201540163718,
+    "independent_checks": 5.938467300089542
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "G200-MOACO-test-57007",
+  "order": 523,
+  "mode": "test",
+  "episode": null,
+  "seed": 57007,
+  "parameters": {
+    "alpha": 1.0,
+    "beta": 2.0,
+    "rho": 0.5
+  },
+  "output_hv_normalized": 0.7974618060817,
+  "output_spacing_raw": 352.9397813171896,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      349.8241999999999,
+      27166.445150000003
+    ],
+    [
+      353.00870000000003,
+      26611.501000000004
+    ],
+    [
+      356.44860000000006,
+      26497.323529999994
+    ],
+    [
+      363.74449999999996,
+      25665.59554999999
+    ]
+  ],
+  "analysis_reference": [
+    2447.2657000000004,
+    369212.6607400001
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

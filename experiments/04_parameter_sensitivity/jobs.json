@@ -1,0 +1,4064 @@
+[
+  {
+    "id": "MOGWO-02-test-55001",
+    "configuration_id": "MOGWO-02",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 1.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 1
+  },
+  {
+    "id": "MOGWO-02-test-55002",
+    "configuration_id": "MOGWO-02",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 1.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 2
+  },
+  {
+    "id": "MOGWO-02-test-55003",
+    "configuration_id": "MOGWO-02",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 1.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 3
+  },
+  {
+    "id": "MOPSO-06-test-55001",
+    "configuration_id": "MOPSO-06",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 4
+  },
+  {
+    "id": "MOPSO-06-test-55002",
+    "configuration_id": "MOPSO-06",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 5
+  },
+  {
+    "id": "MOPSO-06-test-55003",
+    "configuration_id": "MOPSO-06",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 6
+  },
+  {
+    "id": "MOACO-01-test-55001",
+    "configuration_id": "MOACO-01",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.0,
+      "beta": 2.0,
+      "rho": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 7
+  },
+  {
+    "id": "MOACO-01-test-55002",
+    "configuration_id": "MOACO-01",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.0,
+      "beta": 2.0,
+      "rho": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 8
+  },
+  {
+    "id": "MOACO-01-test-55003",
+    "configuration_id": "MOACO-01",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.0,
+      "beta": 2.0,
+      "rho": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 9
+  },
+  {
+    "id": "MOPSO-01-test-55001",
+    "configuration_id": "MOPSO-01",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 10
+  },
+  {
+    "id": "MOPSO-01-test-55002",
+    "configuration_id": "MOPSO-01",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 11
+  },
+  {
+    "id": "MOPSO-01-test-55003",
+    "configuration_id": "MOPSO-01",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 12
+  },
+  {
+    "id": "MOWOA-02-test-55001",
+    "configuration_id": "MOWOA-02",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 1.0,
+      "woa_b": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 13
+  },
+  {
+    "id": "MOWOA-02-test-55002",
+    "configuration_id": "MOWOA-02",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 1.0,
+      "woa_b": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 14
+  },
+  {
+    "id": "MOWOA-02-test-55003",
+    "configuration_id": "MOWOA-02",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 1.0,
+      "woa_b": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 15
+  },
+  {
+    "id": "MOWOA-05-test-55001",
+    "configuration_id": "MOWOA-05",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 3.0,
+      "woa_b": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 16
+  },
+  {
+    "id": "MOWOA-05-test-55002",
+    "configuration_id": "MOWOA-05",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 3.0,
+      "woa_b": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 17
+  },
+  {
+    "id": "MOWOA-05-test-55003",
+    "configuration_id": "MOWOA-05",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 3.0,
+      "woa_b": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 18
+  },
+  {
+    "id": "MOACO-04-test-55001",
+    "configuration_id": "MOACO-04",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 3.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 19
+  },
+  {
+    "id": "MOACO-04-test-55002",
+    "configuration_id": "MOACO-04",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 3.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 20
+  },
+  {
+    "id": "MOACO-04-test-55003",
+    "configuration_id": "MOACO-04",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 3.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 21
+  },
+  {
+    "id": "QDMOPSO-06-train-01",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 22
+  },
+  {
+    "id": "QDMOPSO-06-train-02",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-06-train-01",
+    "order": 23
+  },
+  {
+    "id": "QDMOPSO-06-train-03",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-06-train-02",
+    "order": 24
+  },
+  {
+    "id": "QDMOPSO-06-train-04",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-06-train-03",
+    "order": 25
+  },
+  {
+    "id": "QDMOPSO-06-train-05",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-06-train-04",
+    "order": 26
+  },
+  {
+    "id": "QDMOPSO-06-train-06",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-06-train-05",
+    "order": 27
+  },
+  {
+    "id": "QDMOPSO-06-train-07",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-06-train-06",
+    "order": 28
+  },
+  {
+    "id": "QDMOPSO-06-train-08",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-06-train-07",
+    "order": 29
+  },
+  {
+    "id": "QDMOPSO-06-train-09",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-06-train-08",
+    "order": 30
+  },
+  {
+    "id": "QDMOPSO-06-train-10",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-06-train-09",
+    "order": 31
+  },
+  {
+    "id": "QDMOPSO-06-train-11",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-06-train-10",
+    "order": 32
+  },
+  {
+    "id": "QDMOPSO-06-train-12",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-06-train-11",
+    "order": 33
+  },
+  {
+    "id": "QDMOPSO-06-train-13",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-06-train-12",
+    "order": 34
+  },
+  {
+    "id": "QDMOPSO-06-train-14",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-06-train-13",
+    "order": 35
+  },
+  {
+    "id": "QDMOPSO-06-train-15",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-06-train-14",
+    "order": 36
+  },
+  {
+    "id": "QDMOPSO-06-train-16",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-06-train-15",
+    "order": 37
+  },
+  {
+    "id": "QDMOPSO-06-train-17",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-06-train-16",
+    "order": 38
+  },
+  {
+    "id": "QDMOPSO-06-train-18",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-06-train-17",
+    "order": 39
+  },
+  {
+    "id": "QDMOPSO-06-train-19",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-06-train-18",
+    "order": 40
+  },
+  {
+    "id": "QDMOPSO-06-train-20",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-06-train-19",
+    "order": 41
+  },
+  {
+    "id": "QDMOPSO-06-test-55001",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-06-train-20",
+    "order": 42
+  },
+  {
+    "id": "QDMOPSO-06-test-55002",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-06-train-20",
+    "order": 43
+  },
+  {
+    "id": "QDMOPSO-06-test-55003",
+    "configuration_id": "QDMOPSO-06",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-06-train-20",
+    "order": 44
+  },
+  {
+    "id": "QDMOPSO-07-train-01",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 45
+  },
+  {
+    "id": "QDMOPSO-07-train-02",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-07-train-01",
+    "order": 46
+  },
+  {
+    "id": "QDMOPSO-07-train-03",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-07-train-02",
+    "order": 47
+  },
+  {
+    "id": "QDMOPSO-07-train-04",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-07-train-03",
+    "order": 48
+  },
+  {
+    "id": "QDMOPSO-07-train-05",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-07-train-04",
+    "order": 49
+  },
+  {
+    "id": "QDMOPSO-07-train-06",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-07-train-05",
+    "order": 50
+  },
+  {
+    "id": "QDMOPSO-07-train-07",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-07-train-06",
+    "order": 51
+  },
+  {
+    "id": "QDMOPSO-07-train-08",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-07-train-07",
+    "order": 52
+  },
+  {
+    "id": "QDMOPSO-07-train-09",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-07-train-08",
+    "order": 53
+  },
+  {
+    "id": "QDMOPSO-07-train-10",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-07-train-09",
+    "order": 54
+  },
+  {
+    "id": "QDMOPSO-07-train-11",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-07-train-10",
+    "order": 55
+  },
+  {
+    "id": "QDMOPSO-07-train-12",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-07-train-11",
+    "order": 56
+  },
+  {
+    "id": "QDMOPSO-07-train-13",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-07-train-12",
+    "order": 57
+  },
+  {
+    "id": "QDMOPSO-07-train-14",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-07-train-13",
+    "order": 58
+  },
+  {
+    "id": "QDMOPSO-07-train-15",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-07-train-14",
+    "order": 59
+  },
+  {
+    "id": "QDMOPSO-07-train-16",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-07-train-15",
+    "order": 60
+  },
+  {
+    "id": "QDMOPSO-07-train-17",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-07-train-16",
+    "order": 61
+  },
+  {
+    "id": "QDMOPSO-07-train-18",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-07-train-17",
+    "order": 62
+  },
+  {
+    "id": "QDMOPSO-07-train-19",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-07-train-18",
+    "order": 63
+  },
+  {
+    "id": "QDMOPSO-07-train-20",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-07-train-19",
+    "order": 64
+  },
+  {
+    "id": "QDMOPSO-07-test-55001",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-07-train-20",
+    "order": 65
+  },
+  {
+    "id": "QDMOPSO-07-test-55002",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-07-train-20",
+    "order": 66
+  },
+  {
+    "id": "QDMOPSO-07-test-55003",
+    "configuration_id": "QDMOPSO-07",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-07-train-20",
+    "order": 67
+  },
+  {
+    "id": "QDMOPSO-02-train-01",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 68
+  },
+  {
+    "id": "QDMOPSO-02-train-02",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-02-train-01",
+    "order": 69
+  },
+  {
+    "id": "QDMOPSO-02-train-03",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-02-train-02",
+    "order": 70
+  },
+  {
+    "id": "QDMOPSO-02-train-04",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-02-train-03",
+    "order": 71
+  },
+  {
+    "id": "QDMOPSO-02-train-05",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-02-train-04",
+    "order": 72
+  },
+  {
+    "id": "QDMOPSO-02-train-06",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-02-train-05",
+    "order": 73
+  },
+  {
+    "id": "QDMOPSO-02-train-07",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-02-train-06",
+    "order": 74
+  },
+  {
+    "id": "QDMOPSO-02-train-08",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-02-train-07",
+    "order": 75
+  },
+  {
+    "id": "QDMOPSO-02-train-09",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-02-train-08",
+    "order": 76
+  },
+  {
+    "id": "QDMOPSO-02-train-10",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-02-train-09",
+    "order": 77
+  },
+  {
+    "id": "QDMOPSO-02-train-11",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-02-train-10",
+    "order": 78
+  },
+  {
+    "id": "QDMOPSO-02-train-12",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-02-train-11",
+    "order": 79
+  },
+  {
+    "id": "QDMOPSO-02-train-13",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-02-train-12",
+    "order": 80
+  },
+  {
+    "id": "QDMOPSO-02-train-14",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-02-train-13",
+    "order": 81
+  },
+  {
+    "id": "QDMOPSO-02-train-15",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-02-train-14",
+    "order": 82
+  },
+  {
+    "id": "QDMOPSO-02-train-16",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-02-train-15",
+    "order": 83
+  },
+  {
+    "id": "QDMOPSO-02-train-17",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-02-train-16",
+    "order": 84
+  },
+  {
+    "id": "QDMOPSO-02-train-18",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-02-train-17",
+    "order": 85
+  },
+  {
+    "id": "QDMOPSO-02-train-19",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-02-train-18",
+    "order": 86
+  },
+  {
+    "id": "QDMOPSO-02-train-20",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-02-train-19",
+    "order": 87
+  },
+  {
+    "id": "QDMOPSO-02-test-55001",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-02-train-20",
+    "order": 88
+  },
+  {
+    "id": "QDMOPSO-02-test-55002",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-02-train-20",
+    "order": 89
+  },
+  {
+    "id": "QDMOPSO-02-test-55003",
+    "configuration_id": "QDMOPSO-02",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-02-train-20",
+    "order": 90
+  },
+  {
+    "id": "MOPSO-08-test-55001",
+    "configuration_id": "MOPSO-08",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 91
+  },
+  {
+    "id": "MOPSO-08-test-55002",
+    "configuration_id": "MOPSO-08",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 92
+  },
+  {
+    "id": "MOPSO-08-test-55003",
+    "configuration_id": "MOPSO-08",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 93
+  },
+  {
+    "id": "MOPSO-05-test-55001",
+    "configuration_id": "MOPSO-05",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 94
+  },
+  {
+    "id": "MOPSO-05-test-55002",
+    "configuration_id": "MOPSO-05",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 95
+  },
+  {
+    "id": "MOPSO-05-test-55003",
+    "configuration_id": "MOPSO-05",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 96
+  },
+  {
+    "id": "MOPSO-07-test-55001",
+    "configuration_id": "MOPSO-07",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 97
+  },
+  {
+    "id": "MOPSO-07-test-55002",
+    "configuration_id": "MOPSO-07",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 98
+  },
+  {
+    "id": "MOPSO-07-test-55003",
+    "configuration_id": "MOPSO-07",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 99
+  },
+  {
+    "id": "QDMOPSO-08-train-01",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 100
+  },
+  {
+    "id": "QDMOPSO-08-train-02",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-08-train-01",
+    "order": 101
+  },
+  {
+    "id": "QDMOPSO-08-train-03",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-08-train-02",
+    "order": 102
+  },
+  {
+    "id": "QDMOPSO-08-train-04",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-08-train-03",
+    "order": 103
+  },
+  {
+    "id": "QDMOPSO-08-train-05",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-08-train-04",
+    "order": 104
+  },
+  {
+    "id": "QDMOPSO-08-train-06",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-08-train-05",
+    "order": 105
+  },
+  {
+    "id": "QDMOPSO-08-train-07",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-08-train-06",
+    "order": 106
+  },
+  {
+    "id": "QDMOPSO-08-train-08",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-08-train-07",
+    "order": 107
+  },
+  {
+    "id": "QDMOPSO-08-train-09",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-08-train-08",
+    "order": 108
+  },
+  {
+    "id": "QDMOPSO-08-train-10",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-08-train-09",
+    "order": 109
+  },
+  {
+    "id": "QDMOPSO-08-train-11",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-08-train-10",
+    "order": 110
+  },
+  {
+    "id": "QDMOPSO-08-train-12",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-08-train-11",
+    "order": 111
+  },
+  {
+    "id": "QDMOPSO-08-train-13",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-08-train-12",
+    "order": 112
+  },
+  {
+    "id": "QDMOPSO-08-train-14",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-08-train-13",
+    "order": 113
+  },
+  {
+    "id": "QDMOPSO-08-train-15",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-08-train-14",
+    "order": 114
+  },
+  {
+    "id": "QDMOPSO-08-train-16",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-08-train-15",
+    "order": 115
+  },
+  {
+    "id": "QDMOPSO-08-train-17",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-08-train-16",
+    "order": 116
+  },
+  {
+    "id": "QDMOPSO-08-train-18",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-08-train-17",
+    "order": 117
+  },
+  {
+    "id": "QDMOPSO-08-train-19",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-08-train-18",
+    "order": 118
+  },
+  {
+    "id": "QDMOPSO-08-train-20",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-08-train-19",
+    "order": 119
+  },
+  {
+    "id": "QDMOPSO-08-test-55001",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-08-train-20",
+    "order": 120
+  },
+  {
+    "id": "QDMOPSO-08-test-55002",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-08-train-20",
+    "order": 121
+  },
+  {
+    "id": "QDMOPSO-08-test-55003",
+    "configuration_id": "QDMOPSO-08",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-08-train-20",
+    "order": 122
+  },
+  {
+    "id": "MOGWO-03-test-55001",
+    "configuration_id": "MOGWO-03",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 123
+  },
+  {
+    "id": "MOGWO-03-test-55002",
+    "configuration_id": "MOGWO-03",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 124
+  },
+  {
+    "id": "MOGWO-03-test-55003",
+    "configuration_id": "MOGWO-03",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 125
+  },
+  {
+    "id": "MOPSO-02-test-55001",
+    "configuration_id": "MOPSO-02",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 126
+  },
+  {
+    "id": "MOPSO-02-test-55002",
+    "configuration_id": "MOPSO-02",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 127
+  },
+  {
+    "id": "MOPSO-02-test-55003",
+    "configuration_id": "MOPSO-02",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 128
+  },
+  {
+    "id": "MOACO-02-test-55001",
+    "configuration_id": "MOACO-02",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 129
+  },
+  {
+    "id": "MOACO-02-test-55002",
+    "configuration_id": "MOACO-02",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 130
+  },
+  {
+    "id": "MOACO-02-test-55003",
+    "configuration_id": "MOACO-02",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 131
+  },
+  {
+    "id": "MOACO-05-test-55001",
+    "configuration_id": "MOACO-05",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 3.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 132
+  },
+  {
+    "id": "MOACO-05-test-55002",
+    "configuration_id": "MOACO-05",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 3.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 133
+  },
+  {
+    "id": "MOACO-05-test-55003",
+    "configuration_id": "MOACO-05",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 3.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 134
+  },
+  {
+    "id": "QDMOPSO-04-train-01",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 135
+  },
+  {
+    "id": "QDMOPSO-04-train-02",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-04-train-01",
+    "order": 136
+  },
+  {
+    "id": "QDMOPSO-04-train-03",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-04-train-02",
+    "order": 137
+  },
+  {
+    "id": "QDMOPSO-04-train-04",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-04-train-03",
+    "order": 138
+  },
+  {
+    "id": "QDMOPSO-04-train-05",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-04-train-04",
+    "order": 139
+  },
+  {
+    "id": "QDMOPSO-04-train-06",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-04-train-05",
+    "order": 140
+  },
+  {
+    "id": "QDMOPSO-04-train-07",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-04-train-06",
+    "order": 141
+  },
+  {
+    "id": "QDMOPSO-04-train-08",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-04-train-07",
+    "order": 142
+  },
+  {
+    "id": "QDMOPSO-04-train-09",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-04-train-08",
+    "order": 143
+  },
+  {
+    "id": "QDMOPSO-04-train-10",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-04-train-09",
+    "order": 144
+  },
+  {
+    "id": "QDMOPSO-04-train-11",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-04-train-10",
+    "order": 145
+  },
+  {
+    "id": "QDMOPSO-04-train-12",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-04-train-11",
+    "order": 146
+  },
+  {
+    "id": "QDMOPSO-04-train-13",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-04-train-12",
+    "order": 147
+  },
+  {
+    "id": "QDMOPSO-04-train-14",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-04-train-13",
+    "order": 148
+  },
+  {
+    "id": "QDMOPSO-04-train-15",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-04-train-14",
+    "order": 149
+  },
+  {
+    "id": "QDMOPSO-04-train-16",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-04-train-15",
+    "order": 150
+  },
+  {
+    "id": "QDMOPSO-04-train-17",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-04-train-16",
+    "order": 151
+  },
+  {
+    "id": "QDMOPSO-04-train-18",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-04-train-17",
+    "order": 152
+  },
+  {
+    "id": "QDMOPSO-04-train-19",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-04-train-18",
+    "order": 153
+  },
+  {
+    "id": "QDMOPSO-04-train-20",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-04-train-19",
+    "order": 154
+  },
+  {
+    "id": "QDMOPSO-04-test-55001",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-04-train-20",
+    "order": 155
+  },
+  {
+    "id": "QDMOPSO-04-test-55002",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-04-train-20",
+    "order": 156
+  },
+  {
+    "id": "QDMOPSO-04-test-55003",
+    "configuration_id": "QDMOPSO-04",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-04-train-20",
+    "order": 157
+  },
+  {
+    "id": "QDMOPSO-09-train-01",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 158
+  },
+  {
+    "id": "QDMOPSO-09-train-02",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-09-train-01",
+    "order": 159
+  },
+  {
+    "id": "QDMOPSO-09-train-03",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-09-train-02",
+    "order": 160
+  },
+  {
+    "id": "QDMOPSO-09-train-04",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-09-train-03",
+    "order": 161
+  },
+  {
+    "id": "QDMOPSO-09-train-05",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-09-train-04",
+    "order": 162
+  },
+  {
+    "id": "QDMOPSO-09-train-06",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-09-train-05",
+    "order": 163
+  },
+  {
+    "id": "QDMOPSO-09-train-07",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-09-train-06",
+    "order": 164
+  },
+  {
+    "id": "QDMOPSO-09-train-08",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-09-train-07",
+    "order": 165
+  },
+  {
+    "id": "QDMOPSO-09-train-09",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-09-train-08",
+    "order": 166
+  },
+  {
+    "id": "QDMOPSO-09-train-10",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-09-train-09",
+    "order": 167
+  },
+  {
+    "id": "QDMOPSO-09-train-11",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-09-train-10",
+    "order": 168
+  },
+  {
+    "id": "QDMOPSO-09-train-12",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-09-train-11",
+    "order": 169
+  },
+  {
+    "id": "QDMOPSO-09-train-13",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-09-train-12",
+    "order": 170
+  },
+  {
+    "id": "QDMOPSO-09-train-14",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-09-train-13",
+    "order": 171
+  },
+  {
+    "id": "QDMOPSO-09-train-15",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-09-train-14",
+    "order": 172
+  },
+  {
+    "id": "QDMOPSO-09-train-16",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-09-train-15",
+    "order": 173
+  },
+  {
+    "id": "QDMOPSO-09-train-17",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-09-train-16",
+    "order": 174
+  },
+  {
+    "id": "QDMOPSO-09-train-18",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-09-train-17",
+    "order": 175
+  },
+  {
+    "id": "QDMOPSO-09-train-19",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-09-train-18",
+    "order": 176
+  },
+  {
+    "id": "QDMOPSO-09-train-20",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-09-train-19",
+    "order": 177
+  },
+  {
+    "id": "QDMOPSO-09-test-55001",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-09-train-20",
+    "order": 178
+  },
+  {
+    "id": "QDMOPSO-09-test-55002",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-09-train-20",
+    "order": 179
+  },
+  {
+    "id": "QDMOPSO-09-test-55003",
+    "configuration_id": "QDMOPSO-09",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-09-train-20",
+    "order": 180
+  },
+  {
+    "id": "MOPSO-04-test-55001",
+    "configuration_id": "MOPSO-04",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 181
+  },
+  {
+    "id": "MOPSO-04-test-55002",
+    "configuration_id": "MOPSO-04",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 182
+  },
+  {
+    "id": "MOPSO-04-test-55003",
+    "configuration_id": "MOPSO-04",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 183
+  },
+  {
+    "id": "MOACO-09-test-55001",
+    "configuration_id": "MOACO-09",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 3.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 184
+  },
+  {
+    "id": "MOACO-09-test-55002",
+    "configuration_id": "MOACO-09",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 3.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 185
+  },
+  {
+    "id": "MOACO-09-test-55003",
+    "configuration_id": "MOACO-09",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 3.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 186
+  },
+  {
+    "id": "MOACO-07-test-55001",
+    "configuration_id": "MOACO-07",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 187
+  },
+  {
+    "id": "MOACO-07-test-55002",
+    "configuration_id": "MOACO-07",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 188
+  },
+  {
+    "id": "MOACO-07-test-55003",
+    "configuration_id": "MOACO-07",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 189
+  },
+  {
+    "id": "MOACO-03-test-55001",
+    "configuration_id": "MOACO-03",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 190
+  },
+  {
+    "id": "MOACO-03-test-55002",
+    "configuration_id": "MOACO-03",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 191
+  },
+  {
+    "id": "MOACO-03-test-55003",
+    "configuration_id": "MOACO-03",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 192
+  },
+  {
+    "id": "MOACO-08-test-55001",
+    "configuration_id": "MOACO-08",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 3.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 193
+  },
+  {
+    "id": "MOACO-08-test-55002",
+    "configuration_id": "MOACO-08",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 3.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 194
+  },
+  {
+    "id": "MOACO-08-test-55003",
+    "configuration_id": "MOACO-08",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 3.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 195
+  },
+  {
+    "id": "MOPSO-03-test-55001",
+    "configuration_id": "MOPSO-03",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 196
+  },
+  {
+    "id": "MOPSO-03-test-55002",
+    "configuration_id": "MOPSO-03",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 197
+  },
+  {
+    "id": "MOPSO-03-test-55003",
+    "configuration_id": "MOPSO-03",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 3.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 198
+  },
+  {
+    "id": "MOACO-06-test-55001",
+    "configuration_id": "MOACO-06",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 199
+  },
+  {
+    "id": "MOACO-06-test-55002",
+    "configuration_id": "MOACO-06",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 200
+  },
+  {
+    "id": "MOACO-06-test-55003",
+    "configuration_id": "MOACO-06",
+    "algorithm": "MOACO",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "rho": 0.3
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 201
+  },
+  {
+    "id": "QDMOPSO-03-train-01",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 202
+  },
+  {
+    "id": "QDMOPSO-03-train-02",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-03-train-01",
+    "order": 203
+  },
+  {
+    "id": "QDMOPSO-03-train-03",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-03-train-02",
+    "order": 204
+  },
+  {
+    "id": "QDMOPSO-03-train-04",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-03-train-03",
+    "order": 205
+  },
+  {
+    "id": "QDMOPSO-03-train-05",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-03-train-04",
+    "order": 206
+  },
+  {
+    "id": "QDMOPSO-03-train-06",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-03-train-05",
+    "order": 207
+  },
+  {
+    "id": "QDMOPSO-03-train-07",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-03-train-06",
+    "order": 208
+  },
+  {
+    "id": "QDMOPSO-03-train-08",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-03-train-07",
+    "order": 209
+  },
+  {
+    "id": "QDMOPSO-03-train-09",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-03-train-08",
+    "order": 210
+  },
+  {
+    "id": "QDMOPSO-03-train-10",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-03-train-09",
+    "order": 211
+  },
+  {
+    "id": "QDMOPSO-03-train-11",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-03-train-10",
+    "order": 212
+  },
+  {
+    "id": "QDMOPSO-03-train-12",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-03-train-11",
+    "order": 213
+  },
+  {
+    "id": "QDMOPSO-03-train-13",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-03-train-12",
+    "order": 214
+  },
+  {
+    "id": "QDMOPSO-03-train-14",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-03-train-13",
+    "order": 215
+  },
+  {
+    "id": "QDMOPSO-03-train-15",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-03-train-14",
+    "order": 216
+  },
+  {
+    "id": "QDMOPSO-03-train-16",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-03-train-15",
+    "order": 217
+  },
+  {
+    "id": "QDMOPSO-03-train-17",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-03-train-16",
+    "order": 218
+  },
+  {
+    "id": "QDMOPSO-03-train-18",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-03-train-17",
+    "order": 219
+  },
+  {
+    "id": "QDMOPSO-03-train-19",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-03-train-18",
+    "order": 220
+  },
+  {
+    "id": "QDMOPSO-03-train-20",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-03-train-19",
+    "order": 221
+  },
+  {
+    "id": "QDMOPSO-03-test-55001",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-03-train-20",
+    "order": 222
+  },
+  {
+    "id": "QDMOPSO-03-test-55002",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-03-train-20",
+    "order": 223
+  },
+  {
+    "id": "QDMOPSO-03-test-55003",
+    "configuration_id": "QDMOPSO-03",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-03-train-20",
+    "order": 224
+  },
+  {
+    "id": "MOWOA-04-test-55001",
+    "configuration_id": "MOWOA-04",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 3.0,
+      "woa_b": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 225
+  },
+  {
+    "id": "MOWOA-04-test-55002",
+    "configuration_id": "MOWOA-04",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 3.0,
+      "woa_b": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 226
+  },
+  {
+    "id": "MOWOA-04-test-55003",
+    "configuration_id": "MOWOA-04",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 3.0,
+      "woa_b": 0.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 227
+  },
+  {
+    "id": "QDMOPSO-05-train-01",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 228
+  },
+  {
+    "id": "QDMOPSO-05-train-02",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-05-train-01",
+    "order": 229
+  },
+  {
+    "id": "QDMOPSO-05-train-03",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-05-train-02",
+    "order": 230
+  },
+  {
+    "id": "QDMOPSO-05-train-04",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-05-train-03",
+    "order": 231
+  },
+  {
+    "id": "QDMOPSO-05-train-05",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-05-train-04",
+    "order": 232
+  },
+  {
+    "id": "QDMOPSO-05-train-06",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-05-train-05",
+    "order": 233
+  },
+  {
+    "id": "QDMOPSO-05-train-07",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-05-train-06",
+    "order": 234
+  },
+  {
+    "id": "QDMOPSO-05-train-08",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-05-train-07",
+    "order": 235
+  },
+  {
+    "id": "QDMOPSO-05-train-09",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-05-train-08",
+    "order": 236
+  },
+  {
+    "id": "QDMOPSO-05-train-10",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-05-train-09",
+    "order": 237
+  },
+  {
+    "id": "QDMOPSO-05-train-11",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-05-train-10",
+    "order": 238
+  },
+  {
+    "id": "QDMOPSO-05-train-12",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-05-train-11",
+    "order": 239
+  },
+  {
+    "id": "QDMOPSO-05-train-13",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-05-train-12",
+    "order": 240
+  },
+  {
+    "id": "QDMOPSO-05-train-14",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-05-train-13",
+    "order": 241
+  },
+  {
+    "id": "QDMOPSO-05-train-15",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-05-train-14",
+    "order": 242
+  },
+  {
+    "id": "QDMOPSO-05-train-16",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-05-train-15",
+    "order": 243
+  },
+  {
+    "id": "QDMOPSO-05-train-17",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-05-train-16",
+    "order": 244
+  },
+  {
+    "id": "QDMOPSO-05-train-18",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-05-train-17",
+    "order": 245
+  },
+  {
+    "id": "QDMOPSO-05-train-19",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-05-train-18",
+    "order": 246
+  },
+  {
+    "id": "QDMOPSO-05-train-20",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-05-train-19",
+    "order": 247
+  },
+  {
+    "id": "QDMOPSO-05-test-55001",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-05-train-20",
+    "order": 248
+  },
+  {
+    "id": "QDMOPSO-05-test-55002",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-05-train-20",
+    "order": 249
+  },
+  {
+    "id": "QDMOPSO-05-test-55003",
+    "configuration_id": "QDMOPSO-05",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-05-train-20",
+    "order": 250
+  },
+  {
+    "id": "QDMOPSO-01-train-01",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 1,
+    "seed": 54001,
+    "previous_job": null,
+    "order": 251
+  },
+  {
+    "id": "QDMOPSO-01-train-02",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 2,
+    "seed": 54002,
+    "previous_job": "QDMOPSO-01-train-01",
+    "order": 252
+  },
+  {
+    "id": "QDMOPSO-01-train-03",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 3,
+    "seed": 54003,
+    "previous_job": "QDMOPSO-01-train-02",
+    "order": 253
+  },
+  {
+    "id": "QDMOPSO-01-train-04",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 4,
+    "seed": 54004,
+    "previous_job": "QDMOPSO-01-train-03",
+    "order": 254
+  },
+  {
+    "id": "QDMOPSO-01-train-05",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 5,
+    "seed": 54005,
+    "previous_job": "QDMOPSO-01-train-04",
+    "order": 255
+  },
+  {
+    "id": "QDMOPSO-01-train-06",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 6,
+    "seed": 54006,
+    "previous_job": "QDMOPSO-01-train-05",
+    "order": 256
+  },
+  {
+    "id": "QDMOPSO-01-train-07",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 7,
+    "seed": 54007,
+    "previous_job": "QDMOPSO-01-train-06",
+    "order": 257
+  },
+  {
+    "id": "QDMOPSO-01-train-08",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 8,
+    "seed": 54008,
+    "previous_job": "QDMOPSO-01-train-07",
+    "order": 258
+  },
+  {
+    "id": "QDMOPSO-01-train-09",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 9,
+    "seed": 54009,
+    "previous_job": "QDMOPSO-01-train-08",
+    "order": 259
+  },
+  {
+    "id": "QDMOPSO-01-train-10",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 10,
+    "seed": 54010,
+    "previous_job": "QDMOPSO-01-train-09",
+    "order": 260
+  },
+  {
+    "id": "QDMOPSO-01-train-11",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 11,
+    "seed": 54011,
+    "previous_job": "QDMOPSO-01-train-10",
+    "order": 261
+  },
+  {
+    "id": "QDMOPSO-01-train-12",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 12,
+    "seed": 54012,
+    "previous_job": "QDMOPSO-01-train-11",
+    "order": 262
+  },
+  {
+    "id": "QDMOPSO-01-train-13",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 13,
+    "seed": 54013,
+    "previous_job": "QDMOPSO-01-train-12",
+    "order": 263
+  },
+  {
+    "id": "QDMOPSO-01-train-14",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 14,
+    "seed": 54014,
+    "previous_job": "QDMOPSO-01-train-13",
+    "order": 264
+  },
+  {
+    "id": "QDMOPSO-01-train-15",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 15,
+    "seed": 54015,
+    "previous_job": "QDMOPSO-01-train-14",
+    "order": 265
+  },
+  {
+    "id": "QDMOPSO-01-train-16",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 16,
+    "seed": 54016,
+    "previous_job": "QDMOPSO-01-train-15",
+    "order": 266
+  },
+  {
+    "id": "QDMOPSO-01-train-17",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 17,
+    "seed": 54017,
+    "previous_job": "QDMOPSO-01-train-16",
+    "order": 267
+  },
+  {
+    "id": "QDMOPSO-01-train-18",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 18,
+    "seed": 54018,
+    "previous_job": "QDMOPSO-01-train-17",
+    "order": 268
+  },
+  {
+    "id": "QDMOPSO-01-train-19",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 19,
+    "seed": 54019,
+    "previous_job": "QDMOPSO-01-train-18",
+    "order": 269
+  },
+  {
+    "id": "QDMOPSO-01-train-20",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "train",
+    "episode": 20,
+    "seed": 54020,
+    "previous_job": "QDMOPSO-01-train-19",
+    "order": 270
+  },
+  {
+    "id": "QDMOPSO-01-test-55001",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": "QDMOPSO-01-train-20",
+    "order": 271
+  },
+  {
+    "id": "QDMOPSO-01-test-55002",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": "QDMOPSO-01-train-20",
+    "order": 272
+  },
+  {
+    "id": "QDMOPSO-01-test-55003",
+    "configuration_id": "QDMOPSO-01",
+    "algorithm": "QDMOPSO",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": "QDMOPSO-01-train-20",
+    "order": 273
+  },
+  {
+    "id": "MOWOA-01-test-55001",
+    "configuration_id": "MOWOA-01",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 2.0,
+      "woa_b": 1.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 274
+  },
+  {
+    "id": "MOWOA-01-test-55002",
+    "configuration_id": "MOWOA-01",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 2.0,
+      "woa_b": 1.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 275
+  },
+  {
+    "id": "MOWOA-01-test-55003",
+    "configuration_id": "MOWOA-01",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 2.0,
+      "woa_b": 1.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 276
+  },
+  {
+    "id": "MOWOA-03-test-55001",
+    "configuration_id": "MOWOA-03",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 1.0,
+      "woa_b": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 277
+  },
+  {
+    "id": "MOWOA-03-test-55002",
+    "configuration_id": "MOWOA-03",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 1.0,
+      "woa_b": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 278
+  },
+  {
+    "id": "MOWOA-03-test-55003",
+    "configuration_id": "MOWOA-03",
+    "algorithm": "MOWOA",
+    "parameters": {
+      "woa_a0": 1.0,
+      "woa_b": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 279
+  },
+  {
+    "id": "MOGWO-01-test-55001",
+    "configuration_id": "MOGWO-01",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 2.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 280
+  },
+  {
+    "id": "MOGWO-01-test-55002",
+    "configuration_id": "MOGWO-01",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 2.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 281
+  },
+  {
+    "id": "MOGWO-01-test-55003",
+    "configuration_id": "MOGWO-01",
+    "algorithm": "MOGWO",
+    "parameters": {
+      "gwo_a0": 2.0
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 282
+  },
+  {
+    "id": "MOPSO-09-test-55001",
+    "configuration_id": "MOPSO-09",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.7,
+      "mopso_c1": 1.5,
+      "mopso_c2": 1.5,
+      "mopso_vmax": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55001,
+    "previous_job": null,
+    "order": 283
+  },
+  {
+    "id": "MOPSO-09-test-55002",
+    "configuration_id": "MOPSO-09",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.7,
+      "mopso_c1": 1.5,
+      "mopso_c2": 1.5,
+      "mopso_vmax": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55002,
+    "previous_job": null,
+    "order": 284
+  },
+  {
+    "id": "MOPSO-09-test-55003",
+    "configuration_id": "MOPSO-09",
+    "algorithm": "MOPSO",
+    "parameters": {
+      "mopso_w": 0.7,
+      "mopso_c1": 1.5,
+      "mopso_c2": 1.5,
+      "mopso_vmax": 1.5
+    },
+    "mode": "test",
+    "episode": null,
+    "seed": 55003,
+    "previous_job": null,
+    "order": 285
+  }
+]

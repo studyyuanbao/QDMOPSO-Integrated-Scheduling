@@ -1,0 +1,99 @@
+{
+  "case": "L3",
+  "variant": "single_archive",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4908,
+    "reconstruction": 10,
+    "local_search": 12,
+    "kick": 20
+  },
+  "output_front": [
+    [
+      67.87507491149643,
+      806.3060815142646
+    ],
+    [
+      65.46144399001909,
+      835.5423008295198
+    ],
+    [
+      101.9915007446167,
+      781.265306728028
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 0
+  },
+  "output_hv": 0.7371606867505417,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 7,
+  "mode": "train",
+  "seed": 51207,
+  "nfe": 5000,
+  "seconds": 10.418084800010547,
+  "trace_emit_seconds": 0.11989870178513229,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 18,
+  "final_q_states": 18,
+  "unique_decision_states": 6,
+  "action_counts": {
+    "5": 10,
+    "0": 20,
+    "6": 14,
+    "3": 12,
+    "1": 9,
+    "4": 19,
+    "2": 15
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 99
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 1,
+      "0": 98
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7371606867505417,
+  "front_of_all_evaluations": [
+    [
+      65.46144399001909,
+      835.5423008295198
+    ],
+    [
+      67.87507491149643,
+      806.3060815142646
+    ],
+    [
+      101.9915007446167,
+      781.265306728028
+    ]
+  ],
+  "reward_sum": -0.8,
+  "sp_invalid_generations": 0,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "068547ecaa4575af2e280fba867379c5eb540de29801f65d7bf211587b6192c7",
+  "q_output_sha256": "ebf4d03eb6db034d24a8ad880be3b5fa63e75bef9eae900989a2bffb1da995fb",
+  "status": "completed"
+}

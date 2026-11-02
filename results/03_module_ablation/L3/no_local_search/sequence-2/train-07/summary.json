@@ -1,0 +1,99 @@
+{
+  "case": "L3",
+  "variant": "no_local_search",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4846,
+    "kick": 60,
+    "reconstruction": 44
+  },
+  "output_front": [
+    [
+      66.30164432984313,
+      775.0555490333383
+    ],
+    [
+      64.87507491149643,
+      829.1154907826569
+    ],
+    [
+      66.30164432984313,
+      775.0555490333383
+    ],
+    [
+      64.87507491149643,
+      829.1154907826569
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7395898885720597,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": 7,
+  "mode": "train",
+  "seed": 51107,
+  "nfe": 5000,
+  "seconds": 11.004142400051933,
+  "trace_emit_seconds": 0.1268058012938127,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 95,
+  "decisions": 97,
+  "state_calls": 97,
+  "initial_q_states": 21,
+  "final_q_states": 21,
+  "unique_decision_states": 9,
+  "action_counts": {
+    "1": 14,
+    "2": 15,
+    "6": 16,
+    "5": 13,
+    "3": 13,
+    "4": 11,
+    "0": 15
+  },
+  "component_counts": [
+    {
+      "1": 97
+    },
+    {
+      "0": 95,
+      "-1": 2
+    },
+    {
+      "0": 20,
+      "1": 19,
+      "2": 19,
+      "3": 20,
+      "4": 19
+    },
+    {
+      "2": 97
+    },
+    {
+      "1": 57,
+      "0": 40
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7395898885720597,
+  "front_of_all_evaluations": [
+    [
+      64.87507491149643,
+      829.1154907826569
+    ],
+    [
+      66.30164432984313,
+      775.0555490333383
+    ]
+  ],
+  "reward_sum": -0.9067371678762193,
+  "sp_invalid_generations": 56,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "153663513ea0d5da35f3993cf15bdeb20fb6d69a43b9f3421041f3df081ff7ce",
+  "q_output_sha256": "53956981741799896b561fae7be6681e3d722944702e8d78c7cd0ab2154f1245",
+  "status": "completed"
+}

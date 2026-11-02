@@ -1,0 +1,98 @@
+{
+  "case": "S1",
+  "variant": "no_local_search",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4912,
+    "reconstruction": 18,
+    "kick": 20
+  },
+  "output_front": [
+    [
+      39.557137181038115,
+      251.1766052429869
+    ],
+    [
+      40.55005863673824,
+      251.05607746451724
+    ],
+    [
+      39.557137181038115,
+      251.1766052429869
+    ],
+    [
+      40.55005863673824,
+      251.05607746451724
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.4042158062564004,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": null,
+  "mode": "test",
+  "seed": 53007,
+  "nfe": 5000,
+  "seconds": 3.673737000033725,
+  "trace_emit_seconds": 0.1260587977594696,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 28,
+  "final_q_states": 28,
+  "unique_decision_states": 7,
+  "action_counts": {
+    "0": 20,
+    "4": 23,
+    "1": 12,
+    "5": 12,
+    "3": 11,
+    "6": 11,
+    "2": 10
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 99
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 20,
+      "3": 19,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 86,
+      "0": 13
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.4042158062564004,
+  "front_of_all_evaluations": [
+    [
+      39.557137181038115,
+      251.1766052429869
+    ],
+    [
+      40.55005863673824,
+      251.05607746451724
+    ]
+  ],
+  "reward_sum": -0.7691115075073157,
+  "sp_invalid_generations": 84,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "c23aa911babf88cdd1316ba282a3f9d59979516ad565be35df12f0e48792e0b9",
+  "q_output_sha256": "8102b05f6e1d02d3001197a380d6be024c568724540c62fc7b3afbec74433fb3",
+  "status": "completed"
+}

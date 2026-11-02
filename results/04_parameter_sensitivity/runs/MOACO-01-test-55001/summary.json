@@ -1,0 +1,74 @@
+{
+  "case": "M1",
+  "algorithm": "MOACO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 5.317549500032328,
+  "total_seconds_including_finalization": 5.320763399999123,
+  "archive_finalization_seconds": 1.5199999324977398e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 5,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.3197042035171762,
+    "independent_checks": 0.36553919990547
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "config_source_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "configuration_id": "MOACO-01",
+  "job_id": "MOACO-01-test-55001",
+  "order": 7,
+  "mode": "test",
+  "episode": null,
+  "seed": 55001,
+  "parameters": {
+    "alpha": 1.0,
+    "beta": 2.0,
+    "rho": 0.5
+  },
+  "output_hv_normalized": 0.5365132461952918,
+  "output_spacing_raw": 1.384195694605381,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      31.2103980154849,
+      245.81122361876982
+    ],
+    [
+      32.47553454797175,
+      242.2082163085875
+    ],
+    [
+      32.55005863673824,
+      233.54274608568974
+    ],
+    [
+      37.33462431629892,
+      229.57428882290665
+    ]
+  ],
+  "analysis_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "igd": null,
+  "igd_reason": "calibration does not use formal test reference front",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

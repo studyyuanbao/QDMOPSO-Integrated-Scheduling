@@ -1,0 +1,111 @@
+{
+  "case": "M2",
+  "variant": "no_sp_reward",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4884,
+    "kick": 20,
+    "reconstruction": 16,
+    "local_search": 30
+  },
+  "output_front": [
+    [
+      49.49508873068452,
+      499.74681224504894
+    ],
+    [
+      59.49508873068452,
+      499.0401392911656
+    ],
+    [
+      60.178531367751816,
+      493.65264442116325
+    ],
+    [
+      49.49508873068452,
+      499.74681224504894
+    ],
+    [
+      60.178531367751816,
+      493.65264442116325
+    ],
+    [
+      59.49508873068452,
+      499.0401392911656
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 3
+  },
+  "output_hv": 0.6327224908786253,
+  "partial_generation_decisions": 1,
+  "sequence": 1,
+  "episode": 20,
+  "mode": "train",
+  "seed": 51020,
+  "nfe": 5000,
+  "seconds": 6.653486700030044,
+  "trace_emit_seconds": 0.129883800749667,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 30,
+  "final_q_states": 30,
+  "unique_decision_states": 6,
+  "action_counts": {
+    "1": 18,
+    "2": 16,
+    "6": 14,
+    "4": 13,
+    "3": 12,
+    "0": 17,
+    "5": 8
+  },
+  "component_counts": [
+    {
+      "1": 98
+    },
+    {
+      "0": 98
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 19
+    },
+    {
+      "2": 98
+    },
+    {
+      "1": 42,
+      "0": 56
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.6327224908786253,
+  "front_of_all_evaluations": [
+    [
+      49.49508873068452,
+      499.74681224504894
+    ],
+    [
+      59.49508873068452,
+      499.0401392911656
+    ],
+    [
+      60.178531367751816,
+      493.65264442116325
+    ]
+  ],
+  "reward_sum": -0.8339898161243039,
+  "sp_invalid_generations": 40,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "dbfeefda11c0092b0590e54f30de58e2a23b116a5d79e7d094516fee0693b00d",
+  "q_output_sha256": "1d168ca3cd66eb2034ae9ff62f6c4b3b1565336dd064bc62ab860174bff13b1c",
+  "status": "completed"
+}

@@ -1,0 +1,100 @@
+{
+  "case": "L3",
+  "variant": "full",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4814,
+    "kick": 80,
+    "reconstruction": 30,
+    "local_search": 26
+  },
+  "output_front": [
+    [
+      70.19343275366693,
+      782.9766267391201
+    ],
+    [
+      66.70348460927757,
+      788.2308071050022
+    ],
+    [
+      70.19343275366693,
+      782.9766267391201
+    ],
+    [
+      66.70348460927757,
+      788.2308071050022
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7341477526797772,
+  "partial_generation_decisions": 1,
+  "sequence": 1,
+  "episode": 20,
+  "mode": "train",
+  "seed": 51020,
+  "nfe": 5000,
+  "seconds": 10.686970999988262,
+  "trace_emit_seconds": 0.15494520246284083,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 95,
+  "decisions": 97,
+  "state_calls": 97,
+  "initial_q_states": 29,
+  "final_q_states": 29,
+  "unique_decision_states": 8,
+  "action_counts": {
+    "1": 10,
+    "2": 10,
+    "6": 27,
+    "5": 18,
+    "3": 13,
+    "4": 10,
+    "0": 9
+  },
+  "component_counts": [
+    {
+      "1": 97
+    },
+    {
+      "0": 96,
+      "-1": 1
+    },
+    {
+      "0": 20,
+      "1": 19,
+      "2": 19,
+      "3": 20,
+      "4": 19
+    },
+    {
+      "2": 97
+    },
+    {
+      "1": 17,
+      "0": 80
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7341477526797772,
+  "front_of_all_evaluations": [
+    [
+      66.70348460927757,
+      788.2308071050022
+    ],
+    [
+      70.19343275366693,
+      782.9766267391201
+    ]
+  ],
+  "reward_sum": -3.241888994817142,
+  "sp_invalid_generations": 16,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "c6c8faf30445eae3bbf799d8fa3b307b483feb9bb0a2e198f324fee76a5ef67c",
+  "q_output_sha256": "1b73cac0782d1561e319c8283aaf0e929645c6dad68956324fe012112476bc71",
+  "status": "completed"
+}

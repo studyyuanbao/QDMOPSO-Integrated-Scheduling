@@ -1,0 +1,101 @@
+{
+  "case": "M2",
+  "variant": "no_reconstruction",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4920,
+    "kick": 10,
+    "local_search": 20
+  },
+  "output_front": [
+    [
+      50.41699323961695,
+      509.60107828346355
+    ],
+    [
+      46.557137181038115,
+      531.3480153043115
+    ],
+    [
+      50.41699323961695,
+      509.60107828346355
+    ],
+    [
+      46.557137181038115,
+      531.3480153043115
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.6411230186361645,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 16,
+  "mode": "train",
+  "seed": 51216,
+  "nfe": 5000,
+  "seconds": 6.846214400022291,
+  "trace_emit_seconds": 0.1274470984353684,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 25,
+  "final_q_states": 26,
+  "unique_decision_states": 9,
+  "action_counts": {
+    "3": 13,
+    "4": 13,
+    "2": 12,
+    "5": 15,
+    "6": 9,
+    "0": 27,
+    "1": 10
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 97,
+      "1": 1,
+      "-1": 1
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 20,
+      "2": 1,
+      "0": 78
+    }
+  ],
+  "unseen_initial_decisions": 18,
+  "equal_q_decisions": 1,
+  "analysis_hv": 0.6411230186361645,
+  "front_of_all_evaluations": [
+    [
+      46.557137181038115,
+      531.3480153043115
+    ],
+    [
+      50.41699323961695,
+      509.60107828346355
+    ]
+  ],
+  "reward_sum": -0.8892503313268844,
+  "sp_invalid_generations": 18,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "6076be626b09abe80966e421fae77d16425a818b85f84769c23c8dcbdd9c40d5",
+  "q_output_sha256": "a7c31f04945b128aa51fc721e944b6041874ea48e15043753fea675532091985",
+  "status": "completed"
+}

@@ -1,0 +1,71 @@
+{
+  "case": "G200",
+  "algorithm": "MOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 124.450934100023,
+  "total_seconds_including_finalization": 124.46802880003816,
+  "archive_finalization_seconds": 5.4699950851500034e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 3,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 2.1827872842550278e-11,
+  "measured_partial_overhead_seconds": {
+    "emit": 23.504633901582565,
+    "independent_checks": 5.685203300439753
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "G200-MOPSO-test-57007",
+  "order": 496,
+  "mode": "test",
+  "episode": null,
+  "seed": 57007,
+  "parameters": {
+    "mopso_w": 0.4,
+    "mopso_c1": 2.0,
+    "mopso_c2": 2.0,
+    "mopso_vmax": 0.5
+  },
+  "output_hv_normalized": 0.8089614909716503,
+  "output_spacing_raw": 119.26794898221108,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      320.09950000000003,
+      26792.21836999999
+    ],
+    [
+      328.70360000000005,
+      26286.45605000001
+    ],
+    [
+      354.7216,
+      25574.51766
+    ]
+  ],
+  "analysis_reference": [
+    2447.2657000000004,
+    369212.6607400001
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

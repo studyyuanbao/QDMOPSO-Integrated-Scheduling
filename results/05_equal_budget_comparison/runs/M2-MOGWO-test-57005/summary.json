@@ -1,0 +1,60 @@
+{
+  "case": "M2",
+  "algorithm": "MOGWO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 11.286987800034694,
+  "total_seconds_including_finalization": 11.411836599989329,
+  "archive_finalization_seconds": 0.04481110000051558,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 166,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 2.2713950019679032,
+    "independent_checks": 0.6030297994147986
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "f206735da1c2053ef5160ebf4de3161d2d6c87ad0df0ff6eca41213ad7d5739f",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "M2-MOGWO-test-57005",
+  "order": 197,
+  "mode": "test",
+  "episode": null,
+  "seed": 57005,
+  "parameters": {
+    "gwo_a0": 2.0
+  },
+  "output_hv_normalized": 0.5790924430615568,
+  "output_spacing_raw": null,
+  "output_spacing_valid": false,
+  "output_front": [
+    [
+      59.09164876731133,
+      552.5135922307577
+    ]
+  ],
+  "analysis_reference": [
+    199.82833133962518,
+    3108.168307415128
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

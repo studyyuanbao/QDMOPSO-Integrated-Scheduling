@@ -1,0 +1,99 @@
+{
+  "case": "L3",
+  "variant": "no_kick",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4902,
+    "reconstruction": 30,
+    "local_search": 18
+  },
+  "output_front": [
+    [
+      65.32473113952865,
+      810.9886465233069
+    ],
+    [
+      85.51814024109864,
+      799.4152536807039
+    ],
+    [
+      65.32473113952865,
+      810.9886465233069
+    ],
+    [
+      85.51814024109864,
+      799.4152536807039
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7359677595706113,
+  "partial_generation_decisions": 1,
+  "sequence": 1,
+  "episode": 20,
+  "mode": "train",
+  "seed": 51020,
+  "nfe": 5000,
+  "seconds": 10.819534400012344,
+  "trace_emit_seconds": 0.14335009950445965,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 28,
+  "final_q_states": 28,
+  "unique_decision_states": 9,
+  "action_counts": {
+    "1": 16,
+    "2": 14,
+    "6": 9,
+    "0": 19,
+    "3": 15,
+    "5": 14,
+    "4": 12
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 97,
+      "-1": 2
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 39,
+      "0": 60
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7359677595706113,
+  "front_of_all_evaluations": [
+    [
+      65.32473113952865,
+      810.9886465233069
+    ],
+    [
+      85.51814024109864,
+      799.4152536807039
+    ]
+  ],
+  "reward_sum": -4.4288556526561695,
+  "sp_invalid_generations": 38,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "43e47f8002e3fb8e70574cc00985f63c61cbbbb835d631cfef457868719d5d8b",
+  "q_output_sha256": "bc2514c00bafbb5f9739bd7de1c647e9fb95e18a788ea9d06408b2453896009e",
+  "status": "completed"
+}

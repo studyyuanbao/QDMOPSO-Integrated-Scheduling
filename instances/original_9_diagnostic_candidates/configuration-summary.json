@@ -1,0 +1,128 @@
+[
+  {
+    "instance": "S1",
+    "products": [
+      1,
+      1,
+      1
+    ],
+    "tasks": 21,
+    "eligible_entries": 47,
+    "assembly_machines": 3,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "b989b2353e5c7bafc7a867b6440e5f6c5d318a0f94577efb88d51bc6938eae94"
+  },
+  {
+    "instance": "S2",
+    "products": [
+      2,
+      2,
+      2
+    ],
+    "tasks": 42,
+    "eligible_entries": 94,
+    "assembly_machines": 3,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "c48d2f38a0c60eaadcf7285deb2c554ed0816d1701ed0718d1d8616eff59eeea"
+  },
+  {
+    "instance": "S3",
+    "products": [
+      4,
+      3,
+      3
+    ],
+    "tasks": 68,
+    "eligible_entries": 149,
+    "assembly_machines": 3,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "aceeeca2e029f7a085797561506102c6a6beaa0ea8310ada99719d2f45f11078"
+  },
+  {
+    "instance": "M1",
+    "products": [
+      1,
+      1,
+      1
+    ],
+    "tasks": 21,
+    "eligible_entries": 56,
+    "assembly_machines": 5,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "4c40652117a8605a12cb0532f20d43db1855b32f5f40bc99c9e85749fb53529d"
+  },
+  {
+    "instance": "M2",
+    "products": [
+      2,
+      2,
+      2
+    ],
+    "tasks": 42,
+    "eligible_entries": 112,
+    "assembly_machines": 5,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "d82fab4112c254ce2a40b1137a7662bbc86842bfcebcd6491e5883b641e9f8d2"
+  },
+  {
+    "instance": "M3",
+    "products": [
+      4,
+      3,
+      3
+    ],
+    "tasks": 68,
+    "eligible_entries": 178,
+    "assembly_machines": 5,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "830a1045fc106b5d3114ab6ff83803a340b6bedd2bf4671e5b7890805baf46a8"
+  },
+  {
+    "instance": "L1",
+    "products": [
+      1,
+      1,
+      1
+    ],
+    "tasks": 21,
+    "eligible_entries": 65,
+    "assembly_machines": 7,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "a28242007511090584cca7248f578cfc99ada5ecd0427b8a16f7c902bb4eb108"
+  },
+  {
+    "instance": "L2",
+    "products": [
+      2,
+      2,
+      2
+    ],
+    "tasks": 42,
+    "eligible_entries": 130,
+    "assembly_machines": 7,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "065e5a7d3cfa98dbed0106620f84e4f88160f164482ff3a9b1a7545e79596aea"
+  },
+  {
+    "instance": "L3",
+    "products": [
+      4,
+      3,
+      3
+    ],
+    "tasks": 68,
+    "eligible_entries": 207,
+    "assembly_machines": 7,
+    "data_seed": 42,
+    "noise": true,
+    "config_sha256": "4d608e6ecf033a1560f3bf28c1a5b7d1240fbc4a844c46dd1a2926ce9dd105ca"
+  }
+]

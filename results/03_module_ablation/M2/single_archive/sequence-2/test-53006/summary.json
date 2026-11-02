@@ -1,0 +1,108 @@
+{
+  "case": "M2",
+  "variant": "single_archive",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4872,
+    "kick": 50,
+    "reconstruction": 10,
+    "local_search": 18
+  },
+  "output_front": [
+    [
+      50.17387766525883,
+      556.7766728893984
+    ],
+    [
+      70.55713718103812,
+      496.81224183640086
+    ],
+    [
+      53.20745206273378,
+      502.1715576993588
+    ],
+    [
+      51.557137181038115,
+      523.0898891076647
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 4,
+    "DA": 0
+  },
+  "output_hv": 0.6288547992426271,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": null,
+  "mode": "test",
+  "seed": 53006,
+  "nfe": 5000,
+  "seconds": 6.5588830999913625,
+  "trace_emit_seconds": 0.12583299935795367,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 26,
+  "final_q_states": 27,
+  "unique_decision_states": 10,
+  "action_counts": {
+    "6": 30,
+    "4": 20,
+    "1": 28,
+    "3": 19,
+    "0": 1
+  },
+  "component_counts": [
+    {
+      "1": 98
+    },
+    {
+      "0": 94,
+      "-1": 2,
+      "1": 2
+    },
+    {
+      "0": 19,
+      "1": 20,
+      "2": 20,
+      "3": 19,
+      "4": 20
+    },
+    {
+      "2": 98
+    },
+    {
+      "1": 2,
+      "0": 95,
+      "2": 1
+    }
+  ],
+  "unseen_initial_decisions": 1,
+  "equal_q_decisions": 1,
+  "analysis_hv": 0.6288547992426271,
+  "front_of_all_evaluations": [
+    [
+      50.17387766525883,
+      556.7766728893984
+    ],
+    [
+      51.557137181038115,
+      523.0898891076647
+    ],
+    [
+      53.20745206273378,
+      502.1715576993588
+    ],
+    [
+      70.55713718103812,
+      496.81224183640086
+    ]
+  ],
+  "reward_sum": -0.5703236149433881,
+  "sp_invalid_generations": 0,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "70a23206f26d9684375a491f2143849d6bbb1ea7c1ef4cc5174e4140cadef2b6",
+  "q_output_sha256": "7ee2a380ac86e4cf54734e786930175bacc5b76e81c26a2ea8f65a928910304d",
+  "status": "completed"
+}

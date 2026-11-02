@@ -1,0 +1,102 @@
+{
+  "case": "S1",
+  "variant": "no_sp_reward",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4902,
+    "reconstruction": 12,
+    "kick": 20,
+    "local_search": 16
+  },
+  "output_front": [
+    [
+      40.55005863673824,
+      245.06999010387247
+    ],
+    [
+      39.557137181038115,
+      248.1593943640004
+    ],
+    [
+      40.55005863673824,
+      245.06999010387247
+    ],
+    [
+      39.557137181038115,
+      248.1593943640004
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.40813542987767765,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": 1,
+  "mode": "train",
+  "seed": 51101,
+  "nfe": 5000,
+  "seconds": 3.492110099992715,
+  "trace_emit_seconds": 0.0947775014792569,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 0,
+  "final_q_states": 9,
+  "unique_decision_states": 9,
+  "action_counts": {
+    "4": 15,
+    "0": 16,
+    "2": 14,
+    "1": 16,
+    "3": 14,
+    "6": 11,
+    "5": 13
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 97,
+      "1": 1,
+      "-1": 1
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 74,
+      "2": 1,
+      "0": 24
+    }
+  ],
+  "unseen_initial_decisions": 99,
+  "equal_q_decisions": 13,
+  "analysis_hv": 0.40813542987767765,
+  "front_of_all_evaluations": [
+    [
+      39.557137181038115,
+      248.1593943640004
+    ],
+    [
+      40.55005863673824,
+      245.06999010387247
+    ]
+  ],
+  "reward_sum": -0.8431748235612002,
+  "sp_invalid_generations": 73,
+  "reward_clip_generations": 0,
+  "q_input_sha256": null,
+  "q_output_sha256": "0ca09ea04d79af41874f2ff399fe0fcaeee92eef0900b9084cc7f5aaaef5414b",
+  "status": "completed"
+}

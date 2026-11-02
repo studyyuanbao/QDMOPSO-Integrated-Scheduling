@@ -1,0 +1,100 @@
+{
+  "case": "L3",
+  "variant": "full",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4898,
+    "kick": 10,
+    "reconstruction": 24,
+    "local_search": 18
+  },
+  "output_front": [
+    [
+      73.79057119420719,
+      759.7324216049442
+    ],
+    [
+      68.19343275366693,
+      771.1479884418229
+    ],
+    [
+      73.79057119420719,
+      759.7324216049442
+    ],
+    [
+      68.19343275366693,
+      771.1479884418229
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7326060908681312,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": 7,
+  "mode": "train",
+  "seed": 51107,
+  "nfe": 5000,
+  "seconds": 11.391115400008857,
+  "trace_emit_seconds": 0.13144259917316958,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 19,
+  "final_q_states": 21,
+  "unique_decision_states": 8,
+  "action_counts": {
+    "1": 20,
+    "2": 13,
+    "4": 15,
+    "6": 14,
+    "3": 12,
+    "0": 15,
+    "5": 9
+  },
+  "component_counts": [
+    {
+      "1": 98
+    },
+    {
+      "0": 97,
+      "-1": 1
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 19
+    },
+    {
+      "2": 98
+    },
+    {
+      "1": 58,
+      "0": 40
+    }
+  ],
+  "unseen_initial_decisions": 38,
+  "equal_q_decisions": 2,
+  "analysis_hv": 0.7326060908681312,
+  "front_of_all_evaluations": [
+    [
+      68.19343275366693,
+      771.1479884418229
+    ],
+    [
+      73.79057119420719,
+      759.7324216049442
+    ]
+  ],
+  "reward_sum": -0.867802710611395,
+  "sp_invalid_generations": 57,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "e950c79e5590b62b1d6dc62f5f680483463a7341838b8afba11f92ed19eb068e",
+  "q_output_sha256": "adf83dd02c7fc68258478c33a7ecc69d5ef7f241655950fbb33c913f0e9ab2a5",
+  "status": "completed"
+}

@@ -1,0 +1,945 @@
+{
+  "instance": "L2",
+  "products": [
+    2,
+    2,
+    2
+  ],
+  "tasks": 42,
+  "eligible_entries": 130,
+  "assembly_machines": 7,
+  "data_seed": 42,
+  "noise": true,
+  "config_sha256": "065e5a7d3cfa98dbed0106620f84e4f88160f164482ff3a9b1a7545e79596aea",
+  "resources": [
+    {
+      "task": 0,
+      "stage": "采购",
+      "resource": 0,
+      "time": 6.33462431629892,
+      "cost": 10.0
+    },
+    {
+      "task": 0,
+      "stage": "采购",
+      "resource": 1,
+      "time": 3.2400172083562673,
+      "cost": 12.0
+    },
+    {
+      "task": 1,
+      "stage": "采购",
+      "resource": 2,
+      "time": 4.550058636738238,
+      "cost": 8.0
+    },
+    {
+      "task": 1,
+      "stage": "采购",
+      "resource": 3,
+      "time": 3.5571371810381165,
+      "cost": 11.0
+    },
+    {
+      "task": 2,
+      "stage": "采购",
+      "resource": 4,
+      "time": 7.662119399659234,
+      "cost": 15.0
+    },
+    {
+      "task": 3,
+      "stage": "部装",
+      "resource": 5,
+      "time": 7.0,
+      "cost": 2.0
+    },
+    {
+      "task": 3,
+      "stage": "部装",
+      "resource": 6,
+      "time": 6.0,
+      "cost": 3.0
+    },
+    {
+      "task": 3,
+      "stage": "部装",
+      "resource": 7,
+      "time": 8.0,
+      "cost": 1.0
+    },
+    {
+      "task": 3,
+      "stage": "部装",
+      "resource": 16,
+      "time": 5.0,
+      "cost": 4.0
+    },
+    {
+      "task": 4,
+      "stage": "总装",
+      "resource": 8,
+      "time": 10.0,
+      "cost": 6.0
+    },
+    {
+      "task": 4,
+      "stage": "总装",
+      "resource": 9,
+      "time": 12.0,
+      "cost": 3.0
+    },
+    {
+      "task": 4,
+      "stage": "总装",
+      "resource": 10,
+      "time": 14.0,
+      "cost": 1.0
+    },
+    {
+      "task": 5,
+      "stage": "采购",
+      "resource": 0,
+      "time": 6.424078769814987,
+      "cost": 10.0
+    },
+    {
+      "task": 5,
+      "stage": "采购",
+      "resource": 1,
+      "time": 4.627487308327753,
+      "cost": 12.0
+    },
+    {
+      "task": 6,
+      "stage": "采购",
+      "resource": 2,
+      "time": 4.173877665258833,
+      "cost": 8.0
+    },
+    {
+      "task": 6,
+      "stage": "采购",
+      "resource": 3,
+      "time": 3.8750749114964327,
+      "cost": 11.0
+    },
+    {
+      "task": 7,
+      "stage": "采购",
+      "resource": 4,
+      "time": 5.683432214426597,
+      "cost": 15.0
+    },
+    {
+      "task": 8,
+      "stage": "部装",
+      "resource": 5,
+      "time": 7.0,
+      "cost": 2.0
+    },
+    {
+      "task": 8,
+      "stage": "部装",
+      "resource": 6,
+      "time": 6.0,
+      "cost": 3.0
+    },
+    {
+      "task": 8,
+      "stage": "部装",
+      "resource": 7,
+      "time": 8.0,
+      "cost": 1.0
+    },
+    {
+      "task": 8,
+      "stage": "部装",
+      "resource": 16,
+      "time": 5.0,
+      "cost": 4.0
+    },
+    {
+      "task": 9,
+      "stage": "总装",
+      "resource": 8,
+      "time": 10.0,
+      "cost": 6.0
+    },
+    {
+      "task": 9,
+      "stage": "总装",
+      "resource": 9,
+      "time": 12.0,
+      "cost": 3.0
+    },
+    {
+      "task": 9,
+      "stage": "总装",
+      "resource": 10,
+      "time": 14.0,
+      "cost": 1.0
+    },
+    {
+      "task": 10,
+      "stage": "采购",
+      "resource": 0,
+      "time": 5.324731139528648,
+      "cost": 10.0
+    },
+    {
+      "task": 10,
+      "stage": "采购",
+      "resource": 1,
+      "time": 5.0107105762067246,
+      "cost": 12.0
+    },
+    {
+      "task": 10,
+      "stage": "采购",
+      "resource": 2,
+      "time": 3.242457551494182,
+      "cost": 9.0
+    },
+    {
+      "task": 10,
+      "stage": "采购",
+      "resource": 3,
+      "time": 2.638605180823978,
+      "cost": 14.0
+    },
+    {
+      "task": 11,
+      "stage": "采购",
+      "resource": 4,
+      "time": 6.3597226506708555,
+      "cost": 8.0
+    },
+    {
+      "task": 11,
+      "stage": "采购",
+      "resource": 11,
+      "time": 4.071906368965147,
+      "cost": 11.0
+    },
+    {
+      "task": 11,
+      "stage": "采购",
+      "resource": 12,
+      "time": 2.664528746448836,
+      "cost": 13.0
+    },
+    {
+      "task": 12,
+      "stage": "采购",
+      "resource": 13,
+      "time": 5.178531367751818,
+      "cost": 13.0
+    },
+    {
+      "task": 12,
+      "stage": "采购",
+      "resource": 14,
+      "time": 4.495088730684523,
+      "cost": 15.0
+    },
+    {
+      "task": 13,
+      "stage": "采购",
+      "resource": 0,
+      "time": 1.605199007742449,
+      "cost": 18.0
+    },
+    {
+      "task": 13,
+      "stage": "采购",
+      "resource": 11,
+      "time": 4.489310802932493,
+      "cost": 13.0
+    },
+    {
+      "task": 13,
+      "stage": "采购",
+      "resource": 15,
+      "time": 3.2377672739858725,
+      "cost": 16.0
+    },
+    {
+      "task": 14,
+      "stage": "部装",
+      "resource": 5,
+      "time": 5.0,
+      "cost": 10.0
+    },
+    {
+      "task": 14,
+      "stage": "部装",
+      "resource": 6,
+      "time": 6.0,
+      "cost": 9.0
+    },
+    {
+      "task": 14,
+      "stage": "部装",
+      "resource": 7,
+      "time": 7.0,
+      "cost": 8.0
+    },
+    {
+      "task": 14,
+      "stage": "部装",
+      "resource": 16,
+      "time": 8.0,
+      "cost": 7.0
+    },
+    {
+      "task": 15,
+      "stage": "部装",
+      "resource": 5,
+      "time": 3.0,
+      "cost": 5.0
+    },
+    {
+      "task": 15,
+      "stage": "部装",
+      "resource": 6,
+      "time": 5.0,
+      "cost": 3.0
+    },
+    {
+      "task": 15,
+      "stage": "部装",
+      "resource": 7,
+      "time": 6.0,
+      "cost": 2.0
+    },
+    {
+      "task": 15,
+      "stage": "部装",
+      "resource": 16,
+      "time": 7.0,
+      "cost": 1.0
+    },
+    {
+      "task": 16,
+      "stage": "总装",
+      "resource": 8,
+      "time": 8.0,
+      "cost": 4.0
+    },
+    {
+      "task": 16,
+      "stage": "总装",
+      "resource": 9,
+      "time": 10.0,
+      "cost": 3.0
+    },
+    {
+      "task": 16,
+      "stage": "总装",
+      "resource": 10,
+      "time": 11.0,
+      "cost": 1.0
+    },
+    {
+      "task": 17,
+      "stage": "采购",
+      "resource": 0,
+      "time": 5.61660123964318,
+      "cost": 10.0
+    },
+    {
+      "task": 17,
+      "stage": "采购",
+      "resource": 1,
+      "time": 4.310958999623563,
+      "cost": 12.0
+    },
+    {
+      "task": 17,
+      "stage": "采购",
+      "resource": 2,
+      "time": 4.73154091553085,
+      "cost": 9.0
+    },
+    {
+      "task": 17,
+      "stage": "采购",
+      "resource": 3,
+      "time": 2.8039134541351523,
+      "cost": 14.0
+    },
+    {
+      "task": 18,
+      "stage": "采购",
+      "resource": 4,
+      "time": 5.022590024112355,
+      "cost": 8.0
+    },
+    {
+      "task": 18,
+      "stage": "采购",
+      "resource": 11,
+      "time": 3.3547462029335424,
+      "cost": 11.0
+    },
+    {
+      "task": 18,
+      "stage": "采购",
+      "resource": 12,
+      "time": 3.4169932396169513,
+      "cost": 13.0
+    },
+    {
+      "task": 19,
+      "stage": "采购",
+      "resource": 13,
+      "time": 5.207452062733782,
+      "cost": 13.0
+    },
+    {
+      "task": 19,
+      "stage": "采购",
+      "resource": 14,
+      "time": 4.491405237239008,
+      "cost": 15.0
+    },
+    {
+      "task": 20,
+      "stage": "采购",
+      "resource": 0,
+      "time": 2.183785429355054,
+      "cost": 18.0
+    },
+    {
+      "task": 20,
+      "stage": "采购",
+      "resource": 11,
+      "time": 4.057964946327521,
+      "cost": 13.0
+    },
+    {
+      "task": 20,
+      "stage": "采购",
+      "resource": 15,
+      "time": 3.5677389167752445,
+      "cost": 16.0
+    },
+    {
+      "task": 21,
+      "stage": "部装",
+      "resource": 5,
+      "time": 5.0,
+      "cost": 10.0
+    },
+    {
+      "task": 21,
+      "stage": "部装",
+      "resource": 6,
+      "time": 6.0,
+      "cost": 9.0
+    },
+    {
+      "task": 21,
+      "stage": "部装",
+      "resource": 7,
+      "time": 7.0,
+      "cost": 8.0
+    },
+    {
+      "task": 21,
+      "stage": "部装",
+      "resource": 16,
+      "time": 8.0,
+      "cost": 7.0
+    },
+    {
+      "task": 22,
+      "stage": "部装",
+      "resource": 5,
+      "time": 3.0,
+      "cost": 5.0
+    },
+    {
+      "task": 22,
+      "stage": "部装",
+      "resource": 6,
+      "time": 5.0,
+      "cost": 3.0
+    },
+    {
+      "task": 22,
+      "stage": "部装",
+      "resource": 7,
+      "time": 6.0,
+      "cost": 2.0
+    },
+    {
+      "task": 22,
+      "stage": "部装",
+      "resource": 16,
+      "time": 7.0,
+      "cost": 1.0
+    },
+    {
+      "task": 23,
+      "stage": "总装",
+      "resource": 8,
+      "time": 8.0,
+      "cost": 4.0
+    },
+    {
+      "task": 23,
+      "stage": "总装",
+      "resource": 9,
+      "time": 10.0,
+      "cost": 3.0
+    },
+    {
+      "task": 23,
+      "stage": "总装",
+      "resource": 10,
+      "time": 11.0,
+      "cost": 1.0
+    },
+    {
+      "task": 24,
+      "stage": "采购",
+      "resource": 0,
+      "time": 5.708482505300048,
+      "cost": 10.0
+    },
+    {
+      "task": 24,
+      "stage": "采购",
+      "resource": 1,
+      "time": 5.104081262546454,
+      "cost": 12.0
+    },
+    {
+      "task": 24,
+      "stage": "采购",
+      "resource": 2,
+      "time": 4.527047462804791,
+      "cost": 9.0
+    },
+    {
+      "task": 24,
+      "stage": "采购",
+      "resource": 3,
+      "time": 3.1422237028370956,
+      "cost": 14.0
+    },
+    {
+      "task": 25,
+      "stage": "采购",
+      "resource": 4,
+      "time": 6.868096560745865,
+      "cost": 8.0
+    },
+    {
+      "task": 25,
+      "stage": "采购",
+      "resource": 11,
+      "time": 4.123763432410819,
+      "cost": 11.0
+    },
+    {
+      "task": 25,
+      "stage": "采购",
+      "resource": 12,
+      "time": 3.245486203457908,
+      "cost": 13.0
+    },
+    {
+      "task": 26,
+      "stage": "采购",
+      "resource": 13,
+      "time": 4.091648767311325,
+      "cost": 12.0
+    },
+    {
+      "task": 26,
+      "stage": "采购",
+      "resource": 14,
+      "time": 3.564637241042475,
+      "cost": 15.0
+    },
+    {
+      "task": 27,
+      "stage": "采购",
+      "resource": 0,
+      "time": 1.8315103708816858,
+      "cost": 18.0
+    },
+    {
+      "task": 27,
+      "stage": "采购",
+      "resource": 11,
+      "time": 3.327667163077804,
+      "cost": 13.0
+    },
+    {
+      "task": 27,
+      "stage": "采购",
+      "resource": 15,
+      "time": 2.679349063633236,
+      "cost": 16.0
+    },
+    {
+      "task": 28,
+      "stage": "采购",
+      "resource": 0,
+      "time": 2.5212017152916752,
+      "cost": 12.0
+    },
+    {
+      "task": 28,
+      "stage": "采购",
+      "resource": 3,
+      "time": 3.6447577649761476,
+      "cost": 13.0
+    },
+    {
+      "task": 28,
+      "stage": "采购",
+      "resource": 4,
+      "time": 3.16282133311728,
+      "cost": 14.0
+    },
+    {
+      "task": 29,
+      "stage": "部装",
+      "resource": 5,
+      "time": 3.0,
+      "cost": 8.0
+    },
+    {
+      "task": 29,
+      "stage": "部装",
+      "resource": 6,
+      "time": 4.0,
+      "cost": 6.0
+    },
+    {
+      "task": 29,
+      "stage": "部装",
+      "resource": 7,
+      "time": 5.0,
+      "cost": 5.0
+    },
+    {
+      "task": 29,
+      "stage": "部装",
+      "resource": 16,
+      "time": 6.0,
+      "cost": 4.0
+    },
+    {
+      "task": 30,
+      "stage": "部装",
+      "resource": 5,
+      "time": 5.0,
+      "cost": 8.0
+    },
+    {
+      "task": 30,
+      "stage": "部装",
+      "resource": 6,
+      "time": 6.0,
+      "cost": 7.0
+    },
+    {
+      "task": 30,
+      "stage": "部装",
+      "resource": 7,
+      "time": 7.0,
+      "cost": 4.0
+    },
+    {
+      "task": 30,
+      "stage": "部装",
+      "resource": 16,
+      "time": 8.0,
+      "cost": 3.0
+    },
+    {
+      "task": 31,
+      "stage": "部装",
+      "resource": 5,
+      "time": 2.0,
+      "cost": 7.0
+    },
+    {
+      "task": 31,
+      "stage": "部装",
+      "resource": 6,
+      "time": 4.0,
+      "cost": 5.0
+    },
+    {
+      "task": 31,
+      "stage": "部装",
+      "resource": 7,
+      "time": 3.0,
+      "cost": 6.0
+    },
+    {
+      "task": 31,
+      "stage": "部装",
+      "resource": 16,
+      "time": 5.0,
+      "cost": 4.0
+    },
+    {
+      "task": 32,
+      "stage": "总装",
+      "resource": 8,
+      "time": 8.0,
+      "cost": 9.0
+    },
+    {
+      "task": 32,
+      "stage": "总装",
+      "resource": 9,
+      "time": 10.0,
+      "cost": 7.0
+    },
+    {
+      "task": 32,
+      "stage": "总装",
+      "resource": 10,
+      "time": 11.0,
+      "cost": 6.0
+    },
+    {
+      "task": 33,
+      "stage": "采购",
+      "resource": 0,
+      "time": 5.6755972295282024,
+      "cost": 10.0
+    },
+    {
+      "task": 33,
+      "stage": "采购",
+      "resource": 1,
+      "time": 4.740361934233766,
+      "cost": 12.0
+    },
+    {
+      "task": 33,
+      "stage": "采购",
+      "resource": 2,
+      "time": 3.5352112492343806,
+      "cost": 9.0
+    },
+    {
+      "task": 33,
+      "stage": "采购",
+      "resource": 3,
+      "time": 2.7203733864589363,
+      "cost": 14.0
+    },
+    {
+      "task": 34,
+      "stage": "采购",
+      "resource": 4,
+      "time": 7.047971010509985,
+      "cost": 8.0
+    },
+    {
+      "task": 34,
+      "stage": "采购",
+      "resource": 11,
+      "time": 4.236856616394549,
+      "cost": 11.0
+    },
+    {
+      "task": 34,
+      "stage": "采购",
+      "resource": 12,
+      "time": 3.1309572068003857,
+      "cost": 13.0
+    },
+    {
+      "task": 35,
+      "stage": "采购",
+      "resource": 13,
+      "time": 4.342277296396194,
+      "cost": 12.0
+    },
+    {
+      "task": 35,
+      "stage": "采购",
+      "resource": 14,
+      "time": 4.366602876720559,
+      "cost": 15.0
+    },
+    {
+      "task": 36,
+      "stage": "采购",
+      "resource": 0,
+      "time": 1.7307219950095427,
+      "cost": 18.0
+    },
+    {
+      "task": 36,
+      "stage": "采购",
+      "resource": 11,
+      "time": 3.8071287068122364,
+      "cost": 13.0
+    },
+    {
+      "task": 36,
+      "stage": "采购",
+      "resource": 15,
+      "time": 3.5874280207639138,
+      "cost": 16.0
+    },
+    {
+      "task": 37,
+      "stage": "采购",
+      "resource": 0,
+      "time": 3.167999711824911,
+      "cost": 12.0
+    },
+    {
+      "task": 37,
+      "stage": "采购",
+      "resource": 3,
+      "time": 4.091119590039434,
+      "cost": 13.0
+    },
+    {
+      "task": 37,
+      "stage": "采购",
+      "resource": 4,
+      "time": 3.2215371011878497,
+      "cost": 14.0
+    },
+    {
+      "task": 38,
+      "stage": "部装",
+      "resource": 5,
+      "time": 3.0,
+      "cost": 8.0
+    },
+    {
+      "task": 38,
+      "stage": "部装",
+      "resource": 6,
+      "time": 4.0,
+      "cost": 6.0
+    },
+    {
+      "task": 38,
+      "stage": "部装",
+      "resource": 7,
+      "time": 5.0,
+      "cost": 5.0
+    },
+    {
+      "task": 38,
+      "stage": "部装",
+      "resource": 16,
+      "time": 6.0,
+      "cost": 4.0
+    },
+    {
+      "task": 39,
+      "stage": "部装",
+      "resource": 5,
+      "time": 5.0,
+      "cost": 8.0
+    },
+    {
+      "task": 39,
+      "stage": "部装",
+      "resource": 6,
+      "time": 6.0,
+      "cost": 7.0
+    },
+    {
+      "task": 39,
+      "stage": "部装",
+      "resource": 7,
+      "time": 7.0,
+      "cost": 4.0
+    },
+    {
+      "task": 39,
+      "stage": "部装",
+      "resource": 16,
+      "time": 8.0,
+      "cost": 3.0
+    },
+    {
+      "task": 40,
+      "stage": "部装",
+      "resource": 5,
+      "time": 2.0,
+      "cost": 7.0
+    },
+    {
+      "task": 40,
+      "stage": "部装",
+      "resource": 6,
+      "time": 4.0,
+      "cost": 5.0
+    },
+    {
+      "task": 40,
+      "stage": "部装",
+      "resource": 7,
+      "time": 3.0,
+      "cost": 6.0
+    },
+    {
+      "task": 40,
+      "stage": "部装",
+      "resource": 16,
+      "time": 5.0,
+      "cost": 4.0
+    },
+    {
+      "task": 41,
+      "stage": "总装",
+      "resource": 8,
+      "time": 8.0,
+      "cost": 9.0
+    },
+    {
+      "task": 41,
+      "stage": "总装",
+      "resource": 9,
+      "time": 10.0,
+      "cost": 7.0
+    },
+    {
+      "task": 41,
+      "stage": "总装",
+      "resource": 10,
+      "time": 11.0,
+      "cost": 6.0
+    }
+  ],
+  "resource_id_map": {
+    "A": 0,
+    "B": 1,
+    "C": 2,
+    "D": 3,
+    "E": 4,
+    "F": 11,
+    "G": 12,
+    "H": 13,
+    "I": 14,
+    "J": 15,
+    "D1": 5,
+    "D2": 6,
+    "D3": 7,
+    "D4": 16,
+    "F1": 8,
+    "F2": 9,
+    "F3": 10
+  }
+}

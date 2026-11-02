@@ -1,0 +1,110 @@
+{
+  "case": "L3",
+  "variant": "simple_state",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4812,
+    "kick": 50,
+    "reconstruction": 46,
+    "local_search": 42
+  },
+  "output_front": [
+    [
+      70.5297603329961,
+      799.6836665029984
+    ],
+    [
+      79.51814024109864,
+      794.7616877157334
+    ],
+    [
+      67.46144399001909,
+      816.8073716380691
+    ],
+    [
+      66.62716451527858,
+      876.8361224393321
+    ],
+    [
+      70.5297603329961,
+      799.6836665029984
+    ],
+    [
+      79.51814024109864,
+      794.7616877157334
+    ],
+    [
+      67.46144399001909,
+      816.8073716380691
+    ],
+    [
+      66.62716451527858,
+      876.8361224393321
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 4,
+    "DA": 4
+  },
+  "output_hv": 0.7331229688113166,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 20,
+  "mode": "train",
+  "seed": 51220,
+  "nfe": 5000,
+  "seconds": 10.868106700014323,
+  "trace_emit_seconds": 0.10495869949227199,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 95,
+  "decisions": 97,
+  "state_calls": 97,
+  "initial_q_states": 5,
+  "final_q_states": 5,
+  "unique_decision_states": 5,
+  "action_counts": {
+    "6": 17,
+    "0": 12,
+    "1": 10,
+    "3": 14,
+    "2": 9,
+    "5": 19,
+    "4": 16
+  },
+  "component_counts": [
+    {
+      "0": 20,
+      "1": 19,
+      "2": 19,
+      "3": 19,
+      "4": 20
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7331229688113166,
+  "front_of_all_evaluations": [
+    [
+      66.62716451527858,
+      876.8361224393321
+    ],
+    [
+      67.46144399001909,
+      816.8073716380691
+    ],
+    [
+      70.5297603329961,
+      799.6836665029984
+    ],
+    [
+      79.51814024109864,
+      794.7616877157334
+    ]
+  ],
+  "reward_sum": -0.9080770897171215,
+  "sp_invalid_generations": 0,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "8fef78b035ba356f90cc778b2a20b8fe1a4bb12dba3e011e9e4b8214ca41d4b6",
+  "q_output_sha256": "b52eedaf6e454c6b06c2253a2aa34c24e943d77b5de9e33a29241ac357ca7221",
+  "status": "completed"
+}

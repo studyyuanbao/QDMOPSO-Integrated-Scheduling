@@ -1,0 +1,694 @@
+{
+  "adapted_source_sha256": "a634a125e4ddb45daca410ad92a31fbf5764695a94af62bdc672fe9bcdb9df0c",
+  "algorithm_run_seed": "Not assigned: no optimization/training run performed.",
+  "assembly_requirements": {
+    "3": [
+      "P1A",
+      "P1B"
+    ],
+    "4": [
+      "P1C"
+    ],
+    "9": [
+      "P2A",
+      "P2B"
+    ],
+    "10": [
+      "P2C",
+      "P2D"
+    ],
+    "17": [
+      "P3A",
+      "P3B"
+    ],
+    "18": [
+      "P3C",
+      "P3D"
+    ],
+    "20": [
+      "P3E"
+    ]
+  },
+  "counts": [
+    1,
+    1,
+    1
+  ],
+  "dataset_seed": 42,
+  "eligible_resources": {
+    "0": [
+      0,
+      1
+    ],
+    "1": [
+      2,
+      3
+    ],
+    "2": [
+      4
+    ],
+    "3": [
+      5,
+      6
+    ],
+    "4": [
+      8
+    ],
+    "5": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "6": [
+      4,
+      11,
+      12
+    ],
+    "7": [
+      13,
+      14
+    ],
+    "8": [
+      0,
+      11,
+      15
+    ],
+    "9": [
+      5,
+      6
+    ],
+    "10": [
+      5,
+      6
+    ],
+    "11": [
+      8
+    ],
+    "12": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "13": [
+      4,
+      11,
+      12
+    ],
+    "14": [
+      13,
+      14
+    ],
+    "15": [
+      0,
+      11,
+      15
+    ],
+    "16": [
+      0,
+      3,
+      4
+    ],
+    "17": [
+      5,
+      6
+    ],
+    "18": [
+      5,
+      6
+    ],
+    "19": [
+      5,
+      6
+    ],
+    "20": [
+      8
+    ]
+  },
+  "instance_label": "S1-original-noise-rule-seed42",
+  "model_cost_coefficients": {
+    "holding": 0.5,
+    "nonprocessing": 0.2
+  },
+  "noise_distribution": "independent uniform multipliers in [0.8,1.2] for eligible procurement task/resource pairs, using current original code iteration order",
+  "precedence": {
+    "3": [],
+    "4": [
+      3
+    ],
+    "9": [],
+    "10": [],
+    "11": [
+      9,
+      10
+    ],
+    "17": [],
+    "18": [],
+    "19": [
+      17,
+      18
+    ],
+    "20": [
+      19
+    ]
+  },
+  "procurement_noise_enabled": true,
+  "provenance": "Generated from current init3.py with only product counts changed to paper S1. Not verified as the historical paper dataset.",
+  "resource_records": [
+    {
+      "actual_duration": 6.33462431629892,
+      "direct_cost": 10,
+      "duration_multiplier": 1.0557707193831534,
+      "nominal_duration": 6,
+      "product_instance": 0,
+      "resource_id": 0,
+      "stage": "采购",
+      "task_id": 0
+    },
+    {
+      "actual_duration": 3.2400172083562673,
+      "direct_cost": 12,
+      "duration_multiplier": 0.8100043020890668,
+      "nominal_duration": 4,
+      "product_instance": 0,
+      "resource_id": 1,
+      "stage": "采购",
+      "task_id": 0
+    },
+    {
+      "actual_duration": 4.550058636738238,
+      "direct_cost": 8,
+      "duration_multiplier": 0.9100117273476476,
+      "nominal_duration": 5,
+      "product_instance": 0,
+      "resource_id": 2,
+      "stage": "采购",
+      "task_id": 1
+    },
+    {
+      "actual_duration": 3.5571371810381165,
+      "direct_cost": 11,
+      "duration_multiplier": 0.8892842952595291,
+      "nominal_duration": 4,
+      "product_instance": 0,
+      "resource_id": 3,
+      "stage": "采购",
+      "task_id": 1
+    },
+    {
+      "actual_duration": 7.662119399659234,
+      "direct_cost": 15,
+      "duration_multiplier": 1.094588485665605,
+      "nominal_duration": 7,
+      "product_instance": 0,
+      "resource_id": 4,
+      "stage": "采购",
+      "task_id": 2
+    },
+    {
+      "actual_duration": 7,
+      "direct_cost": 2,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 7,
+      "product_instance": 0,
+      "resource_id": 5,
+      "stage": "部装",
+      "task_id": 3
+    },
+    {
+      "actual_duration": 6,
+      "direct_cost": 3,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 6,
+      "product_instance": 0,
+      "resource_id": 6,
+      "stage": "部装",
+      "task_id": 3
+    },
+    {
+      "actual_duration": 10,
+      "direct_cost": 6,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 10,
+      "product_instance": 0,
+      "resource_id": 8,
+      "stage": "总装",
+      "task_id": 4
+    },
+    {
+      "actual_duration": 6.424078769814987,
+      "direct_cost": 10,
+      "duration_multiplier": 1.0706797949691644,
+      "nominal_duration": 6,
+      "product_instance": 1,
+      "resource_id": 0,
+      "stage": "采购",
+      "task_id": 5
+    },
+    {
+      "actual_duration": 5.784359135409691,
+      "direct_cost": 12,
+      "duration_multiplier": 1.1568718270819383,
+      "nominal_duration": 5,
+      "product_instance": 1,
+      "resource_id": 1,
+      "stage": "采购",
+      "task_id": 5
+    },
+    {
+      "actual_duration": 3.339102132207066,
+      "direct_cost": 9,
+      "duration_multiplier": 0.8347755330517665,
+      "nominal_duration": 4,
+      "product_instance": 1,
+      "resource_id": 2,
+      "stage": "采购",
+      "task_id": 5
+    },
+    {
+      "actual_duration": 2.9063061836223243,
+      "direct_cost": 14,
+      "duration_multiplier": 0.9687687278741081,
+      "nominal_duration": 3,
+      "product_instance": 1,
+      "resource_id": 3,
+      "stage": "采购",
+      "task_id": 5
+    },
+    {
+      "actual_duration": 4.871513326651369,
+      "direct_cost": 8,
+      "duration_multiplier": 0.8119188877752282,
+      "nominal_duration": 6,
+      "product_instance": 1,
+      "resource_id": 4,
+      "stage": "采购",
+      "task_id": 6
+    },
+    {
+      "actual_duration": 3.5498207596857654,
+      "direct_cost": 11,
+      "duration_multiplier": 0.8874551899214413,
+      "nominal_duration": 4,
+      "product_instance": 1,
+      "resource_id": 11,
+      "stage": "采购",
+      "task_id": 6
+    },
+    {
+      "actual_duration": 3.006426345724035,
+      "direct_cost": 13,
+      "duration_multiplier": 1.002142115241345,
+      "nominal_duration": 3,
+      "product_instance": 1,
+      "resource_id": 12,
+      "stage": "采购",
+      "task_id": 6
+    },
+    {
+      "actual_duration": 4.053071939367728,
+      "direct_cost": 13,
+      "duration_multiplier": 0.8106143878735456,
+      "nominal_duration": 5,
+      "product_instance": 1,
+      "resource_id": 13,
+      "stage": "采购",
+      "task_id": 7
+    },
+    {
+      "actual_duration": 3.5181402410986378,
+      "direct_cost": 15,
+      "duration_multiplier": 0.8795350602746594,
+      "nominal_duration": 4,
+      "product_instance": 1,
+      "resource_id": 14,
+      "stage": "采购",
+      "task_id": 7
+    },
+    {
+      "actual_duration": 2.1199075502236187,
+      "direct_cost": 18,
+      "duration_multiplier": 1.0599537751118093,
+      "nominal_duration": 2,
+      "product_instance": 1,
+      "resource_id": 0,
+      "stage": "采购",
+      "task_id": 8
+    },
+    {
+      "actual_duration": 4.071906368965147,
+      "direct_cost": 13,
+      "duration_multiplier": 1.0179765922412867,
+      "nominal_duration": 4,
+      "product_instance": 1,
+      "resource_id": 11,
+      "stage": "采购",
+      "task_id": 8
+    },
+    {
+      "actual_duration": 2.664528746448836,
+      "direct_cost": 16,
+      "duration_multiplier": 0.8881762488162787,
+      "nominal_duration": 3,
+      "product_instance": 1,
+      "resource_id": 15,
+      "stage": "采购",
+      "task_id": 8
+    },
+    {
+      "actual_duration": 5,
+      "direct_cost": 10,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 5,
+      "product_instance": 1,
+      "resource_id": 5,
+      "stage": "部装",
+      "task_id": 9
+    },
+    {
+      "actual_duration": 6,
+      "direct_cost": 9,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 6,
+      "product_instance": 1,
+      "resource_id": 6,
+      "stage": "部装",
+      "task_id": 9
+    },
+    {
+      "actual_duration": 3,
+      "direct_cost": 5,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 3,
+      "product_instance": 1,
+      "resource_id": 5,
+      "stage": "部装",
+      "task_id": 10
+    },
+    {
+      "actual_duration": 5,
+      "direct_cost": 3,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 5,
+      "product_instance": 1,
+      "resource_id": 6,
+      "stage": "部装",
+      "task_id": 10
+    },
+    {
+      "actual_duration": 8,
+      "direct_cost": 4,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 8,
+      "product_instance": 1,
+      "resource_id": 8,
+      "stage": "总装",
+      "task_id": 11
+    },
+    {
+      "actual_duration": 6.214237641302181,
+      "direct_cost": 10,
+      "duration_multiplier": 1.0357062735503635,
+      "nominal_duration": 6,
+      "product_instance": 2,
+      "resource_id": 0,
+      "stage": "采购",
+      "task_id": 12
+    },
+    {
+      "actual_duration": 5.618860913355653,
+      "direct_cost": 12,
+      "duration_multiplier": 1.1237721826711307,
+      "nominal_duration": 5,
+      "product_instance": 2,
+      "resource_id": 1,
+      "stage": "采购",
+      "task_id": 12
+    },
+    {
+      "actual_duration": 3.210398015484898,
+      "direct_cost": 9,
+      "duration_multiplier": 0.8025995038712245,
+      "nominal_duration": 4,
+      "product_instance": 2,
+      "resource_id": 2,
+      "stage": "采购",
+      "task_id": 12
+    },
+    {
+      "actual_duration": 3.3669831021993692,
+      "direct_cost": 14,
+      "duration_multiplier": 1.1223277007331232,
+      "nominal_duration": 3,
+      "product_instance": 2,
+      "resource_id": 3,
+      "stage": "采购",
+      "task_id": 12
+    },
+    {
+      "actual_duration": 6.475534547971745,
+      "direct_cost": 8,
+      "duration_multiplier": 1.0792557579952908,
+      "nominal_duration": 6,
+      "product_instance": 2,
+      "resource_id": 4,
+      "stage": "采购",
+      "task_id": 13
+    },
+    {
+      "actual_duration": 3.744400826428787,
+      "direct_cost": 11,
+      "duration_multiplier": 0.9361002066071967,
+      "nominal_duration": 4,
+      "product_instance": 2,
+      "resource_id": 11,
+      "stage": "采购",
+      "task_id": 13
+    },
+    {
+      "actual_duration": 2.586575399774138,
+      "direct_cost": 13,
+      "duration_multiplier": 0.8621917999247127,
+      "nominal_duration": 3,
+      "product_instance": 2,
+      "resource_id": 12,
+      "stage": "采购",
+      "task_id": 13
+    },
+    {
+      "actual_duration": 5.914426144413563,
+      "direct_cost": 12,
+      "duration_multiplier": 1.1828852288827125,
+      "nominal_duration": 5,
+      "product_instance": 2,
+      "resource_id": 13,
+      "stage": "采购",
+      "task_id": 14
+    },
+    {
+      "actual_duration": 3.738551272180203,
+      "direct_cost": 15,
+      "duration_multiplier": 0.9346378180450508,
+      "nominal_duration": 4,
+      "product_instance": 2,
+      "resource_id": 14,
+      "stage": "采购",
+      "task_id": 14
+    },
+    {
+      "actual_duration": 1.6741966747041184,
+      "direct_cost": 18,
+      "duration_multiplier": 0.8370983373520592,
+      "nominal_duration": 2,
+      "product_instance": 2,
+      "resource_id": 0,
+      "stage": "采购",
+      "task_id": 15
+    },
+    {
+      "actual_duration": 3.3547462029335424,
+      "direct_cost": 13,
+      "duration_multiplier": 0.8386865507333856,
+      "nominal_duration": 4,
+      "product_instance": 2,
+      "resource_id": 11,
+      "stage": "采购",
+      "task_id": 15
+    },
+    {
+      "actual_duration": 3.4169932396169513,
+      "direct_cost": 16,
+      "duration_multiplier": 1.1389977465389838,
+      "nominal_duration": 3,
+      "product_instance": 2,
+      "resource_id": 15,
+      "stage": "采购",
+      "task_id": 15
+    },
+    {
+      "actual_duration": 3.124471237640269,
+      "direct_cost": 12,
+      "duration_multiplier": 1.0414904125467563,
+      "nominal_duration": 3,
+      "product_instance": 2,
+      "resource_id": 0,
+      "stage": "采购",
+      "task_id": 16
+    },
+    {
+      "actual_duration": 4.491405237239008,
+      "direct_cost": 13,
+      "duration_multiplier": 1.122851309309752,
+      "nominal_duration": 4,
+      "product_instance": 2,
+      "resource_id": 3,
+      "stage": "采购",
+      "task_id": 16
+    },
+    {
+      "actual_duration": 3.275678144032581,
+      "direct_cost": 14,
+      "duration_multiplier": 1.091892714677527,
+      "nominal_duration": 3,
+      "product_instance": 2,
+      "resource_id": 4,
+      "stage": "采购",
+      "task_id": 16
+    },
+    {
+      "actual_duration": 3,
+      "direct_cost": 8,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 3,
+      "product_instance": 2,
+      "resource_id": 5,
+      "stage": "部装",
+      "task_id": 17
+    },
+    {
+      "actual_duration": 4,
+      "direct_cost": 6,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 4,
+      "product_instance": 2,
+      "resource_id": 6,
+      "stage": "部装",
+      "task_id": 17
+    },
+    {
+      "actual_duration": 5,
+      "direct_cost": 8,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 5,
+      "product_instance": 2,
+      "resource_id": 5,
+      "stage": "部装",
+      "task_id": 18
+    },
+    {
+      "actual_duration": 6,
+      "direct_cost": 7,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 6,
+      "product_instance": 2,
+      "resource_id": 6,
+      "stage": "部装",
+      "task_id": 18
+    },
+    {
+      "actual_duration": 2,
+      "direct_cost": 7,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 2,
+      "product_instance": 2,
+      "resource_id": 5,
+      "stage": "部装",
+      "task_id": 19
+    },
+    {
+      "actual_duration": 4,
+      "direct_cost": 5,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 4,
+      "product_instance": 2,
+      "resource_id": 6,
+      "stage": "部装",
+      "task_id": 19
+    },
+    {
+      "actual_duration": 8,
+      "direct_cost": 9,
+      "duration_multiplier": 1.0,
+      "nominal_duration": 8,
+      "product_instance": 2,
+      "resource_id": 8,
+      "stage": "总装",
+      "task_id": 20
+    }
+  ],
+  "schema": "fixed-input-v1",
+  "setup_by_product_type": 2,
+  "source_sha256": "3f5267d2bd320bf1f3540e6258456bc179620512e2c2b546fb12522ef239960f",
+  "task_stage": [
+    "采购",
+    "采购",
+    "采购",
+    "部装",
+    "总装",
+    "采购",
+    "采购",
+    "采购",
+    "采购",
+    "部装",
+    "部装",
+    "总装",
+    "采购",
+    "采购",
+    "采购",
+    "采购",
+    "采购",
+    "部装",
+    "部装",
+    "部装",
+    "总装"
+  ],
+  "task_to_part": {
+    "0": "P1A",
+    "1": "P1B",
+    "2": "P1C",
+    "5": "P2A",
+    "6": "P2B",
+    "7": "P2C",
+    "8": "P2D",
+    "12": "P3A",
+    "13": "P3B",
+    "14": "P3C",
+    "15": "P3D",
+    "16": "P3E"
+  },
+  "task_to_product": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "tasks": 21
+}

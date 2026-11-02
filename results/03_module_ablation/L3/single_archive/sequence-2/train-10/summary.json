@@ -1,0 +1,100 @@
+{
+  "case": "L3",
+  "variant": "single_archive",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4912,
+    "reconstruction": 10,
+    "local_search": 8,
+    "kick": 20
+  },
+  "output_front": [
+    [
+      72.7385512721802,
+      805.1755927286931
+    ],
+    [
+      73.7385512721802,
+      770.0147051293893
+    ],
+    [
+      62.62748730832775,
+      819.9984481087441
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 0
+  },
+  "output_hv": 0.7456884025983952,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": 10,
+  "mode": "train",
+  "seed": 51110,
+  "nfe": 5000,
+  "seconds": 10.590072000049986,
+  "trace_emit_seconds": 0.12657869735267013,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 21,
+  "final_q_states": 21,
+  "unique_decision_states": 7,
+  "action_counts": {
+    "6": 25,
+    "0": 13,
+    "5": 17,
+    "2": 10,
+    "1": 13,
+    "3": 9,
+    "4": 12
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 98,
+      "-1": 1
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 20,
+      "3": 19,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 81,
+      "0": 18
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7456884025983952,
+  "front_of_all_evaluations": [
+    [
+      62.62748730832775,
+      819.9984481087441
+    ],
+    [
+      72.7385512721802,
+      805.1755927286931
+    ],
+    [
+      73.7385512721802,
+      770.0147051293893
+    ]
+  ],
+  "reward_sum": -0.7998649097066256,
+  "sp_invalid_generations": 80,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "4a5e1996b24b58142fa27dfd53eac626a591a1391c1b760e0a3b5e298af54475",
+  "q_output_sha256": "d97f0b3da736dd8a3f56e8b5af4fe309b229c48d80d4aa74b9b9fce4243d0656",
+  "status": "completed"
+}

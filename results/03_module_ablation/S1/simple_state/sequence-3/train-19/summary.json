@@ -1,0 +1,98 @@
+{
+  "case": "S1",
+  "variant": "simple_state",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4872,
+    "reconstruction": 32,
+    "local_search": 36,
+    "kick": 10
+  },
+  "output_front": [
+    [
+      39.557137181038115,
+      251.47643859141462
+    ],
+    [
+      38.549820759685765,
+      259.05420554367714
+    ],
+    [
+      38.518140241098635,
+      271.8464425170597
+    ],
+    [
+      39.557137181038115,
+      251.47643859141462
+    ],
+    [
+      38.549820759685765,
+      259.05420554367714
+    ],
+    [
+      38.518140241098635,
+      271.8464425170597
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 3
+  },
+  "output_hv": 0.41183369082447785,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 19,
+  "mode": "train",
+  "seed": 51219,
+  "nfe": 5000,
+  "seconds": 3.6305304000270553,
+  "trace_emit_seconds": 0.09597289643716067,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 5,
+  "final_q_states": 5,
+  "unique_decision_states": 5,
+  "action_counts": {
+    "2": 20,
+    "4": 22,
+    "1": 17,
+    "6": 4,
+    "5": 11,
+    "0": 15,
+    "3": 9
+  },
+  "component_counts": [
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 19,
+      "4": 20
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.41183369082447785,
+  "front_of_all_evaluations": [
+    [
+      38.518140241098635,
+      271.8464425170597
+    ],
+    [
+      38.549820759685765,
+      259.05420554367714
+    ],
+    [
+      39.557137181038115,
+      251.47643859141462
+    ]
+  ],
+  "reward_sum": -0.3907672402318357,
+  "sp_invalid_generations": 1,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "d7c90f1dd7cc39581f00d01c93fa276f59cf60ddb80184675c740da2485f1ee4",
+  "q_output_sha256": "34d3bdfbc1be627e5bd40c857e3a4632c0590f214bc33108f650d4e575b22731",
+  "status": "completed"
+}

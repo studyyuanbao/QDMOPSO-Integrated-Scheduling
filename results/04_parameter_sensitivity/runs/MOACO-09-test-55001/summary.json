@@ -1,0 +1,74 @@
+{
+  "case": "M1",
+  "algorithm": "MOACO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 5.119920999975875,
+  "total_seconds_including_finalization": 5.12279509997461,
+  "archive_finalization_seconds": 1.2199976481497288e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 4,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.289442503300961,
+    "independent_checks": 0.3601002007490024
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "config_source_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "configuration_id": "MOACO-09",
+  "job_id": "MOACO-09-test-55001",
+  "order": 184,
+  "mode": "test",
+  "episode": null,
+  "seed": 55001,
+  "parameters": {
+    "alpha": 1.5,
+    "beta": 3.0,
+    "rho": 0.7
+  },
+  "output_hv_normalized": 0.535143369128001,
+  "output_spacing_raw": 6.085300704473555,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      31.871513326651367,
+      239.49961926294876
+    ],
+    [
+      34.071906368965145,
+      238.88076491553727
+    ],
+    [
+      35.47553454797175,
+      238.27808946925498
+    ],
+    [
+      35.87151332665137,
+      224.35384616471276
+    ]
+  ],
+  "analysis_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "igd": null,
+  "igd_reason": "calibration does not use formal test reference front",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

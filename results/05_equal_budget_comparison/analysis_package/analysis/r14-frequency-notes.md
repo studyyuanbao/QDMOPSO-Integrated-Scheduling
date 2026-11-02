@@ -1,0 +1,5 @@
+# R1-4 state and action frequencies
+
+These files aggregate recorded decisions from analysis/learning-observations-for-plotting.csv. No new optimization runs. Source SHA256 is in r14-frequency-summary.json. Counts are grouped by instance, training/testing mode, training group and job. There are 360 training runs with 34,914 recorded decisions and 54 tests with 5,228 recorded decisions.
+
+Counts concern recorded decisions, not intermediate state calls or Q-table entries. Evaluation-budget termination can occur within an iteration; the CSV is not asserted to include every choose-action call. Do not treat dependent generations or tests sharing a trained table as independent training samples. Action codes 0..6 map to manuscript Actions 1..7. Fifth-component level 1 includes neutral initialization and invalid observations. Both HV dimensions remained in one category. Counts do not prove convergence or causal benefits of all dimensions. Early 100-generation diagnostics used a different business-code snapshot and remain separately archived. Matching frozen code, inputs and raw records remain in the formal comparison package. Public URL/release are pending.

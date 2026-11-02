@@ -1,0 +1,100 @@
+{
+  "case": "L3",
+  "variant": "no_sp_reward",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4850,
+    "kick": 30,
+    "reconstruction": 52,
+    "local_search": 18
+  },
+  "output_front": [
+    [
+      66.32473113952865,
+      800.9934058599041
+    ],
+    [
+      84.06833969252958,
+      791.6286866809794
+    ],
+    [
+      66.32473113952865,
+      800.9934058599041
+    ],
+    [
+      84.06833969252958,
+      791.6286866809794
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7342097439751298,
+  "partial_generation_decisions": 0,
+  "sequence": 1,
+  "episode": 8,
+  "mode": "train",
+  "seed": 51008,
+  "nfe": 5000,
+  "seconds": 10.93298549996689,
+  "trace_emit_seconds": 0.1373497995082289,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 97,
+  "state_calls": 98,
+  "initial_q_states": 23,
+  "final_q_states": 23,
+  "unique_decision_states": 9,
+  "action_counts": {
+    "2": 19,
+    "1": 17,
+    "4": 7,
+    "3": 17,
+    "5": 13,
+    "0": 14,
+    "6": 10
+  },
+  "component_counts": [
+    {
+      "1": 97
+    },
+    {
+      "0": 95,
+      "-1": 2
+    },
+    {
+      "0": 20,
+      "1": 19,
+      "2": 20,
+      "3": 19,
+      "4": 19
+    },
+    {
+      "2": 97
+    },
+    {
+      "1": 27,
+      "0": 70
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7342097439751298,
+  "front_of_all_evaluations": [
+    [
+      66.32473113952865,
+      800.9934058599041
+    ],
+    [
+      84.06833969252958,
+      791.6286866809794
+    ]
+  ],
+  "reward_sum": -0.7877218094080969,
+  "sp_invalid_generations": 27,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "b536860983139ea83d32eecd4bee3641f1d31f272049ff4402fafc13deb34a90",
+  "q_output_sha256": "f431c95aaf5e7c5a52136b27eb51e8cdaca9cf0ce2687e252aaacc69235b7e50",
+  "status": "completed"
+}

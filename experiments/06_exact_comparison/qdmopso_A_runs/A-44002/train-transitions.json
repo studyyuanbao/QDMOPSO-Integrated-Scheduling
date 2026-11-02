@@ -1,0 +1,8518 @@
+[
+  {
+    "generation": 1,
+    "nfe": 100,
+    "seconds": 0.0351169999994454,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      1
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.5,
+    "state_visits": 1,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.0,
+    "td_error_if_updated": 0.0,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      1
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.0,
+    "learning_enabled": true,
+    "hv_raw": 32543.007271762915,
+    "hv_normalized": 0.40995221169504226,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": null,
+    "sp_valid": false,
+    "sp_reason": "fewer_than_3_unique_finite_points",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 2,
+    "front": [
+      [
+        39.5498207597,
+        261.8007336669
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 2,
+    "nfe": 150,
+    "seconds": 0.05526139999710722,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      1
+    ],
+    "action": 5,
+    "explored": true,
+    "tie_random": true,
+    "epsilon": 0.495,
+    "state_visits": 2,
+    "reward": 0.015162929617446003,
+    "reward_components": {
+      "hv": 0.015162929617446003,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.015162929617446003
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0037907324043615007,
+      0.0
+    ],
+    "q_after": 0.0037907324043615007,
+    "td_error_if_updated": 0.015162929617446003,
+    "next_state": [
+      2,
+      1,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.015162929617446003,
+    "learning_enabled": true,
+    "hv_raw": 33165.69893516227,
+    "hv_normalized": 0.4177964106801842,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 4.079396275953861,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        261.927788917
+      ],
+      [
+        39.071906369,
+        255.7365081791
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 3,
+    "nfe": 200,
+    "seconds": 0.07411270000011427,
+    "state": [
+      2,
+      1,
+      0,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.49005,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33165.69893516227,
+    "hv_normalized": 0.4177964106801842,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 4.079396275953861,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        261.927788917
+      ],
+      [
+        39.071906369,
+        255.7365081791
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 4,
+    "nfe": 250,
+    "seconds": 0.09383279999747174,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": true,
+    "tie_random": true,
+    "epsilon": 0.48514949999999996,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33165.69893516227,
+    "hv_normalized": 0.4177964106801842,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 4.079396275953861,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        261.927788917
+      ],
+      [
+        39.071906369,
+        255.7365081791
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 5,
+    "nfe": 300,
+    "seconds": 0.11450719999993453,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.480298005,
+    "state_visits": 2,
+    "reward": -0.09814910333520999,
+    "reward_components": {
+      "hv": 7.844634430159853e-05,
+      "spacing": -0.08822754967951159,
+      "switch_penalty": 0.01,
+      "unclipped": -0.09814910333520999
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.024537275833802497,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.024537275833802497,
+    "td_error_if_updated": -0.09814910333520999,
+    "next_state": [
+      1,
+      -1,
+      0,
+      2,
+      0
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.09814910333520999,
+    "learning_enabled": true,
+    "hv_raw": 33168.9512544146,
+    "hv_normalized": 0.41783738094023104,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 7.29946648616343,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        39.071906369,
+        255.7365081791
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 6,
+    "nfe": 350,
+    "seconds": 0.13469709999480983,
+    "state": [
+      1,
+      -1,
+      0,
+      2,
+      0
+    ],
+    "action": 3,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.47549502494999996,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33168.9512544146,
+    "hv_normalized": 0.41783738094023104,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 7.29946648616343,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        39.071906369,
+        255.7365081791
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 7,
+    "nfe": 400,
+    "seconds": 0.15621829999872716,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    "action": 5,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.47074007470049994,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33168.9512544146,
+    "hv_normalized": 0.41783738094023104,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 7.29946648616343,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        39.071906369,
+        255.7365081791
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 8,
+    "nfe": 450,
+    "seconds": 0.17638249999436084,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.46603267395349496,
+    "state_visits": 2,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33168.9512544146,
+    "hv_normalized": 0.41783738094023104,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 7.29946648616343,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        39.071906369,
+        255.7365081791
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 9,
+    "nfe": 500,
+    "seconds": 0.1974283999952604,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    "action": 0,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.46137234721396,
+    "state_visits": 3,
+    "reward": 0.1757315913586835,
+    "reward_components": {
+      "hv": 0.00014343032431729882,
+      "spacing": 0.1755881610343662,
+      "switch_penalty": 0.0,
+      "unclipped": 0.1757315913586835
+    },
+    "q_row_before": [
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      0.04205789783967087,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_after": 0.04205789783967087,
+    "td_error_if_updated": 0.1782315913586835,
+    "next_state": [
+      1,
+      1,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.1757315913586835,
+    "learning_enabled": true,
+    "hv_raw": 33174.898579334986,
+    "hv_normalized": 0.4179123008449719,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.890967001976313,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 10,
+    "nfe": 550,
+    "seconds": 0.2175232999943546,
+    "state": [
+      1,
+      1,
+      0,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": true,
+    "tie_random": true,
+    "epsilon": 0.45675862374182036,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33174.898579334986,
+    "hv_normalized": 0.4179123008449719,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.890967001976313,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 11,
+    "nfe": 600,
+    "seconds": 0.23732299999392126,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.45219103750440215,
+    "state_visits": 3,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0025,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33174.898579334986,
+    "hv_normalized": 0.4179123008449719,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.890967001976313,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 12,
+    "nfe": 650,
+    "seconds": 0.2573004999940167,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.44766912712935814,
+    "state_visits": 4,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      -0.0025,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0025,
+      0.0,
+      -0.0025,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33174.898579334986,
+    "hv_normalized": 0.4179123008449719,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.890967001976313,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 13,
+    "nfe": 700,
+    "seconds": 0.2767163999960758,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.44319243585806456,
+    "state_visits": 5,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      -0.0025,
+      0.0,
+      -0.0025,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33174.898579334986,
+    "hv_normalized": 0.4179123008449719,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.890967001976313,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 14,
+    "nfe": 750,
+    "seconds": 0.29634969999460736,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.4387605114994839,
+    "state_visits": 6,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33174.898579334986,
+    "hv_normalized": 0.4179123008449719,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.890967001976313,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 15,
+    "nfe": 800,
+    "seconds": 0.3156877999936114,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.43437290638448905,
+    "state_visits": 7,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33174.898579334986,
+    "hv_normalized": 0.4179123008449719,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.890967001976313,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 16,
+    "nfe": 850,
+    "seconds": 0.3365635999944061,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.43002917732064416,
+    "state_visits": 8,
+    "reward": -0.15531029388983714,
+    "reward_components": {
+      "hv": 5.678030128858129e-08,
+      "spacing": -0.14531035067013842,
+      "switch_penalty": 0.01,
+      "unclipped": -0.15531029388983714
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.040702573472459286,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.040702573472459286,
+    "td_error_if_updated": -0.15281029388983713,
+    "next_state": [
+      1,
+      -1,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.15531029388983714,
+    "learning_enabled": true,
+    "hv_raw": 33174.90093393599,
+    "hv_normalized": 0.41791233050645593,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 3.258265550771519,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 4,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.5498207597,
+        249.6754715315
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 17,
+    "nfe": 910,
+    "seconds": 0.3595530999955372,
+    "state": [
+      1,
+      -1,
+      0,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": true,
+    "tie_random": true,
+    "epsilon": 0.4257288855474377,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      -0.0031125,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0031125,
+    "td_error_if_updated": -0.01245,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33174.90093393599,
+    "hv_normalized": 0.41791233050645593,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 3.258265550771519,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 4,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.5498207597,
+        249.6754715315
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 18,
+    "nfe": 960,
+    "seconds": 0.3793669999940903,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.4214715966919633,
+    "state_visits": 9,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.040702573472459286,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.040702573472459286,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33174.90093393599,
+    "hv_normalized": 0.41791233050645593,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 3.258265550771519,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 4,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.5498207597,
+        249.6754715315
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 19,
+    "nfe": 1010,
+    "seconds": 0.4015497999935178,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.4172568807250437,
+    "state_visits": 10,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.040702573472459286,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.040702573472459286,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.03363943010434446,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.03363943010434446,
+    "td_error_if_updated": 0.028252573472459287,
+    "next_state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33174.90093393599,
+    "hv_normalized": 0.41791233050645593,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 3.258265550771519,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 4,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.5498207597,
+        249.6754715315
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 20,
+    "nfe": 1060,
+    "seconds": 0.42574819999572355,
+    "state": [
+      1,
+      0,
+      0,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.41308431191779327,
+    "state_visits": 11,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.024537275833802497,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.03363943010434446,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.024537275833802497,
+      -0.0049875,
+      -0.004375,
+      -0.0025,
+      -0.03363943010434446,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.004375,
+    "td_error_if_updated": -0.0075,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33174.90093393599,
+    "hv_normalized": 0.41791233050645593,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 3.258265550771519,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 4,
+    "front": [
+      [
+        38.5181402411,
+        256.0546972116
+      ],
+      [
+        38.5498207597,
+        249.9972956706
+      ],
+      [
+        39.5498207597,
+        249.6754715315
+      ],
+      [
+        39.557137181,
+        242.4636565425
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 21,
+    "nfe": 1130,
+    "seconds": 0.4558071999999811,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": true,
+    "tie_random": true,
+    "epsilon": 0.4089534687986153,
+    "state_visits": 1,
+    "reward": 0.16612556670989598,
+    "reward_components": {
+      "hv": 0.0009623272464280839,
+      "spacing": 0.1751632394634679,
+      "switch_penalty": 0.01,
+      "unclipped": 0.16612556670989598
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.041531391677473994,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.041531391677473994,
+    "td_error_if_updated": 0.16612556670989598,
+    "next_state": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.16612556670989598,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 22,
+    "nfe": 1190,
+    "seconds": 0.47943429999577347,
+    "state": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.40486393411062915,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.007675190960981128
+    ],
+    "q_after": 0.007675190960981128,
+    "td_error_if_updated": 0.030700763843924513,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.030700763843924513,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 23,
+    "nfe": 1240,
+    "seconds": 0.5010970000002999,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.4008152947695229,
+    "state_visits": 2,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.041531391677473994,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.041531391677473994,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03882373471908662,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.03882373471908662,
+    "td_error_if_updated": -0.010830627833549482,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.030700763843924513,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 24,
+    "nfe": 1290,
+    "seconds": 0.5204274999996414,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.39680714182182764,
+    "state_visits": 3,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03882373471908662,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.03882373471908662,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.038629616045491186,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.038629616045491186,
+    "td_error_if_updated": -0.0007764746943817319,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.03804726002470489,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 25,
+    "nfe": 1340,
+    "seconds": 0.542783299999428,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3928390704036094,
+    "state_visits": 4,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.038629616045491186,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.038629616045491186,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03843646796526373,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.03843646796526373,
+    "td_error_if_updated": -0.000772592320909822,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.037857023724581364,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 26,
+    "nfe": 1390,
+    "seconds": 0.5656769999986864,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.38891067969957327,
+    "state_visits": 5,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03843646796526373,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.006916934651489614,
+      0.03843646796526373,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.006916934651489614,
+    "td_error_if_updated": 0.027667738605958454,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.027667738605958454,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 27,
+    "nfe": 1440,
+    "seconds": 0.5882485999973142,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.38502157290257755,
+    "state_visits": 6,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.006916934651489614,
+      0.03843646796526373,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.03843646796526373,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.006916934651489614,
+      0.03574428562543741,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.03574428562543741,
+    "td_error_if_updated": -0.010768729359305278,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.027667738605958454,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 28,
+    "nfe": 1490,
+    "seconds": 0.6076328999988618,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3811713571735518,
+    "state_visits": 7,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.006916934651489614,
+      0.03574428562543741,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.03574428562543741,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.006916934651489614,
+      0.035565564197310225,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.035565564197310225,
+    "td_error_if_updated": -0.0007148857125087518,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.03502939991292866,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 29,
+    "nfe": 1540,
+    "seconds": 0.627779799993732,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.37735964360181623,
+    "state_visits": 8,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.006916934651489614,
+      0.035565564197310225,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.035565564197310225,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.006213563228341004,
+    "td_error_if_updated": 0.024854252913364017,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.024854252913364017,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 30,
+    "nfe": 1590,
+    "seconds": 0.6474649999945541,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3735860471657981,
+    "state_visits": 9,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.035565564197310225,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.035565564197310225,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.032887736376323674,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.032887736376323674,
+    "td_error_if_updated": -0.010711311283946208,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.024854252913364017,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 31,
+    "nfe": 1640,
+    "seconds": 0.6693035999996937,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3698501866941401,
+    "state_visits": 10,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.032887736376323674,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.032887736376323674,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.03272329769444206,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.03272329769444206,
+    "td_error_if_updated": -0.0006577547275264731,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.0322299816487972,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 32,
+    "nfe": 1690,
+    "seconds": 0.6888625999999931,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3661516848271987,
+    "state_visits": 11,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.03272329769444206,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.03272329769444206,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.032559681205969845,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.032559681205969845,
+    "td_error_if_updated": -0.0006544659538888428,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.032068831740553215,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 33,
+    "nfe": 1740,
+    "seconds": 0.70814049999899,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.3624901679789267,
+    "state_visits": 12,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.032559681205969845,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.032559681205969845,
+      0.005477121895462612,
+      0.0
+    ],
+    "q_after": 0.005477121895462612,
+    "td_error_if_updated": 0.021908487581850447,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.021908487581850447,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 34,
+    "nfe": 1790,
+    "seconds": 0.7274323999954504,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3588652662991374,
+    "state_visits": 13,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.032559681205969845,
+      0.005477121895462612,
+      0.0
+    ],
+    "q_before": 0.032559681205969845,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.029896882799939996,
+      0.005477121895462612,
+      0.0
+    ],
+    "q_after": 0.029896882799939996,
+    "td_error_if_updated": -0.010651193624119398,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.021908487581850447,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 35,
+    "nfe": 1840,
+    "seconds": 0.7469974999985425,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.35527661363614604,
+    "state_visits": 14,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.029896882799939996,
+      0.005477121895462612,
+      0.0
+    ],
+    "q_before": 0.029896882799939996,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.029747398385940295,
+      0.005477121895462612,
+      0.0
+    ],
+    "q_after": 0.029747398385940295,
+    "td_error_if_updated": -0.0005979376559988002,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.029298945143941196,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 36,
+    "nfe": 1900,
+    "seconds": 0.768948899996758,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.3517238474997846,
+    "state_visits": 15,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.029747398385940295,
+      0.005477121895462612,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.029747398385940295,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_after": 0.004788112604555372,
+    "td_error_if_updated": 0.019152450418221487,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.019152450418221487,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 37,
+    "nfe": 1950,
+    "seconds": 0.7895518000004813,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.34820660902478673,
+    "state_visits": 16,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.029747398385940295,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_before": 0.029747398385940295,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.02709866139401059,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_after": 0.02709866139401059,
+    "td_error_if_updated": -0.010594947967718808,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.019152450418221487,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 38,
+    "nfe": 2000,
+    "seconds": 0.8131689000001643,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.34472454293453886,
+    "state_visits": 17,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.02709866139401059,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.004139172041532595,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.02709866139401059,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_after": 0.004139172041532595,
+    "td_error_if_updated": 0.01655668816613038,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.01655668816613038,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 39,
+    "nfe": 2050,
+    "seconds": 0.8343676000004052,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3412772975051935,
+    "state_visits": 18,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.004139172041532595,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.02709866139401059,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_before": 0.02709866139401059,
+    "q_row_after": [
+      0.0,
+      0.004139172041532595,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.02446316808704054,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_after": 0.02446316808704054,
+    "td_error_if_updated": -0.01054197322788021,
+    "next_state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.01655668816613038,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 40,
+    "nfe": 2100,
+    "seconds": 0.8565329999983078,
+    "state": [
+      1,
+      0,
+      1,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.33786452453014154,
+    "state_visits": 19,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.004139172041532595,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.02446316808704054,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_before": 0.02446316808704054,
+    "q_row_after": [
+      0.0,
+      0.004139172041532595,
+      0.006213563228341004,
+      0.006916934651489614,
+      0.018347376065280405,
+      0.005477121895462612,
+      0.004788112604555372
+    ],
+    "q_after": 0.018347376065280405,
+    "td_error_if_updated": -0.02446316808704054,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.0,
+    "learning_enabled": true,
+    "hv_raw": 33214.83133427406,
+    "hv_normalized": 0.41841534351308307,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.4046238062447203,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        247.0284191889
+      ],
+      [
+        39.557137181,
+        241.7622459099
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 41,
+    "nfe": 2168,
+    "seconds": 0.8854805999944801,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.33448587928484014,
+    "state_visits": 1,
+    "reward": -0.12172248676066055,
+    "reward_components": {
+      "hv": 0.00705337793675981,
+      "spacing": -0.12877586469742036,
+      "switch_penalty": 0.0,
+      "unclipped": -0.12172248676066055
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03043062169016514,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.03043062169016514,
+    "td_error_if_updated": -0.12172248676066055,
+    "next_state": [
+      1,
+      -1,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.12172248676066055,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 42,
+    "nfe": 2218,
+    "seconds": 0.9064580999984173,
+    "state": [
+      1,
+      -1,
+      2,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": true,
+    "tie_random": true,
+    "epsilon": 0.33114102049199173,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 43,
+    "nfe": 2268,
+    "seconds": 0.9273474999936298,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3278296102870718,
+    "state_visits": 2,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03043062169016514,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      -0.03043062169016514,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 44,
+    "nfe": 2318,
+    "seconds": 0.9480813999980455,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3245513141842011,
+    "state_visits": 3,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      -0.03043062169016514,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      -0.03043062169016514,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 45,
+    "nfe": 2368,
+    "seconds": 0.9681610999978147,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.32130580104235906,
+    "state_visits": 4,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      -0.03043062169016514,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.03043062169016514,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 46,
+    "nfe": 2418,
+    "seconds": 0.9874681999936001,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.31809274303193547,
+    "state_visits": 5,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.03043062169016514,
+      0.0,
+      0.0
+    ],
+    "q_before": -0.03043062169016514,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.025322966267623856,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.025322966267623856,
+    "td_error_if_updated": 0.020430621690165136,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 47,
+    "nfe": 2468,
+    "seconds": 1.0090195999946445,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.31491181560161613,
+    "state_visits": 6,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.025322966267623856,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.025322966267623856,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 48,
+    "nfe": 2518,
+    "seconds": 1.0282706999932998,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.3117626974456,
+    "state_visits": 7,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.025322966267623856,
+      0.0,
+      -0.0025
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.025322966267623856,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 49,
+    "nfe": 2568,
+    "seconds": 1.049169099998835,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.308645070471144,
+    "state_visits": 8,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.025322966267623856,
+      0.0,
+      -0.0025
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 50,
+    "nfe": 2618,
+    "seconds": 1.0692633999933605,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.30555861976643256,
+    "state_visits": 9,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 51,
+    "nfe": 2668,
+    "seconds": 1.0890182999937679,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.30250303356876823,
+    "state_visits": 10,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 52,
+    "nfe": 2718,
+    "seconds": 1.1094678999943426,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.29947800323308055,
+    "state_visits": 11,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 53,
+    "nfe": 2768,
+    "seconds": 1.129760099996929,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2964832232007497,
+    "state_visits": 12,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 54,
+    "nfe": 2818,
+    "seconds": 1.1504074999975273,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2935183909687422,
+    "state_visits": 13,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.025322966267623856,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 55,
+    "nfe": 2868,
+    "seconds": 1.1712851999982377,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.29058320705905477,
+    "state_visits": 14,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0025
+    ],
+    "q_before": -0.0049875,
+    "q_row_after": [
+      -0.0049875,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0025
+    ],
+    "q_after": -0.006853125,
+    "td_error_if_updated": -0.0074624999999999995,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 56,
+    "nfe": 2918,
+    "seconds": 1.1916423000002396,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.28767737498846424,
+    "state_visits": 15,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0025
+    ],
+    "q_before": -0.0049875,
+    "q_row_after": [
+      -0.0049875,
+      -0.006853125,
+      -0.0049875,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0025
+    ],
+    "q_after": -0.006853125,
+    "td_error_if_updated": -0.0074624999999999995,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 57,
+    "nfe": 2968,
+    "seconds": 1.2163148999970872,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2848006012385796,
+    "state_visits": 16,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.006853125,
+      -0.0049875,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.0049875,
+      -0.006853125,
+      -0.0049875,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 58,
+    "nfe": 3018,
+    "seconds": 1.2369353999965824,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.2819525952261938,
+    "state_visits": 17,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.006853125,
+      -0.0049875,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_before": -0.0049875,
+    "q_row_after": [
+      -0.0049875,
+      -0.006853125,
+      -0.0074625625,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_after": -0.0074625625,
+    "td_error_if_updated": -0.00990025,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01488775,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 59,
+    "nfe": 3068,
+    "seconds": 1.2584542999975383,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.2791330692739319,
+    "state_visits": 18,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.006853125,
+      -0.0074625625,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_before": -0.0049875,
+    "q_row_after": [
+      -0.0049875,
+      -0.006853125,
+      -0.0074625625,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0074625625,
+      -0.0049875
+    ],
+    "q_after": -0.0074625625,
+    "td_error_if_updated": -0.00990025,
+    "next_state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01488775,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 60,
+    "nfe": 3118,
+    "seconds": 1.279694799995923,
+    "state": [
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.27634173858119254,
+    "state_visits": 19,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.006853125,
+      -0.0074625625,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0074625625,
+      -0.0049875
+    ],
+    "q_before": -0.0049875,
+    "q_row_after": [
+      -0.006240625,
+      -0.006853125,
+      -0.0074625625,
+      -0.006853125,
+      -0.025322966267623856,
+      -0.0074625625,
+      -0.0049875
+    ],
+    "q_after": -0.006240625,
+    "td_error_if_updated": -0.0050125000000000005,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 61,
+    "nfe": 3184,
+    "seconds": 1.305826599993452,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.2735783211953806,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 62,
+    "nfe": 3234,
+    "seconds": 1.3249675999977626,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2708425379834268,
+    "state_visits": 2,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 63,
+    "nfe": 3284,
+    "seconds": 1.34383969999908,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2681341126035925,
+    "state_visits": 3,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 64,
+    "nfe": 3334,
+    "seconds": 1.3629431999943336,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.2654527714775566,
+    "state_visits": 4,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      -0.004375,
+      0.0
+    ],
+    "q_after": -0.004375,
+    "td_error_if_updated": -0.0075,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 65,
+    "nfe": 3384,
+    "seconds": 1.3819824999955017,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.262798243762781,
+    "state_visits": 5,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      -0.004375,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      -0.004375,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 66,
+    "nfe": 3434,
+    "seconds": 1.4011638999945717,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2601702613251532,
+    "state_visits": 6,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      -0.004375,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.004375,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 67,
+    "nfe": 3484,
+    "seconds": 1.4232286999977077,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.25756855871190165,
+    "state_visits": 7,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.004375,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 68,
+    "nfe": 3534,
+    "seconds": 1.4695490999947651,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.25499287312478264,
+    "state_visits": 8,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 69,
+    "nfe": 3584,
+    "seconds": 1.4889494999952149,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2524429443935348,
+    "state_visits": 9,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 70,
+    "nfe": 3634,
+    "seconds": 1.5078499999945052,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.24991851494959946,
+    "state_visits": 10,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_before": -0.0049875,
+    "q_row_after": [
+      -0.004353124999999999,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_after": -0.004353124999999999,
+    "td_error_if_updated": 0.0025375,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.00245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 71,
+    "nfe": 3684,
+    "seconds": 1.5296495999937179,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.24741932980010348,
+    "state_visits": 11,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004353124999999999,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004353124999999999,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 72,
+    "nfe": 3734,
+    "seconds": 1.550966899994819,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.24494513650210245,
+    "state_visits": 12,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004353124999999999,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004353124999999999,
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 73,
+    "nfe": 3784,
+    "seconds": 1.57094629999483,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.24249568513708142,
+    "state_visits": 13,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004353124999999999,
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004353124999999999,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 74,
+    "nfe": 3834,
+    "seconds": 1.5907602999941446,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.2400707282857106,
+    "state_visits": 14,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004353124999999999,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_before": -0.0049875,
+    "q_row_after": [
+      -0.004353124999999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_after": -0.006853125,
+    "td_error_if_updated": -0.0074624999999999995,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 75,
+    "nfe": 3884,
+    "seconds": 1.6117117999965558,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2376700210028535,
+    "state_visits": 15,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004353124999999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0025,
+      -0.004375,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004353124999999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 76,
+    "nfe": 3934,
+    "seconds": 1.6341467999955057,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.23529332079282497,
+    "state_visits": 16,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004353124999999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004353124999999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.0049875
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 77,
+    "nfe": 3984,
+    "seconds": 1.6552722999986145,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2329403875848967,
+    "state_visits": 17,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004353124999999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.0049875
+    ],
+    "q_before": -0.004353124999999999,
+    "q_row_after": [
+      -0.006831359374999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.0049875
+    ],
+    "q_after": -0.006831359374999999,
+    "td_error_if_updated": -0.0099129375,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.0142660625,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 78,
+    "nfe": 4034,
+    "seconds": 1.676799499997287,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.23061098370904776,
+    "state_visits": 18,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.006831359374999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.0049875
+    ],
+    "q_before": -0.004375,
+    "q_row_after": [
+      -0.006831359374999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.006853125000000001,
+      -0.0049875
+    ],
+    "q_after": -0.006853125000000001,
+    "td_error_if_updated": -0.009912500000000001,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.014287500000000002,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 79,
+    "nfe": 4084,
+    "seconds": 1.6976824999946984,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.22830487387195728,
+    "state_visits": 19,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.006831359374999999,
+      -0.006853125,
+      -0.0049875,
+      -0.0049875,
+      -0.0049875,
+      -0.006853125000000001,
+      -0.0049875
+    ],
+    "q_before": -0.0049875,
+    "q_row_after": [
+      -0.006831359374999999,
+      -0.006853125,
+      -0.006240625,
+      -0.0049875,
+      -0.0049875,
+      -0.006853125000000001,
+      -0.0049875
+    ],
+    "q_after": -0.006240625,
+    "td_error_if_updated": -0.0050125000000000005,
+    "next_state": [
+      1,
+      0,
+      3,
+      2,
+      1
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 80,
+    "nfe": 4134,
+    "seconds": 1.717600299998594,
+    "state": [
+      1,
+      0,
+      3,
+      2,
+      1
+    ],
+    "action": 3,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.2260218251332377,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      1
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33508.97205554644,
+    "hv_normalized": 0.4221207060270083,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 1.1361985779841832,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        236.2349679546
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 81,
+    "nfe": 4202,
+    "seconds": 1.7469665999960853,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      1
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.22376160688190533,
+    "state_visits": 1,
+    "reward": 0.192203662152636,
+    "reward_components": {
+      "hv": 0.0024793680900388653,
+      "spacing": 0.19972429406259715,
+      "switch_penalty": 0.01,
+      "unclipped": 0.192203662152636
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.048050915538159,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.048050915538159,
+    "td_error_if_updated": 0.192203662152636,
+    "next_state": [
+      1,
+      1,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.192203662152636,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 82,
+    "nfe": 4252,
+    "seconds": 1.7681328999969992,
+    "state": [
+      1,
+      1,
+      4,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.22152399081308627,
+    "state_visits": 1,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 83,
+    "nfe": 4302,
+    "seconds": 1.7886138999965624,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.2193087509049554,
+    "state_visits": 1,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_after": 0.0,
+    "td_error_if_updated": 0.0,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.0,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 84,
+    "nfe": 4352,
+    "seconds": 1.8092947999975877,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": false,
+    "tie_random": true,
+    "epsilon": 0.21711566339590585,
+    "state_visits": 2,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 85,
+    "nfe": 4402,
+    "seconds": 1.8301525999995647,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.2149445067619468,
+    "state_visits": 3,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 86,
+    "nfe": 4452,
+    "seconds": 1.8511720999958925,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.21279506169432733,
+    "state_visits": 4,
+    "reward": 0.0,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.0,
+      "unclipped": 0.0
+    },
+    "q_row_before": [
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.001875,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.001875,
+    "td_error_if_updated": 0.0025,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": 0.0,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 87,
+    "nfe": 4502,
+    "seconds": 1.870251599997573,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.21066711107738406,
+    "state_visits": 5,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.001875,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.001875,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 88,
+    "nfe": 4552,
+    "seconds": 1.889473099996394,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.20856043996661022,
+    "state_visits": 6,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.001875,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 89,
+    "nfe": 4602,
+    "seconds": 1.908816899995145,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.20647483556694413,
+    "state_visits": 7,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 90,
+    "nfe": 4652,
+    "seconds": 1.9282829999938258,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.20441008721127468,
+    "state_visits": 8,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      0.0,
+      -0.0025
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 91,
+    "nfe": 4708,
+    "seconds": 1.951302299996314,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.20236598633916195,
+    "state_visits": 9,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      -0.0025,
+      0.0,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025,
+      0.0,
+      -0.0025
+    ],
+    "q_after": -0.004375,
+    "td_error_if_updated": -0.0075,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 92,
+    "nfe": 4758,
+    "seconds": 1.970637299993541,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.20034232647577033,
+    "state_visits": 10,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025,
+      0.0,
+      -0.0025
+    ],
+    "q_before": 0.0,
+    "q_row_after": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0025,
+    "td_error_if_updated": -0.01,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 93,
+    "nfe": 4808,
+    "seconds": 1.9904309999983525,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 4,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.19833890321101263,
+    "state_visits": 11,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.0025,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.004834375,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.004834375,
+    "td_error_if_updated": -0.0093375,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.0118375,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 94,
+    "nfe": 4858,
+    "seconds": 2.010054799997306,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.1963555141789025,
+    "state_visits": 12,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.001875,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.004834375,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.001875,
+    "q_row_after": [
+      -0.004365625,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.004834375,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.004365625,
+    "td_error_if_updated": -0.009962500000000001,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.0118375,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 95,
+    "nfe": 4908,
+    "seconds": 2.030690499996126,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 1,
+    "explored": true,
+    "tie_random": false,
+    "epsilon": 0.19439195903711348,
+    "state_visits": 13,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004365625,
+      -0.0025,
+      -0.0025,
+      -0.004375,
+      -0.004834375,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004365625,
+      -0.0049875,
+      -0.0025,
+      -0.004375,
+      -0.004834375,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 96,
+    "nfe": 4958,
+    "seconds": 2.0507098999951268,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 2,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.19244803944674235,
+    "state_visits": 14,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004365625,
+      -0.0049875,
+      -0.0025,
+      -0.004375,
+      -0.004834375,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004365625,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.004834375,
+      -0.0025,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 97,
+    "nfe": 5008,
+    "seconds": 2.0704031999994186,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 5,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.19052355905227492,
+    "state_visits": 15,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004365625,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.004834375,
+      -0.0025,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004365625,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.004834375,
+      -0.0049875,
+      -0.0025
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 98,
+    "nfe": 5058,
+    "seconds": 2.0899692999955732,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 6,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.18861832346175217,
+    "state_visits": 16,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004365625,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.004834375,
+      -0.0049875,
+      -0.0025
+    ],
+    "q_before": -0.0025,
+    "q_row_after": [
+      -0.004365625,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.004834375,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_after": -0.0049875,
+    "td_error_if_updated": -0.009949999999999999,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.01245,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 99,
+    "nfe": 5108,
+    "seconds": 2.1123135999951046,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 0,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.18673214022713464,
+    "state_visits": 17,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.004365625,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.004834375,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_before": -0.004365625,
+    "q_row_after": [
+      -0.0068437968750000005,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.004834375,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_after": -0.0068437968750000005,
+    "td_error_if_updated": -0.009912687500000001,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": false,
+    "terminal": false,
+    "terminal_bootstrap_used": true,
+    "q_target": -0.014278312500000001,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  },
+  {
+    "generation": 100,
+    "nfe": 5158,
+    "seconds": 2.1321954999948503,
+    "state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "action": 3,
+    "explored": false,
+    "tie_random": false,
+    "epsilon": 0.18486481882486328,
+    "state_visits": 18,
+    "reward": -0.01,
+    "reward_components": {
+      "hv": 0.0,
+      "spacing": 0.0,
+      "switch_penalty": 0.01,
+      "unclipped": -0.01
+    },
+    "q_row_before": [
+      -0.0068437968750000005,
+      -0.0049875,
+      -0.0049875,
+      -0.004375,
+      -0.004834375,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_before": -0.004375,
+    "q_row_after": [
+      -0.0068437968750000005,
+      -0.0049875,
+      -0.0049875,
+      -0.00578125,
+      -0.004834375,
+      -0.0049875,
+      -0.0049875
+    ],
+    "q_after": -0.00578125,
+    "td_error_if_updated": -0.005625,
+    "next_state": [
+      1,
+      0,
+      4,
+      2,
+      2
+    ],
+    "last_generation": true,
+    "terminal": true,
+    "terminal_bootstrap_used": false,
+    "q_target": -0.01,
+    "learning_enabled": true,
+    "hv_raw": 33612.984495550874,
+    "hv_normalized": 0.42343097614026287,
+    "hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "sp": 0.0015662834700946816,
+    "sp_valid": true,
+    "sp_reason": "",
+    "igd": null,
+    "igd_valid": false,
+    "igd_reason": "no_provenance_matched_reference",
+    "unique_points": 3,
+    "front": [
+      [
+        38.5181402411,
+        251.6891303508
+      ],
+      [
+        38.5498207597,
+        242.9404817528
+      ],
+      [
+        39.557137181,
+        234.2526909801
+      ]
+    ],
+    "outside_hv_reference": 0
+  }
+]

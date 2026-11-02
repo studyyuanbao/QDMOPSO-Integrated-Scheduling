@@ -1,0 +1,26 @@
+{
+  "case": "M2",
+  "source": "union of final outputs of all 45 formal tests only, deduplicated and nondominated; no training/M1/pilot/old data",
+  "raw_front": [
+    [
+      43.557137181038115,
+      534.287294366496
+    ],
+    [
+      45.875074911496434,
+      513.9584185774518
+    ],
+    [
+      47.557137181038115,
+      511.5988924164338
+    ],
+    [
+      65.41699323961694,
+      511.5740259549981
+    ]
+  ],
+  "normalization_divisor": [
+    199.82833133962518,
+    3108.168307415128
+  ]
+}

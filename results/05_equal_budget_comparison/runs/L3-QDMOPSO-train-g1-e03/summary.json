@@ -1,0 +1,64 @@
+{
+  "case": "L3",
+  "algorithm": "QDMOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 15.877206999983173,
+  "total_seconds_including_finalization": 15.886567800014745,
+  "archive_finalization_seconds": 0.0012469000066630542,
+  "pending_evaluated_candidates_incorporated": 2,
+  "output_archive_size": 2,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4902,
+    "kick": 30,
+    "reconstruction": 10,
+    "local_search": 8
+  },
+  "complete_q_generations": 98,
+  "q_decisions": 99,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 3.5881989015615545,
+    "independent_checks": 0.9078189978608862
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "6a6a487f648455804c204a87628f5689de601386fb63fd39f1c7afe39680fe2b",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "L3-QDMOPSO-train-g1-e03",
+  "order": 213,
+  "mode": "train",
+  "episode": 3,
+  "seed": 56003,
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "output_hv_normalized": 0.7440809623522804,
+  "output_spacing_raw": null,
+  "output_spacing_valid": false,
+  "output_front": [
+    [
+      58.62748730832775,
+      888.5802852433451
+    ]
+  ],
+  "analysis_reference": [
+    353.82833133962515,
+    8216.712124998166
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": "04a8025e9559471c4ce059016c712b2763c4ec70f451116dde97ba80fd6cf851",
+  "q_input_states": 12,
+  "q_output_sha256": "fd2c9f56f5c7fffac636c6017e2a7e1ca4195605bf9170b161147be5b6e0ab6e",
+  "q_output_states": 14,
+  "reward_sum": -0.9,
+  "initial_q_loading_verified": true,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

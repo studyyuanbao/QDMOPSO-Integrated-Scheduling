@@ -1,0 +1,78 @@
+{
+  "case": "M2",
+  "algorithm": "MOACO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 9.600149700010661,
+  "total_seconds_including_finalization": 9.60536270000739,
+  "archive_finalization_seconds": 4.780001472681761e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 6,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 2.3986111005651765,
+    "independent_checks": 0.6267906979774125
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "f206735da1c2053ef5160ebf4de3161d2d6c87ad0df0ff6eca41213ad7d5739f",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "M2-MOACO-test-57009",
+  "order": 210,
+  "mode": "test",
+  "episode": null,
+  "seed": 57009,
+  "parameters": {
+    "alpha": 1.0,
+    "beta": 2.0,
+    "rho": 0.5
+  },
+  "output_hv_normalized": 0.6320749985535796,
+  "output_spacing_raw": 7.45102896250259,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      48.359722650670854,
+      564.6791755984613
+    ],
+    [
+      49.359722650670854,
+      548.3078991623082
+    ],
+    [
+      54.17387766525883,
+      537.5780173578905
+    ],
+    [
+      56.557137181038115,
+      534.7853039458095
+    ],
+    [
+      56.564637241042476,
+      514.5656483677033
+    ]
+  ],
+  "analysis_reference": [
+    199.82833133962518,
+    3108.168307415128
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

@@ -1,0 +1,88 @@
+{
+  "case": "M1",
+  "algorithm": "QDMOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 5.790474199980963,
+  "total_seconds_including_finalization": 5.804032200016081,
+  "archive_finalization_seconds": 0.0036499000270850956,
+  "pending_evaluated_candidates_incorporated": 44,
+  "output_archive_size": 14,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4844,
+    "reconstruction": 30,
+    "local_search": 36,
+    "kick": 40
+  },
+  "complete_q_generations": 96,
+  "q_decisions": 97,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.262508999905549,
+    "independent_checks": 0.3427033997140825
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "config_source_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "configuration_id": "QDMOPSO-05",
+  "job_id": "QDMOPSO-05-test-55002",
+  "order": 249,
+  "mode": "test",
+  "episode": null,
+  "seed": 55002,
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.9
+  },
+  "output_hv_normalized": 0.5689116305910646,
+  "output_spacing_raw": 6.320475047109249,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      27.006426345724037,
+      251.50013920734753
+    ],
+    [
+      28.51814024109864,
+      241.11400642480018
+    ],
+    [
+      29.51814024109864,
+      239.78282742572017
+    ],
+    [
+      30.339102132207067,
+      232.4857309362559
+    ],
+    [
+      30.55005863673824,
+      229.31774631614468
+    ],
+    [
+      31.871513326651367,
+      228.9312031309396
+    ],
+    [
+      49.33462431629892,
+      226.84429379318635
+    ]
+  ],
+  "analysis_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "igd": null,
+  "igd_reason": "calibration does not use formal test reference front",
+  "q_input_sha256": "45ca03b0dc7160f8b01305da1bf07deae364070fbc0535cfc96781127ef59702",
+  "q_input_states": 30,
+  "q_output_sha256": "f9672de566fb11f94cb70cea49ca0a568e81003a389314332b95d6426471f6b8",
+  "q_output_states": 30,
+  "reward_sum": -0.10002293421389291,
+  "initial_q_loading_verified": true,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

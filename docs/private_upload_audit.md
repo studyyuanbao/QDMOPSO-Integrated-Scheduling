@@ -1,0 +1,9 @@
+# Private upload preflight (2026-11-02)
+
+- Repository scope: six experiment directories, `instances/`, `validation/`, `results/`, `docs/`, and separate source snapshots. This is a private review candidate, not a public reproduction release.
+- Staged content was scanned for common token/key signatures, email addresses, and local absolute paths; no matches were found. This heuristic scan cannot prove absence of all sensitive information.
+- No staged ZIP/7z/RAR/TAR archive or file at or above GitHub's 100 MB ordinary-Git single-file limit was found. The largest staged file is an S1 QDMOPSO training evaluation CSV, approximately 29.8 MB.
+- The 12 path-bearing source files in `publication_holds.csv` remain outside the candidate. The packaging helper also remains excluded. Two original reconstruction runners cannot safely be made standalone by changing one path: `run_reward_ablation.py` modifies a work copy, and `check_main_integration.py` copies code and rewrites `init3.py`. The original validation checker is preserved and a new path-only variant points to the included schedule snapshot and a separate recheck output.
+- Sixty-two local baseline implementation copies are excluded from the initial Git commit by `.gitignore` because their authorship or redistribution rights are not documented. They remain in the local candidate for author review. The private commit therefore is not a fully executable five-baseline reproduction package.
+- The original nine-instance HV/IGD reference provenance, fixed-strategy Q-table identification, and final-model equivalence of the R1-5 ablation version remain unresolved. These limitations are recorded in the README and module documentation.
+- No algorithm, objective function, parameter, experimental result, or original source archive was changed during preflight. No experiment was run.

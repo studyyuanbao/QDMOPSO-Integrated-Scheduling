@@ -1,0 +1,621 @@
+[
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-01",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.98
+    },
+    "original_setting": true,
+    "mean_hv": 0.5673044791777082,
+    "sd_hv_conditional_tests": 0.009020470823184404,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.9138761666642194
+  },
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-02",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.9
+    },
+    "original_setting": false,
+    "mean_hv": 0.5648624022753589,
+    "sd_hv_conditional_tests": 0.009179707172901836,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.7192409666798385
+  },
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-03",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.95
+    },
+    "original_setting": false,
+    "mean_hv": 0.5651561724627508,
+    "sd_hv_conditional_tests": 0.010197136084526805,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.8277260333610075
+  },
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-04",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "original_setting": false,
+    "mean_hv": 0.5709723049785124,
+    "sd_hv_conditional_tests": 0.006393757073688039,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.807559933319378
+  },
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-05",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.9
+    },
+    "original_setting": false,
+    "mean_hv": 0.5694498953206075,
+    "sd_hv_conditional_tests": 0.0007413892225324162,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.8474486999718165
+  },
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-06",
+    "parameters": {
+      "q_learning_alpha": 0.25,
+      "q_discount_gamma": 0.95
+    },
+    "original_setting": false,
+    "mean_hv": 0.5609857262021861,
+    "sd_hv_conditional_tests": 0.005872892218018118,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.819181633337091
+  },
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-07",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.9
+    },
+    "original_setting": false,
+    "mean_hv": 0.5614275549473321,
+    "sd_hv_conditional_tests": 0.005721497673185601,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.745962066653495
+  },
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-08",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.95
+    },
+    "original_setting": false,
+    "mean_hv": 0.5664158237208091,
+    "sd_hv_conditional_tests": 0.00323999399734685,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.884670266668157
+  },
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-09",
+    "parameters": {
+      "q_learning_alpha": 0.4,
+      "q_discount_gamma": 0.98
+    },
+    "original_setting": false,
+    "mean_hv": 0.56087050966298,
+    "sd_hv_conditional_tests": 0.007357102358075418,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.807657166636393
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-01",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 0.5
+    },
+    "original_setting": true,
+    "mean_hv": 0.5362150180423362,
+    "sd_hv_conditional_tests": 0.020542906091616436,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.265255400018456
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-02",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.5468289064197008,
+    "sd_hv_conditional_tests": 0.013383580916526451,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 4.953274399992854
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-03",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 3.0
+    },
+    "original_setting": false,
+    "mean_hv": 0.5450032601377722,
+    "sd_hv_conditional_tests": 0.005037876877465753,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 4.962331099998361
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-04",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 3.0
+    },
+    "original_setting": false,
+    "mean_hv": 0.5192014115351399,
+    "sd_hv_conditional_tests": 0.022162294375530023,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 4.921690799974992
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-05",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.5389063516388907,
+    "sd_hv_conditional_tests": 0.0007059933194599676,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.006747666629963
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-06",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 3.0
+    },
+    "original_setting": false,
+    "mean_hv": 0.5286197440265326,
+    "sd_hv_conditional_tests": 0.03014685532210682,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 16.482629466685466
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-07",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 0.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.5343612836788169,
+    "sd_hv_conditional_tests": 0.006126359536731088,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.015388799986492
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-08",
+    "parameters": {
+      "mopso_w": 1.0,
+      "mopso_c1": 2.0,
+      "mopso_c2": 2.0,
+      "mopso_vmax": 3.0
+    },
+    "original_setting": false,
+    "mean_hv": 0.5117444205364068,
+    "sd_hv_conditional_tests": 0.03829278118766877,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 4.985755999980029
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-09",
+    "parameters": {
+      "mopso_w": 0.7,
+      "mopso_c1": 1.5,
+      "mopso_c2": 1.5,
+      "mopso_vmax": 1.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.5292267256394283,
+    "sd_hv_conditional_tests": 0.01737673807114699,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 4.952658066681276
+  },
+  {
+    "algorithm": "MOWOA",
+    "configuration_id": "MOWOA-01",
+    "parameters": {
+      "woa_a0": 2.0,
+      "woa_b": 1.0
+    },
+    "original_setting": true,
+    "mean_hv": 0.518277557650724,
+    "sd_hv_conditional_tests": 0.021606552389858286,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.383068100006009
+  },
+  {
+    "algorithm": "MOWOA",
+    "configuration_id": "MOWOA-02",
+    "parameters": {
+      "woa_a0": 1.0,
+      "woa_b": 0.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.49757176273360837,
+    "sd_hv_conditional_tests": 0.04316051129040686,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.725476566663322
+  },
+  {
+    "algorithm": "MOWOA",
+    "configuration_id": "MOWOA-03",
+    "parameters": {
+      "woa_a0": 1.0,
+      "woa_b": 1.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.5062043424558356,
+    "sd_hv_conditional_tests": 0.027506786604558815,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.397600266674999
+  },
+  {
+    "algorithm": "MOWOA",
+    "configuration_id": "MOWOA-04",
+    "parameters": {
+      "woa_a0": 3.0,
+      "woa_b": 0.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.48924305634832643,
+    "sd_hv_conditional_tests": 0.05191357820466984,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.358572633316119
+  },
+  {
+    "algorithm": "MOWOA",
+    "configuration_id": "MOWOA-05",
+    "parameters": {
+      "woa_a0": 3.0,
+      "woa_b": 1.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.4968301260622272,
+    "sd_hv_conditional_tests": 0.025016763145731445,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.549226533330511
+  },
+  {
+    "algorithm": "MOGWO",
+    "configuration_id": "MOGWO-01",
+    "parameters": {
+      "gwo_a0": 2.0
+    },
+    "original_setting": true,
+    "mean_hv": 0.47671606379536285,
+    "sd_hv_conditional_tests": 0.02398972386719391,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 6.4445805999954855
+  },
+  {
+    "algorithm": "MOGWO",
+    "configuration_id": "MOGWO-02",
+    "parameters": {
+      "gwo_a0": 1.0
+    },
+    "original_setting": false,
+    "mean_hv": 0.5107081975214481,
+    "sd_hv_conditional_tests": 0.007555495860923862,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 12.088000733347144
+  },
+  {
+    "algorithm": "MOGWO",
+    "configuration_id": "MOGWO-03",
+    "parameters": {
+      "gwo_a0": 3.0
+    },
+    "original_setting": false,
+    "mean_hv": 0.48404876707353006,
+    "sd_hv_conditional_tests": 0.04278822193760761,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 6.286313600003875
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-01",
+    "parameters": {
+      "alpha": 1.0,
+      "beta": 2.0,
+      "rho": 0.5
+    },
+    "original_setting": true,
+    "mean_hv": 0.5350667864606252,
+    "sd_hv_conditional_tests": 0.006190106823881392,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.480942700000014
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-02",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.3
+    },
+    "original_setting": false,
+    "mean_hv": 0.5350667864606252,
+    "sd_hv_conditional_tests": 0.006190106823881392,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.090009366647185
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-03",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "original_setting": false,
+    "mean_hv": 0.5407202375505556,
+    "sd_hv_conditional_tests": 0.008747964750898271,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.053778133355081
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-04",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 3.0,
+      "rho": 0.3
+    },
+    "original_setting": false,
+    "mean_hv": 0.5353377457210327,
+    "sd_hv_conditional_tests": 0.005746485032270562,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.312480033336517
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-05",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 3.0,
+      "rho": 0.7
+    },
+    "original_setting": false,
+    "mean_hv": 0.5385453244422638,
+    "sd_hv_conditional_tests": 0.011294268809628983,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.0671199000013685
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-06",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "rho": 0.3
+    },
+    "original_setting": false,
+    "mean_hv": 0.5372787145481486,
+    "sd_hv_conditional_tests": 0.008763591880366045,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.111432133320098
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-07",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "original_setting": false,
+    "mean_hv": 0.5396736069217737,
+    "sd_hv_conditional_tests": 0.00986253415801233,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.011598633311223
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-08",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 3.0,
+      "rho": 0.3
+    },
+    "original_setting": false,
+    "mean_hv": 0.5350667864606252,
+    "sd_hv_conditional_tests": 0.006190106823881392,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.131250366665578
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-09",
+    "parameters": {
+      "alpha": 1.5,
+      "beta": 3.0,
+      "rho": 0.7
+    },
+    "original_setting": false,
+    "mean_hv": 0.5407202375505556,
+    "sd_hv_conditional_tests": 0.008747964750898271,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.071801866656945
+  }
+]

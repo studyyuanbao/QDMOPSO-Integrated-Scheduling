@@ -1,0 +1,110 @@
+{
+  "case": "L3",
+  "variant": "simple_state",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4846,
+    "kick": 30,
+    "reconstruction": 48,
+    "local_search": 26
+  },
+  "output_front": [
+    [
+      76.01905258735293,
+      814.3851073669139
+    ],
+    [
+      81.20391366672494,
+      802.843819481311
+    ],
+    [
+      66.20391366672494,
+      833.5825871306495
+    ],
+    [
+      65.33462431629891,
+      884.5332594418489
+    ],
+    [
+      81.20391366672494,
+      802.843819481311
+    ],
+    [
+      66.20391366672494,
+      833.5825871306495
+    ],
+    [
+      76.01905258735293,
+      814.3851073669139
+    ],
+    [
+      65.33462431629891,
+      884.5332594418489
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 4,
+    "DA": 4
+  },
+  "output_hv": 0.7355339038846009,
+  "partial_generation_decisions": 1,
+  "sequence": 1,
+  "episode": null,
+  "mode": "test",
+  "seed": 53002,
+  "nfe": 5000,
+  "seconds": 11.058449000003748,
+  "trace_emit_seconds": 0.10817919968394563,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 95,
+  "decisions": 97,
+  "state_calls": 97,
+  "initial_q_states": 5,
+  "final_q_states": 5,
+  "unique_decision_states": 5,
+  "action_counts": {
+    "2": 24,
+    "3": 13,
+    "0": 25,
+    "6": 5,
+    "1": 5,
+    "5": 23,
+    "4": 2
+  },
+  "component_counts": [
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 19,
+      "4": 19
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7355339038846009,
+  "front_of_all_evaluations": [
+    [
+      65.33462431629891,
+      884.5332594418489
+    ],
+    [
+      66.20391366672494,
+      833.5825871306495
+    ],
+    [
+      76.01905258735293,
+      814.3851073669139
+    ],
+    [
+      81.20391366672494,
+      802.843819481311
+    ]
+  ],
+  "reward_sum": -1.523765597798884,
+  "sp_invalid_generations": 0,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "bbe36fb72470b038c349127b36d954a2051c9a1ffa9df293bc0dde98fb8bd91d",
+  "q_output_sha256": "d64fbda170c57bac3b95c9608107ca18a245b0d7967a6e72edbffd48a1fda020",
+  "status": "completed"
+}

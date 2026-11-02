@@ -1,0 +1,98 @@
+{
+  "case": "L3",
+  "variant": "no_kick",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4910,
+    "reconstruction": 22,
+    "local_search": 18
+  },
+  "output_front": [
+    [
+      80.51814024109864,
+      789.0675070841834
+    ],
+    [
+      67.55599098615593,
+      810.215308878899
+    ],
+    [
+      80.51814024109864,
+      789.0675070841834
+    ],
+    [
+      67.55599098615593,
+      810.215308878899
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7312802378904902,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 17,
+  "mode": "train",
+  "seed": 51217,
+  "nfe": 5000,
+  "seconds": 10.746656799979974,
+  "trace_emit_seconds": 0.15575309959240258,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 27,
+  "final_q_states": 27,
+  "unique_decision_states": 7,
+  "action_counts": {
+    "3": 10,
+    "2": 11,
+    "5": 23,
+    "1": 16,
+    "4": 10,
+    "0": 21,
+    "6": 8
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 99
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 40,
+      "0": 59
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.7312802378904902,
+  "front_of_all_evaluations": [
+    [
+      67.55599098615593,
+      810.215308878899
+    ],
+    [
+      80.51814024109864,
+      789.0675070841834
+    ]
+  ],
+  "reward_sum": -0.780056872914174,
+  "sp_invalid_generations": 38,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "cc8cff91c76bfd6d497df38dc80281918ee98756a16eac1cfe98b2c50644775b",
+  "q_output_sha256": "ef1d03f92235947af3bd9b7c23958070c6d3deef7ac83988455a8a69cffe4134",
+  "status": "completed"
+}

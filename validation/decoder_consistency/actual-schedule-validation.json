@@ -1,0 +1,1697 @@
+{
+  "scope": "Actual main.py algorithm path with revised decoder and objective; 1 instance each of P1,P2,P3; 10 particles,12 iterations,seed42. Not historical reproduction or comparative experiment.",
+  "unique_schedules": 130,
+  "all_passed": true,
+  "results": [
+    {
+      "schedule": 1,
+      "status": "PASS",
+      "makespan": 50.42407876981498,
+      "cost": 278.71871090507443,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 57,
+        "holding": 59.664263643185436,
+        "nonprocessing": 9.054447261888994
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 2,
+      "status": "PASS",
+      "makespan": 49.071906368965145,
+      "cost": 246.98449445498676,
+      "cost_components": {
+        "procurement": 138,
+        "processing": 54,
+        "holding": 47.60802165296465,
+        "nonprocessing": 7.376472802022099
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 3,
+      "status": "PASS",
+      "makespan": 50.42407876981498,
+      "cost": 261.2365768791533,
+      "cost_components": {
+        "procurement": 143,
+        "processing": 57,
+        "holding": 52.57183846163295,
+        "nonprocessing": 8.664738417520343
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 4,
+      "status": "PASS",
+      "makespan": 40.33910213220707,
+      "cost": 250.07337791715344,
+      "cost_components": {
+        "procurement": 145,
+        "processing": 58,
+        "holding": 41.923355790477586,
+        "nonprocessing": 5.150022126675856
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 5,
+      "status": "PASS",
+      "makespan": 52.74440082642879,
+      "cost": 277.42177024078427,
+      "cost_components": {
+        "procurement": 155,
+        "processing": 56,
+        "holding": 58.41404575827564,
+        "nonprocessing": 8.007724482508669
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 6,
+      "status": "PASS",
+      "makespan": 47.7385512721802,
+      "cost": 304.11234666554185,
+      "cost_components": {
+        "procurement": 164,
+        "processing": 56,
+        "holding": 72.06921590223376,
+        "nonprocessing": 12.043130763308122
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 7,
+      "status": "PASS",
+      "makespan": 40.55005863673824,
+      "cost": 257.2921281780848,
+      "cost_components": {
+        "procurement": 150,
+        "processing": 58,
+        "holding": 41.95335390315112,
+        "nonprocessing": 7.338774274933707
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 8,
+      "status": "PASS",
+      "makespan": 47.7385512721802,
+      "cost": 271.352206186944,
+      "cost_components": {
+        "procurement": 149,
+        "processing": 59,
+        "holding": 55.77196992410891,
+        "nonprocessing": 7.580236262835078
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 9,
+      "status": "PASS",
+      "makespan": 42.557137181038115,
+      "cost": 273.6548258132735,
+      "cost_components": {
+        "procurement": 148,
+        "processing": 57,
+        "holding": 62.72834289263851,
+        "nonprocessing": 5.9264829206349745
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 10,
+      "status": "PASS",
+      "makespan": 43.47553454797175,
+      "cost": 289.17463204470994,
+      "cost_components": {
+        "procurement": 160,
+        "processing": 60,
+        "holding": 62.27440649817361,
+        "nonprocessing": 6.900225546536345
+      },
+      "max_component_difference": 2.6645352591003757e-15
+    },
+    {
+      "schedule": 11,
+      "status": "PASS",
+      "makespan": 61.87151332665137,
+      "cost": 288.00883719410155,
+      "cost_components": {
+        "procurement": 148,
+        "processing": 51,
+        "holding": 79.19330700018122,
+        "nonprocessing": 9.815530193920331
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 12,
+      "status": "PASS",
+      "makespan": 47.518140241098635,
+      "cost": 287.2598531915751,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 55,
+        "holding": 68.14896904691591,
+        "nonprocessing": 8.110884144659185
+      },
+      "max_component_difference": 3.552713678800501e-15
+    },
+    {
+      "schedule": 13,
+      "status": "PASS",
+      "makespan": 39.87151332665137,
+      "cost": 237.13311683179114,
+      "cost_components": {
+        "procurement": 135,
+        "processing": 52,
+        "holding": 44.77013022733759,
+        "nonprocessing": 5.362986604453576
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 14,
+      "status": "PASS",
+      "makespan": 50.549820759685765,
+      "cost": 297.3667509065771,
+      "cost_components": {
+        "procurement": 146,
+        "processing": 52,
+        "holding": 92.94682260270281,
+        "nonprocessing": 6.419928303874307
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 15,
+      "status": "PASS",
+      "makespan": 45.87151332665137,
+      "cost": 253.88409414835715,
+      "cost_components": {
+        "procurement": 148,
+        "processing": 54,
+        "holding": 45.38660865241084,
+        "nonprocessing": 6.497485495946305
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 16,
+      "status": "PASS",
+      "makespan": 45.36698310219937,
+      "cost": 257.3177674344663,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 54,
+        "holding": 42.75659291979354,
+        "nonprocessing": 6.561174514672778
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 17,
+      "status": "PASS",
+      "makespan": 39.549820759685765,
+      "cost": 257.6786156621172,
+      "cost_components": {
+        "procurement": 155,
+        "processing": 54,
+        "holding": 43.35505931002317,
+        "nonprocessing": 5.323556352094034
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 18,
+      "status": "PASS",
+      "makespan": 52.071906368965145,
+      "cost": 277.9842205883088,
+      "cost_components": {
+        "procurement": 141,
+        "processing": 54,
+        "holding": 72.94107676692973,
+        "nonprocessing": 10.043143821379088
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 19,
+      "status": "PASS",
+      "makespan": 61.549820759685765,
+      "cost": 336.6133529772613,
+      "cost_components": {
+        "procurement": 151,
+        "processing": 53,
+        "holding": 117.0834605214498,
+        "nonprocessing": 15.529892455811462
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 20,
+      "status": "PASS",
+      "makespan": 53.21423764130218,
+      "cost": 299.793721147486,
+      "cost_components": {
+        "procurement": 157,
+        "processing": 55,
+        "holding": 79.12514086208239,
+        "nonprocessing": 8.668580285403584
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 21,
+      "status": "PASS",
+      "makespan": 44.42407876981498,
+      "cost": 260.0697439143954,
+      "cost_components": {
+        "procurement": 146,
+        "processing": 55,
+        "holding": 52.951232241183654,
+        "nonprocessing": 6.118511673211753
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 22,
+      "status": "PASS",
+      "makespan": 53.071906368965145,
+      "cost": 318.35134859926075,
+      "cost_components": {
+        "procurement": 155,
+        "processing": 52,
+        "holding": 103.52258605167471,
+        "nonprocessing": 7.8287625475860585
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 23,
+      "status": "PASS",
+      "makespan": 44.42407876981498,
+      "cost": 257.580080158503,
+      "cost_components": {
+        "procurement": 143,
+        "processing": 54,
+        "holding": 54.0275634216943,
+        "nonprocessing": 6.552516736808707
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 24,
+      "status": "PASS",
+      "makespan": 46.42407876981498,
+      "cost": 272.123831004449,
+      "cost_components": {
+        "procurement": 146,
+        "processing": 57,
+        "holding": 60.86938374256003,
+        "nonprocessing": 8.254447261888993
+      },
+      "max_component_difference": 3.552713678800501e-15
+    },
+    {
+      "schedule": 25,
+      "status": "PASS",
+      "makespan": 45.071906368965145,
+      "cost": 289.8622032457091,
+      "cost_components": {
+        "procurement": 158,
+        "processing": 55,
+        "holding": 67.41905942433002,
+        "nonprocessing": 9.443143821379087
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 26,
+      "status": "PASS",
+      "makespan": 42.42407876981498,
+      "cost": 265.36910866450705,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 59,
+        "holding": 46.92608053614115,
+        "nonprocessing": 6.443028128365869
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 27,
+      "status": "PASS",
+      "makespan": 63.071906368965145,
+      "cost": 334.1233150957928,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 52,
+        "holding": 119.69455254820674,
+        "nonprocessing": 9.428762547586059
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 28,
+      "status": "PASS",
+      "makespan": 48.518140241098635,
+      "cost": 300.12491885279394,
+      "cost_components": {
+        "procurement": 149,
+        "processing": 54,
+        "holding": 85.81403470813474,
+        "nonprocessing": 11.310884144659184
+      },
+      "max_component_difference": 1.7763568394002505e-15
+    },
+    {
+      "schedule": 29,
+      "status": "PASS",
+      "makespan": 44.549820759685765,
+      "cost": 272.58178024540223,
+      "cost_components": {
+        "procurement": 161,
+        "processing": 52,
+        "holding": 53.650424505320316,
+        "nonprocessing": 5.93135574008193
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 30,
+      "status": "PASS",
+      "makespan": 39.071906368965145,
+      "cost": 253.79385396369497,
+      "cost_components": {
+        "procurement": 144,
+        "processing": 54,
+        "holding": 49.44383183701912,
+        "nonprocessing": 6.3500221266758565
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 31,
+      "status": "PASS",
+      "makespan": 44.518140241098635,
+      "cost": 268.8892424372248,
+      "cost_components": {
+        "procurement": 146,
+        "processing": 53,
+        "holding": 63.70768367545508,
+        "nonprocessing": 6.181558761769731
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 32,
+      "status": "PASS",
+      "makespan": 47.549820759685765,
+      "cost": 264.26899577132855,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 59,
+        "holding": 44.745439419234536,
+        "nonprocessing": 6.523556352094033
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 33,
+      "status": "PASS",
+      "makespan": 45.87151332665137,
+      "cost": 280.349445462026,
+      "cost_components": {
+        "procurement": 148,
+        "processing": 53,
+        "holding": 69.82653746603519,
+        "nonprocessing": 9.52290799599082
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 34,
+      "status": "PASS",
+      "makespan": 54.549820759685765,
+      "cost": 297.10786746082545,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 53,
+        "holding": 82.30505392806845,
+        "nonprocessing": 8.80281353275702
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 35,
+      "status": "PASS",
+      "makespan": 50.549820759685765,
+      "cost": 318.3985147098054,
+      "cost_components": {
+        "procurement": 164,
+        "processing": 52,
+        "holding": 95.97858640593105,
+        "nonprocessing": 6.419928303874307
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 36,
+      "status": "PASS",
+      "makespan": 52.36698310219937,
+      "cost": 289.7180918041258,
+      "cost_components": {
+        "procurement": 152,
+        "processing": 56,
+        "holding": 71.49790194280612,
+        "nonprocessing": 10.220189861319623
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 37,
+      "status": "PASS",
+      "makespan": 40.55005863673824,
+      "cost": 260.5333533568672,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 57,
+        "holding": 41.20331817482426,
+        "nonprocessing": 6.330035182042945
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 38,
+      "status": "PASS",
+      "makespan": 43.33462431629892,
+      "cost": 265.000928718424,
+      "cost_components": {
+        "procurement": 149,
+        "processing": 54,
+        "holding": 54.400154128644665,
+        "nonprocessing": 7.600774589779353
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 39,
+      "status": "PASS",
+      "makespan": 43.33462431629892,
+      "cost": 266.1749595666433,
+      "cost_components": {
+        "procurement": 155,
+        "processing": 54,
+        "holding": 50.68680592763639,
+        "nonprocessing": 6.488153639006875
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 40,
+      "status": "PASS",
+      "makespan": 41.55005863673824,
+      "cost": 260.17065739448907,
+      "cost_components": {
+        "procurement": 149,
+        "processing": 56,
+        "holding": 49.13625266600072,
+        "nonprocessing": 6.034404728488326
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 41,
+      "status": "PASS",
+      "makespan": 38.549820759685765,
+      "cost": 260.36707595841995,
+      "cost_components": {
+        "procurement": 155,
+        "processing": 56,
+        "holding": 44.2435196063259,
+        "nonprocessing": 5.123556352094035
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 42,
+      "status": "PASS",
+      "makespan": 55.42407876981498,
+      "cost": 284.8344176832195,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 55,
+        "holding": 64.62193864703303,
+        "nonprocessing": 9.212479036186432
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 43,
+      "status": "PASS",
+      "makespan": 42.42407876981498,
+      "cost": 269.48063987262236,
+      "cost_components": {
+        "procurement": 146,
+        "processing": 58,
+        "holding": 58.90039397682286,
+        "nonprocessing": 6.58024589579954
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 44,
+      "status": "PASS",
+      "makespan": 42.42407876981498,
+      "cost": 266.29112114036076,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 59,
+        "holding": 47.21786158421503,
+        "nonprocessing": 6.073259556145722
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 45,
+      "status": "PASS",
+      "makespan": 44.549820759685765,
+      "cost": 294.30305892848554,
+      "cost_components": {
+        "procurement": 164,
+        "processing": 56,
+        "holding": 65.17316647267408,
+        "nonprocessing": 9.12989245581146
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 46,
+      "status": "PASS",
+      "makespan": 44.42407876981498,
+      "cost": 269.5198781935929,
+      "cost_components": {
+        "procurement": 149,
+        "processing": 58,
+        "holding": 55.45513977607254,
+        "nonprocessing": 7.064738417520343
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 47,
+      "status": "PASS",
+      "makespan": 46.557137181038115,
+      "cost": 293.9192969394086,
+      "cost_components": {
+        "procurement": 151,
+        "processing": 52,
+        "holding": 85.29644206699335,
+        "nonprocessing": 5.622854872415246
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 48,
+      "status": "PASS",
+      "makespan": 43.33462431629892,
+      "cost": 268.1829324974718,
+      "cost_components": {
+        "procurement": 147,
+        "processing": 57,
+        "holding": 57.53911861901508,
+        "nonprocessing": 6.643813878456722
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 49,
+      "status": "PASS",
+      "makespan": 46.33462431629892,
+      "cost": 295.7218424200122,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 54,
+        "holding": 78.48436464527288,
+        "nonprocessing": 7.237477774739296
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 50,
+      "status": "PASS",
+      "makespan": 57.557137181038115,
+      "cost": 302.8537239834629,
+      "cost_components": {
+        "procurement": 150,
+        "processing": 56,
+        "holding": 85.31944167484001,
+        "nonprocessing": 11.53428230862287
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 51,
+      "status": "PASS",
+      "makespan": 42.87151332665137,
+      "cost": 265.74873739223034,
+      "cost_components": {
+        "procurement": 150,
+        "processing": 56,
+        "holding": 53.088739670379205,
+        "nonprocessing": 6.659997721851146
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 52,
+      "status": "PASS",
+      "makespan": 51.74440082642879,
+      "cost": 285.8958071351157,
+      "cost_components": {
+        "procurement": 152,
+        "processing": 56,
+        "holding": 69.04916663925844,
+        "nonprocessing": 8.846640495857272
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 53,
+      "status": "PASS",
+      "makespan": 46.518140241098635,
+      "cost": 277.76745750102015,
+      "cost_components": {
+        "procurement": 148,
+        "processing": 54,
+        "holding": 69.41132123929495,
+        "nonprocessing": 6.356136261725213
+      },
+      "max_component_difference": 1.7763568394002505e-15
+    },
+    {
+      "schedule": 54,
+      "status": "PASS",
+      "makespan": 46.549820759685765,
+      "cost": 281.52854011516126,
+      "cost_components": {
+        "procurement": 151,
+        "processing": 54,
+        "holding": 70.15973164600119,
+        "nonprocessing": 6.368808469160064
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 55,
+      "status": "PASS",
+      "makespan": 41.74440082642879,
+      "cost": 279.1025852395342,
+      "cost_components": {
+        "procurement": 162,
+        "processing": 56,
+        "holding": 55.294860757025575,
+        "nonprocessing": 5.807724482508668
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 56,
+      "status": "PASS",
+      "makespan": 55.053071939367726,
+      "cost": 313.5658174420896,
+      "cost_components": {
+        "procurement": 146,
+        "processing": 52,
+        "holding": 107.34458866634252,
+        "nonprocessing": 8.221228775747091
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 57,
+      "status": "PASS",
+      "makespan": 52.518140241098635,
+      "cost": 282.4257752454302,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 53,
+        "holding": 67.87080889455473,
+        "nonprocessing": 7.554966350875496
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 58,
+      "status": "PASS",
+      "makespan": 46.557137181038115,
+      "cost": 297.038357893867,
+      "cost_components": {
+        "procurement": 151,
+        "processing": 52,
+        "holding": 88.41550302145173,
+        "nonprocessing": 5.622854872415246
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 59,
+      "status": "PASS",
+      "makespan": 52.557137181038115,
+      "cost": 312.5941329252081,
+      "cost_components": {
+        "procurement": 158,
+        "processing": 52,
+        "holding": 94.97127805279285,
+        "nonprocessing": 7.622854872415246
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 60,
+      "status": "PASS",
+      "makespan": 49.33462431629892,
+      "cost": 294.28980385901923,
+      "cost_components": {
+        "procurement": 157,
+        "processing": 56,
+        "holding": 71.4890292692399,
+        "nonprocessing": 9.800774589779353
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 61,
+      "status": "PASS",
+      "makespan": 42.518140241098635,
+      "cost": 266.8390953755517,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 54,
+        "holding": 50.56401885267088,
+        "nonprocessing": 6.27507652288087
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 62,
+      "status": "PASS",
+      "makespan": 59.053071939367726,
+      "cost": 300.8703580063394,
+      "cost_components": {
+        "procurement": 157,
+        "processing": 54,
+        "holding": 80.50024906530658,
+        "nonprocessing": 9.370108941032848
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 63,
+      "status": "PASS",
+      "makespan": 43.549820759685765,
+      "cost": 287.97538771063165,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 56,
+        "holding": 64.24549525482018,
+        "nonprocessing": 8.72989245581146
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 64,
+      "status": "PASS",
+      "makespan": 41.74440082642879,
+      "cost": 271.7340982229397,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 58,
+        "holding": 50.7652897537796,
+        "nonprocessing": 6.968808469160064
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 65,
+      "status": "PASS",
+      "makespan": 66.54982075968576,
+      "cost": 346.55307557649127,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 54,
+        "holding": 117.62318312067983,
+        "nonprocessing": 15.929892455811462
+      },
+      "max_component_difference": 3.552713678800501e-15
+    },
+    {
+      "schedule": 66,
+      "status": "PASS",
+      "makespan": 45.33462431629892,
+      "cost": 291.1308311494382,
+      "cost_components": {
+        "procurement": 168,
+        "processing": 58,
+        "holding": 57.1300565596589,
+        "nonprocessing": 8.000774589779352
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 67,
+      "status": "PASS",
+      "makespan": 44.518140241098635,
+      "cost": 267.120140899943,
+      "cost_components": {
+        "procurement": 151,
+        "processing": 51,
+        "holding": 59.60145736729596,
+        "nonprocessing": 5.518683532647079
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 68,
+      "status": "PASS",
+      "makespan": 54.549820759685765,
+      "cost": 324.38063967449517,
+      "cost_components": {
+        "procurement": 146,
+        "processing": 54,
+        "holding": 109.45074721868372,
+        "nonprocessing": 14.929892455811462
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 69,
+      "status": "PASS",
+      "makespan": 48.33462431629892,
+      "cost": 275.06507267175397,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 53,
+        "holding": 60.48914334213741,
+        "nonprocessing": 7.575929329616549
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 70,
+      "status": "PASS",
+      "makespan": 50.557137181038115,
+      "cost": 280.5537478584036,
+      "cost_components": {
+        "procurement": 158,
+        "processing": 54,
+        "holding": 61.78318273155231,
+        "nonprocessing": 6.770565126851287
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 71,
+      "status": "PASS",
+      "makespan": 39.33910213220707,
+      "cost": 264.32315471081165,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 56,
+        "holding": 47.083885809709116,
+        "nonprocessing": 5.239268901102555
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 72,
+      "status": "PASS",
+      "makespan": 45.518140241098635,
+      "cost": 264.53056799825487,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 55,
+        "holding": 47.3291796194636,
+        "nonprocessing": 8.201388378791242
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 73,
+      "status": "PASS",
+      "makespan": 51.053071939367726,
+      "cost": 317.286519201127,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 52,
+        "holding": 102.26529042537992,
+        "nonprocessing": 7.02122877574709
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 74,
+      "status": "PASS",
+      "makespan": 46.549820759685765,
+      "cost": 273.128691461974,
+      "cost_components": {
+        "procurement": 163,
+        "processing": 53,
+        "holding": 50.759882992813885,
+        "nonprocessing": 6.368808469160064
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 75,
+      "status": "PASS",
+      "makespan": 49.549820759685765,
+      "cost": 286.0602281717916,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 56,
+        "holding": 63.629685480043754,
+        "nonprocessing": 7.430542691747852
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 76,
+      "status": "PASS",
+      "makespan": 53.053071939367726,
+      "cost": 295.39668757512163,
+      "cost_components": {
+        "procurement": 157,
+        "processing": 53,
+        "holding": 77.66549464743743,
+        "nonprocessing": 7.731192927684244
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 77,
+      "status": "PASS",
+      "makespan": 53.053071939367726,
+      "cost": 325.6243653675738,
+      "cost_components": {
+        "procurement": 152,
+        "processing": 54,
+        "holding": 105.59252220395314,
+        "nonprocessing": 14.031843163620636
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 78,
+      "status": "PASS",
+      "makespan": 49.549820759685765,
+      "cost": 283.16348032684454,
+      "cost_components": {
+        "procurement": 151,
+        "processing": 54,
+        "holding": 70.83992397475049,
+        "nonprocessing": 7.323556352094034
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 79,
+      "status": "PASS",
+      "makespan": 50.549820759685765,
+      "cost": 288.0797733064003,
+      "cost_components": {
+        "procurement": 161,
+        "processing": 51,
+        "holding": 69.34841756631836,
+        "nonprocessing": 6.73135574008193
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 80,
+      "status": "PASS",
+      "makespan": 51.518140241098635,
+      "cost": 300.86940698234275,
+      "cost_components": {
+        "procurement": 165,
+        "processing": 54,
+        "holding": 72.15852283768358,
+        "nonprocessing": 9.710884144659184
+      },
+      "max_component_difference": 1.7763568394002505e-15
+    },
+    {
+      "schedule": 81,
+      "status": "PASS",
+      "makespan": 40.33910213220707,
+      "cost": 263.57984215184047,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 58,
+        "holding": 44.43358691108408,
+        "nonprocessing": 5.146255240756372
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 82,
+      "status": "PASS",
+      "makespan": 44.549820759685765,
+      "cost": 275.32808526158806,
+      "cost_components": {
+        "procurement": 157,
+        "processing": 51,
+        "holding": 61.7967295215061,
+        "nonprocessing": 5.5313557400819295
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 83,
+      "status": "PASS",
+      "makespan": 51.549820759685765,
+      "cost": 304.9835253146932,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 56,
+        "holding": 78.05363285888178,
+        "nonprocessing": 11.92989245581146
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 84,
+      "status": "PASS",
+      "makespan": 53.549820759685765,
+      "cost": 296.07282323308465,
+      "cost_components": {
+        "procurement": 158,
+        "processing": 54,
+        "holding": 76.34926688099061,
+        "nonprocessing": 7.723556352094033
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 85,
+      "status": "PASS",
+      "makespan": 48.518140241098635,
+      "cost": 316.0114500029508,
+      "cost_components": {
+        "procurement": 161,
+        "processing": 54,
+        "holding": 89.70056585829161,
+        "nonprocessing": 11.310884144659184
+      },
+      "max_component_difference": 1.7763568394002505e-15
+    },
+    {
+      "schedule": 86,
+      "status": "PASS",
+      "makespan": 41.549820759685765,
+      "cost": 271.30231107111337,
+      "cost_components": {
+        "procurement": 166,
+        "processing": 57,
+        "holding": 43.008986146799195,
+        "nonprocessing": 5.293324924314181
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 87,
+      "status": "PASS",
+      "makespan": 44.549820759685765,
+      "cost": 270.90796817594634,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 51,
+        "holding": 61.178028144724415,
+        "nonprocessing": 5.729940031221954
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 88,
+      "status": "PASS",
+      "makespan": 54.518140241098635,
+      "cost": 315.06377753073485,
+      "cost_components": {
+        "procurement": 152,
+        "processing": 54,
+        "holding": 96.55289338607564,
+        "nonprocessing": 12.510884144659183
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 89,
+      "status": "PASS",
+      "makespan": 62.549820759685765,
+      "cost": 337.5428612643475,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 52,
+        "holding": 122.92293296047318,
+        "nonprocessing": 9.619928303874307
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 90,
+      "status": "PASS",
+      "makespan": 56.518140241098635,
+      "cost": 326.1811208777174,
+      "cost_components": {
+        "procurement": 165,
+        "processing": 57,
+        "holding": 89.67023673305819,
+        "nonprocessing": 14.510884144659181
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 91,
+      "status": "PASS",
+      "makespan": 48.33910213220707,
+      "cost": 285.4760235651947,
+      "cost_components": {
+        "procurement": 158,
+        "processing": 56,
+        "holding": 63.672562285870434,
+        "nonprocessing": 7.803461279324241
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 92,
+      "status": "PASS",
+      "makespan": 39.549820759685765,
+      "cost": 267.23787047921246,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 58,
+        "holding": 48.70797802340099,
+        "nonprocessing": 6.52989245581146
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 93,
+      "status": "PASS",
+      "makespan": 60.518140241098635,
+      "cost": 323.21181065235777,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 52,
+        "holding": 103.40455455591831,
+        "nonprocessing": 8.807256096439454
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 94,
+      "status": "PASS",
+      "makespan": 46.518140241098635,
+      "cost": 274.5950340124548,
+      "cost_components": {
+        "procurement": 162,
+        "processing": 53,
+        "holding": 52.86400573334418,
+        "nonprocessing": 6.731028279110586
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 95,
+      "status": "PASS",
+      "makespan": 39.549820759685765,
+      "cost": 270.3883039067933,
+      "cost_components": {
+        "procurement": 158,
+        "processing": 58,
+        "holding": 47.858411450981826,
+        "nonprocessing": 6.52989245581146
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 96,
+      "status": "PASS",
+      "makespan": 45.053071939367726,
+      "cost": 290.01308554941403,
+      "cost_components": {
+        "procurement": 162,
+        "processing": 53,
+        "holding": 68.8818926217298,
+        "nonprocessing": 6.131192927684244
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 97,
+      "status": "PASS",
+      "makespan": 44.549820759685765,
+      "cost": 283.25841176651636,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 55,
+        "holding": 64.32851931070492,
+        "nonprocessing": 9.92989245581146
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 98,
+      "status": "PASS",
+      "makespan": 45.549820759685765,
+      "cost": 297.50939901789127,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 56,
+        "holding": 73.97950656207976,
+        "nonprocessing": 11.52989245581146
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 99,
+      "status": "PASS",
+      "makespan": 43.7385512721802,
+      "cost": 263.1376236313798,
+      "cost_components": {
+        "procurement": 154,
+        "processing": 53,
+        "holding": 50.33077568630011,
+        "nonprocessing": 5.806847945079705
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 100,
+      "status": "PASS",
+      "makespan": 48.557137181038115,
+      "cost": 289.39974575860714,
+      "cost_components": {
+        "procurement": 168,
+        "processing": 55,
+        "holding": 59.37560561704706,
+        "nonprocessing": 7.0241401415600535
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 101,
+      "status": "PASS",
+      "makespan": 43.33462431629892,
+      "cost": 266.94310605730124,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 54,
+        "holding": 52.34233146752191,
+        "nonprocessing": 7.600774589779353
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 102,
+      "status": "PASS",
+      "makespan": 52.74440082642879,
+      "cost": 316.9221196803179,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 52,
+        "holding": 98.22435934974642,
+        "nonprocessing": 7.697760330571516
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 103,
+      "status": "PASS",
+      "makespan": 49.549820759685765,
+      "cost": 289.0345931895354,
+      "cost_components": {
+        "procurement": 152,
+        "processing": 56,
+        "holding": 71.10470073372396,
+        "nonprocessing": 9.92989245581146
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 104,
+      "status": "PASS",
+      "makespan": 49.549820759685765,
+      "cost": 287.6301040197849,
+      "cost_components": {
+        "procurement": 158,
+        "processing": 56,
+        "holding": 65.88640353323942,
+        "nonprocessing": 7.743700486545437
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 105,
+      "status": "PASS",
+      "makespan": 62.549820759685765,
+      "cost": 339.08233467417574,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 52,
+        "holding": 118.46240637030144,
+        "nonprocessing": 9.619928303874307
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 106,
+      "status": "PASS",
+      "makespan": 55.36698310219937,
+      "cost": 325.0050566886692,
+      "cost_components": {
+        "procurement": 166,
+        "processing": 56,
+        "holding": 90.18486682734955,
+        "nonprocessing": 12.820189861319623
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 107,
+      "status": "PASS",
+      "makespan": 40.557137181038115,
+      "cost": 249.6625021917318,
+      "cost_components": {
+        "procurement": 149,
+        "processing": 52,
+        "holding": 43.090767154030814,
+        "nonprocessing": 5.5717350377010035
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 108,
+      "status": "PASS",
+      "makespan": 48.549820759685765,
+      "cost": 304.37067552255803,
+      "cost_components": {
+        "procurement": 146,
+        "processing": 52,
+        "holding": 99.95074721868372,
+        "nonprocessing": 6.419928303874307
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 109,
+      "status": "PASS",
+      "makespan": 53.33462431629892,
+      "cost": 332.13469844699273,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 52,
+        "holding": 115.80084872047316,
+        "nonprocessing": 8.333849726519569
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 110,
+      "status": "PASS",
+      "makespan": 53.557137181038115,
+      "cost": 303.68778984600385,
+      "cost_components": {
+        "procurement": 165,
+        "processing": 57,
+        "holding": 71.35350753738098,
+        "nonprocessing": 10.33428230862287
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 111,
+      "status": "PASS",
+      "makespan": 54.33910213220707,
+      "cost": 304.08894430253963,
+      "cost_components": {
+        "procurement": 160,
+        "processing": 54,
+        "holding": 81.87990682921692,
+        "nonprocessing": 8.2090374733227
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 112,
+      "status": "PASS",
+      "makespan": 40.557137181038115,
+      "cost": 267.7514978099156,
+      "cost_components": {
+        "procurement": 157,
+        "processing": 57,
+        "holding": 47.81867878556315,
+        "nonprocessing": 5.9328190243523995
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 113,
+      "status": "PASS",
+      "makespan": 53.549820759685765,
+      "cost": 298.8290018197519,
+      "cost_components": {
+        "procurement": 158,
+        "processing": 54,
+        "holding": 79.10544546765792,
+        "nonprocessing": 7.723556352094033
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 114,
+      "status": "PASS",
+      "makespan": 54.00642634572404,
+      "cost": 323.7664559363351,
+      "cost_components": {
+        "procurement": 157,
+        "processing": 52,
+        "holding": 106.9638853980455,
+        "nonprocessing": 7.802570538289615
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 115,
+      "status": "PASS",
+      "makespan": 56.549820759685765,
+      "cost": 337.16700672945615,
+      "cost_components": {
+        "procurement": 161,
+        "processing": 56,
+        "holding": 105.43711427364467,
+        "nonprocessing": 14.729892455811461
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 116,
+      "status": "PASS",
+      "makespan": 50.557137181038115,
+      "cost": 296.5332116764083,
+      "cost_components": {
+        "procurement": 164,
+        "processing": 53,
+        "holding": 72.36264654955704,
+        "nonprocessing": 7.170565126851287
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 117,
+      "status": "PASS",
+      "makespan": 46.518140241098635,
+      "cost": 278.57413438478625,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 53,
+        "holding": 65.3839930594641,
+        "nonprocessing": 7.190141325322168
+      },
+      "max_component_difference": 1.7763568394002505e-15
+    },
+    {
+      "schedule": 118,
+      "status": "PASS",
+      "makespan": 39.557137181038115,
+      "cost": 280.2026442391242,
+      "cost_components": {
+        "procurement": 156,
+        "processing": 56,
+        "holding": 58.66836193050133,
+        "nonprocessing": 9.534282308622869
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 119,
+      "status": "PASS",
+      "makespan": 41.557137181038115,
+      "cost": 282.3416283602136,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 54,
+        "holding": 63.90815909992479,
+        "nonprocessing": 5.433469260288792
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 120,
+      "status": "PASS",
+      "makespan": 47.00642634572404,
+      "cost": 297.6551679949726,
+      "cost_components": {
+        "procurement": 168,
+        "processing": 53,
+        "holding": 69.90488720224691,
+        "nonprocessing": 6.750280792725656
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 121,
+      "status": "PASS",
+      "makespan": 50.518140241098635,
+      "cost": 280.5479085368595,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 51,
+        "holding": 69.27372757716024,
+        "nonprocessing": 7.27418095969924
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 122,
+      "status": "PASS",
+      "makespan": 54.518140241098635,
+      "cost": 294.2244763103521,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 51,
+        "holding": 75.905792777705,
+        "nonprocessing": 8.318683532647078
+      },
+      "max_component_difference": 1.7763568394002505e-15
+    },
+    {
+      "schedule": 123,
+      "status": "PASS",
+      "makespan": 44.518140241098635,
+      "cost": 278.4529107385327,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 51,
+        "holding": 62.93422720588563,
+        "nonprocessing": 5.518683532647079
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 124,
+      "status": "PASS",
+      "makespan": 45.00642634572404,
+      "cost": 291.7999660644223,
+      "cost_components": {
+        "procurement": 165,
+        "processing": 54,
+        "holding": 66.89376747791293,
+        "nonprocessing": 5.906198586509343
+      },
+      "max_component_difference": 0.0
+    },
+    {
+      "schedule": 125,
+      "status": "PASS",
+      "makespan": 52.518140241098635,
+      "cost": 298.94744029304104,
+      "cost_components": {
+        "procurement": 163,
+        "processing": 53,
+        "holding": 75.43022004466445,
+        "nonprocessing": 7.517220248376609
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 126,
+      "status": "PASS",
+      "makespan": 51.518140241098635,
+      "cost": 304.57040839045726,
+      "cost_components": {
+        "procurement": 168,
+        "processing": 54,
+        "holding": 72.85952424579804,
+        "nonprocessing": 9.710884144659184
+      },
+      "max_component_difference": 1.7763568394002505e-15
+    },
+    {
+      "schedule": 127,
+      "status": "PASS",
+      "makespan": 61.071906368965145,
+      "cost": 322.4466032508999,
+      "cost_components": {
+        "procurement": 147,
+        "processing": 54,
+        "holding": 105.0034594295208,
+        "nonprocessing": 16.44314382137909
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 128,
+      "status": "PASS",
+      "makespan": 44.549820759685765,
+      "cost": 264.296466971953,
+      "cost_components": {
+        "procurement": 153,
+        "processing": 55,
+        "holding": 50.32882841364268,
+        "nonprocessing": 5.967638558310347
+      },
+      "max_component_difference": 7.105427357601002e-15
+    },
+    {
+      "schedule": 129,
+      "status": "PASS",
+      "makespan": 54.518140241098635,
+      "cost": 329.11932508322866,
+      "cost_components": {
+        "procurement": 159,
+        "processing": 52,
+        "holding": 110.11206898678923,
+        "nonprocessing": 8.007256096439455
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    },
+    {
+      "schedule": 130,
+      "status": "PASS",
+      "makespan": 44.518140241098635,
+      "cost": 321.78112087771734,
+      "cost_components": {
+        "procurement": 165,
+        "processing": 54,
+        "holding": 90.67023673305819,
+        "nonprocessing": 12.110884144659183
+      },
+      "max_component_difference": 1.4210854715202004e-14
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "case": "G200",
+  "algorithm": "QDMOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 133.5371028999798,
+  "total_seconds_including_finalization": 133.56150529999286,
+  "archive_finalization_seconds": 0.006904600013513118,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 2,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4850,
+    "kick": 70,
+    "reconstruction": 14,
+    "local_search": 16
+  },
+  "complete_q_generations": 97,
+  "q_decisions": 98,
+  "max_cost_check_error": 1.4551915228366852e-11,
+  "measured_partial_overhead_seconds": {
+    "emit": 23.61910800181795,
+    "independent_checks": 5.726379200757947
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "G200-QDMOPSO-train-g3-e17",
+  "order": 483,
+  "mode": "train",
+  "episode": 17,
+  "seed": 56217,
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "output_hv_normalized": 0.815654995679791,
+  "output_spacing_raw": null,
+  "output_spacing_valid": false,
+  "output_front": [
+    [
+      308.2031,
+      24671.8158
+    ]
+  ],
+  "analysis_reference": [
+    2447.2657000000004,
+    369212.6607400001
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": "6ddc27d73f11d7944237ae642fc447476723a4406036d34d812daa2515e7a4e1",
+  "q_input_states": 17,
+  "q_output_sha256": "2013a2c4a1cb7dbc572612c699ac363a7ebd8a770998918a393d07fb50c24abe",
+  "q_output_states": 17,
+  "reward_sum": -0.6965319638979043,
+  "initial_q_loading_verified": true,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

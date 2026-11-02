@@ -1,0 +1,64 @@
+{
+  "case": "L3",
+  "algorithm": "QDMOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 16.180933900002856,
+  "total_seconds_including_finalization": 16.18982829997549,
+  "archive_finalization_seconds": 0.0011270000250078738,
+  "pending_evaluated_candidates_incorporated": 4,
+  "output_archive_size": 2,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4904,
+    "kick": 30,
+    "reconstruction": 8,
+    "local_search": 8
+  },
+  "complete_q_generations": 98,
+  "q_decisions": 99,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 3.635358801111579,
+    "independent_checks": 0.919063099368941
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "6a6a487f648455804c204a87628f5689de601386fb63fd39f1c7afe39680fe2b",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "L3-QDMOPSO-train-g2-e19",
+  "order": 252,
+  "mode": "train",
+  "episode": 19,
+  "seed": 56119,
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "output_hv_normalized": 0.7339129495624488,
+  "output_spacing_raw": null,
+  "output_spacing_valid": false,
+  "output_front": [
+    [
+      61.875074911496434,
+      908.3189580394928
+    ]
+  ],
+  "analysis_reference": [
+    353.82833133962515,
+    8216.712124998166
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": "444728fd860dd49b2876db41e0f972deef0be0ecc2c1ad4970f11264528a7bcf",
+  "q_input_states": 25,
+  "q_output_sha256": "879ce8e3e2f873ac4b6fc5b4030e903b043ed1647abaa3d3eaab71141aa507b3",
+  "q_output_states": 25,
+  "reward_sum": -0.8470395975943935,
+  "initial_q_loading_verified": true,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

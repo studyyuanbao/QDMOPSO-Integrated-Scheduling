@@ -1,0 +1,76 @@
+﻿candidate_path,reason,original_archive
+experiments/03_module_ablation/environment.json,local absolute path in copied content,R1-5模块消融完整记录.zip
+experiments/03_module_ablation/code/plot_pareto.py,local absolute path in copied content,R1-5模块消融完整记录.zip
+experiments/04_parameter_sensitivity/analysis-reference.json,local absolute path in copied content,M1有限参数校准完整记录.zip
+experiments/04_parameter_sensitivity/upstream-source-manifest.json,local absolute path in copied content,M1有限参数校准完整记录.zip
+experiments/04_parameter_sensitivity/code/plot_pareto.py,local absolute path in copied content,M1有限参数校准完整记录.zip
+experiments/05_equal_budget_comparison/code/plot_pareto.py,local absolute path in copied content,六实例正式比较完整代码与数据.zip
+experiments/05_equal_budget_comparison/analysis-references.json,local absolute path in copied content,六实例正式比较完整代码与数据.zip
+results/05_equal_budget_comparison/analysis_package/analysis/environment-analysis.json,local absolute path in copied content,六实例正式比较分析与绘图数据.zip
+experiments/06_exact_comparison/qdmopso_A_runs/run_reward_ablation.py,local absolute path in copied content,S1三组奖励诊断完整记录.zip
+experiments/06_exact_comparison/qdmopso_A_runs/code/plot_pareto.py,local absolute path in copied content,S1三组奖励诊断完整记录.zip
+validation/decoder_consistency/check_main_integration.py,local absolute path in copied content,实际算法排程与模型一致性验证.zip
+validation/decoder_consistency/main-integration/plot_pareto.py,local absolute path in copied content,实际算法排程与模型一致性验证.zip
+tools/build_candidate.py,local packaging helper; excluded from public candidate,generated
+experiments/02_baseline_comparison/code_candidates/moaco_2.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/02_baseline_comparison/code_candidates/mogwo.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/02_baseline_comparison/code_candidates/mopso_basic.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/02_baseline_comparison/code_candidates/mowoa.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/moaco.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/moaco_2.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/mogwo.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/mopso_basic.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/mowoa.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/moaco.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/moaco_2.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/mogwo.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/mopso_basic.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/mowoa.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/moaco.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/moaco_2.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/mogwo.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/mopso_basic.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/mowoa.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/moaco.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/moaco_2.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/mogwo.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/mopso_basic.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/moaco.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/moaco_2.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/mogwo.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/mopso_basic.py,baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/moabc.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/moabc_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/moaco_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/mopso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/nsga2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/pso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/03_module_ablation/code/spea2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/moabc.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/moabc_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/moaco_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/mopso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/nsga2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/pso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/04_parameter_sensitivity/code/spea2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/moabc.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/moabc_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/moaco_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/mopso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/nsga2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/pso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/05_equal_budget_comparison/code/spea2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/moabc.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/moabc_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/moaco_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/mopso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/nsga2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/pso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+experiments/06_exact_comparison/qdmopso_A_runs/code/spea2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/moabc.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/moabc_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/moaco_1.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/mopso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/nsga2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/pso.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot
+validation/decoder_consistency/main-integration/spea2.py,additional baseline implementation authorship or redistribution rights not yet verified; omitted from initial private commit,candidate source snapshot

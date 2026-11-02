@@ -1,0 +1,113 @@
+{
+  "case": "S1",
+  "variant": "no_local_search",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4870,
+    "reconstruction": 30,
+    "kick": 50
+  },
+  "output_front": [
+    [
+      39.071906368965145,
+      251.05507183289302
+    ],
+    [
+      38.549820759685765,
+      262.56515681064536
+    ],
+    [
+      38.518140241098635,
+      265.31991211400145
+    ],
+    [
+      39.071906368965145,
+      251.05507183289302
+    ],
+    [
+      38.549820759685765,
+      262.56515681064536
+    ],
+    [
+      38.518140241098635,
+      265.31991211400145
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 3
+  },
+  "output_hv": 0.4121406200340568,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": 16,
+  "mode": "train",
+  "seed": 51116,
+  "nfe": 5000,
+  "seconds": 3.6355173000483774,
+  "trace_emit_seconds": 0.12330919853411615,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 26,
+  "final_q_states": 26,
+  "unique_decision_states": 11,
+  "action_counts": {
+    "6": 13,
+    "1": 13,
+    "0": 9,
+    "5": 46,
+    "2": 6,
+    "4": 7,
+    "3": 4
+  },
+  "component_counts": [
+    {
+      "1": 98
+    },
+    {
+      "0": 92,
+      "1": 4,
+      "-1": 2
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 19,
+      "4": 20
+    },
+    {
+      "2": 98
+    },
+    {
+      "1": 2,
+      "2": 2,
+      "0": 94
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.4121406200340568,
+  "front_of_all_evaluations": [
+    [
+      38.518140241098635,
+      265.31991211400145
+    ],
+    [
+      38.549820759685765,
+      262.56515681064536
+    ],
+    [
+      39.071906368965145,
+      251.05507183289302
+    ]
+  ],
+  "reward_sum": -1.8027604039435523,
+  "sp_invalid_generations": 0,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "3b3a0222c2a69144dd49806a2ee3a728bb71cad22139537eea422f17a8139c90",
+  "q_output_sha256": "22a3ba663d9b239fd222ee13e0f9e1b70748c15d494a6cdd4f01be4e332306b8",
+  "status": "completed"
+}

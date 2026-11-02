@@ -1,0 +1,71 @@
+{
+  "case": "S1",
+  "algorithm": "MOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 4.938639400003012,
+  "total_seconds_including_finalization": 4.941538400016725,
+  "archive_finalization_seconds": 8.500006515532732e-06,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 3,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.2156472030910663,
+    "independent_checks": 0.332709600799717
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "887203b3e3e29a1a4b5586151b2c98b409c1f9c5bb7b166075ec8fbcf2d84786",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "S1-MOPSO-test-57001",
+  "order": 70,
+  "mode": "test",
+  "episode": null,
+  "seed": 57001,
+  "parameters": {
+    "mopso_w": 0.4,
+    "mopso_c1": 2.0,
+    "mopso_c2": 2.0,
+    "mopso_vmax": 0.5
+  },
+  "output_hv_normalized": 0.4126923317701142,
+  "output_spacing_raw": 2.477245778131191,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      38.549820759685765,
+      259.3549689060741
+    ],
+    [
+      41.33910213220707,
+      252.48137989437421
+    ],
+    [
+      42.053071939367726,
+      249.4367151609776
+    ]
+  ],
+  "analysis_reference": [
+    92.02833133962517,
+    862.5869868415261
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

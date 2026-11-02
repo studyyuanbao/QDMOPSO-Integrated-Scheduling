@@ -1,0 +1,69 @@
+{
+  "case": "M1",
+  "algorithm": "MOWOA",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 5.425467099994421,
+  "total_seconds_including_finalization": 5.428352799965069,
+  "archive_finalization_seconds": 1.3800046872347593e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 4,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.2683972978848033,
+    "independent_checks": 0.35478459822479635
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "config_source_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "configuration_id": "MOWOA-03",
+  "job_id": "MOWOA-03-test-55002",
+  "order": 278,
+  "mode": "test",
+  "episode": null,
+  "seed": 55002,
+  "parameters": {
+    "woa_a0": 1.0,
+    "woa_b": 1.5
+  },
+  "output_hv_normalized": 0.48238242845689133,
+  "output_spacing_raw": 0.37987201788686115,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      37.42407876981498,
+      270.0826866721861
+    ],
+    [
+      37.557137181038115,
+      254.29599077181675
+    ],
+    [
+      45.557137181038115,
+      241.4548191681153
+    ]
+  ],
+  "analysis_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "igd": null,
+  "igd_reason": "calibration does not use formal test reference front",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

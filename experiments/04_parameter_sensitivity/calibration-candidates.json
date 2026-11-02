@@ -1,0 +1,346 @@
+{
+  "status": "candidate table; not yet run",
+  "calibration_instance": "M1",
+  "selection": "mean fixed-reference normalized HV; tie within tolerance 1e-12 select earlier configuration ID",
+  "configurations": [
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-01",
+      "parameters": {
+        "q_learning_alpha": 0.25,
+        "q_discount_gamma": 0.98
+      },
+      "baseline": true
+    },
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-02",
+      "parameters": {
+        "q_learning_alpha": 0.1,
+        "q_discount_gamma": 0.9
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-03",
+      "parameters": {
+        "q_learning_alpha": 0.1,
+        "q_discount_gamma": 0.95
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-04",
+      "parameters": {
+        "q_learning_alpha": 0.1,
+        "q_discount_gamma": 0.98
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-05",
+      "parameters": {
+        "q_learning_alpha": 0.25,
+        "q_discount_gamma": 0.9
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-06",
+      "parameters": {
+        "q_learning_alpha": 0.25,
+        "q_discount_gamma": 0.95
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-07",
+      "parameters": {
+        "q_learning_alpha": 0.4,
+        "q_discount_gamma": 0.9
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-08",
+      "parameters": {
+        "q_learning_alpha": 0.4,
+        "q_discount_gamma": 0.95
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "QDMOPSO",
+      "configuration_id": "QDMOPSO-09",
+      "parameters": {
+        "q_learning_alpha": 0.4,
+        "q_discount_gamma": 0.98
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-01",
+      "parameters": {
+        "mopso_w": 0.4,
+        "mopso_c1": 2.0,
+        "mopso_c2": 2.0,
+        "mopso_vmax": 0.5
+      },
+      "baseline": true
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-02",
+      "parameters": {
+        "mopso_w": 0.4,
+        "mopso_c1": 1.0,
+        "mopso_c2": 1.0,
+        "mopso_vmax": 0.5
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-03",
+      "parameters": {
+        "mopso_w": 0.4,
+        "mopso_c1": 1.0,
+        "mopso_c2": 1.0,
+        "mopso_vmax": 3.0
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-04",
+      "parameters": {
+        "mopso_w": 0.4,
+        "mopso_c1": 2.0,
+        "mopso_c2": 2.0,
+        "mopso_vmax": 3.0
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-05",
+      "parameters": {
+        "mopso_w": 1.0,
+        "mopso_c1": 1.0,
+        "mopso_c2": 1.0,
+        "mopso_vmax": 0.5
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-06",
+      "parameters": {
+        "mopso_w": 1.0,
+        "mopso_c1": 1.0,
+        "mopso_c2": 1.0,
+        "mopso_vmax": 3.0
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-07",
+      "parameters": {
+        "mopso_w": 1.0,
+        "mopso_c1": 2.0,
+        "mopso_c2": 2.0,
+        "mopso_vmax": 0.5
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-08",
+      "parameters": {
+        "mopso_w": 1.0,
+        "mopso_c1": 2.0,
+        "mopso_c2": 2.0,
+        "mopso_vmax": 3.0
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOPSO",
+      "configuration_id": "MOPSO-09",
+      "parameters": {
+        "mopso_w": 0.7,
+        "mopso_c1": 1.5,
+        "mopso_c2": 1.5,
+        "mopso_vmax": 1.5
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOWOA",
+      "configuration_id": "MOWOA-01",
+      "parameters": {
+        "woa_a0": 2.0,
+        "woa_b": 1.0
+      },
+      "baseline": true
+    },
+    {
+      "algorithm": "MOWOA",
+      "configuration_id": "MOWOA-02",
+      "parameters": {
+        "woa_a0": 1.0,
+        "woa_b": 0.5
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOWOA",
+      "configuration_id": "MOWOA-03",
+      "parameters": {
+        "woa_a0": 1.0,
+        "woa_b": 1.5
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOWOA",
+      "configuration_id": "MOWOA-04",
+      "parameters": {
+        "woa_a0": 3.0,
+        "woa_b": 0.5
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOWOA",
+      "configuration_id": "MOWOA-05",
+      "parameters": {
+        "woa_a0": 3.0,
+        "woa_b": 1.5
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOGWO",
+      "configuration_id": "MOGWO-01",
+      "parameters": {
+        "gwo_a0": 2.0
+      },
+      "baseline": true
+    },
+    {
+      "algorithm": "MOGWO",
+      "configuration_id": "MOGWO-02",
+      "parameters": {
+        "gwo_a0": 1.0
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOGWO",
+      "configuration_id": "MOGWO-03",
+      "parameters": {
+        "gwo_a0": 3.0
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-01",
+      "parameters": {
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5
+      },
+      "baseline": true
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-02",
+      "parameters": {
+        "alpha": 0.5,
+        "beta": 1.0,
+        "rho": 0.3
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-03",
+      "parameters": {
+        "alpha": 0.5,
+        "beta": 1.0,
+        "rho": 0.7
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-04",
+      "parameters": {
+        "alpha": 0.5,
+        "beta": 3.0,
+        "rho": 0.3
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-05",
+      "parameters": {
+        "alpha": 0.5,
+        "beta": 3.0,
+        "rho": 0.7
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-06",
+      "parameters": {
+        "alpha": 1.5,
+        "beta": 1.0,
+        "rho": 0.3
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-07",
+      "parameters": {
+        "alpha": 1.5,
+        "beta": 1.0,
+        "rho": 0.7
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-08",
+      "parameters": {
+        "alpha": 1.5,
+        "beta": 3.0,
+        "rho": 0.3
+      },
+      "baseline": false
+    },
+    {
+      "algorithm": "MOACO",
+      "configuration_id": "MOACO-09",
+      "parameters": {
+        "alpha": 1.5,
+        "beta": 3.0,
+        "rho": 0.7
+      },
+      "baseline": false
+    }
+  ]
+}

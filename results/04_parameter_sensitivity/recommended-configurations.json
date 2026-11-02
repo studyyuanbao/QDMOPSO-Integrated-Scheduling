@@ -1,0 +1,89 @@
+[
+  {
+    "algorithm": "QDMOPSO",
+    "configuration_id": "QDMOPSO-04",
+    "parameters": {
+      "q_learning_alpha": 0.1,
+      "q_discount_gamma": 0.98
+    },
+    "original_setting": false,
+    "mean_hv": 0.5709723049785124,
+    "sd_hv_conditional_tests": 0.006393757073688039,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.807559933319378
+  },
+  {
+    "algorithm": "MOPSO",
+    "configuration_id": "MOPSO-02",
+    "parameters": {
+      "mopso_w": 0.4,
+      "mopso_c1": 1.0,
+      "mopso_c2": 1.0,
+      "mopso_vmax": 0.5
+    },
+    "original_setting": false,
+    "mean_hv": 0.5468289064197008,
+    "sd_hv_conditional_tests": 0.013383580916526451,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 4.953274399992854
+  },
+  {
+    "algorithm": "MOWOA",
+    "configuration_id": "MOWOA-01",
+    "parameters": {
+      "woa_a0": 2.0,
+      "woa_b": 1.0
+    },
+    "original_setting": true,
+    "mean_hv": 0.518277557650724,
+    "sd_hv_conditional_tests": 0.021606552389858286,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.383068100006009
+  },
+  {
+    "algorithm": "MOGWO",
+    "configuration_id": "MOGWO-02",
+    "parameters": {
+      "gwo_a0": 1.0
+    },
+    "original_setting": false,
+    "mean_hv": 0.5107081975214481,
+    "sd_hv_conditional_tests": 0.007555495860923862,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 12.088000733347144
+  },
+  {
+    "algorithm": "MOACO",
+    "configuration_id": "MOACO-03",
+    "parameters": {
+      "alpha": 0.5,
+      "beta": 1.0,
+      "rho": 0.7
+    },
+    "original_setting": false,
+    "mean_hv": 0.5407202375505556,
+    "sd_hv_conditional_tests": 0.008747964750898271,
+    "test_seeds": [
+      55001,
+      55002,
+      55003
+    ],
+    "mean_test_seconds": 5.053778133355081
+  }
+]

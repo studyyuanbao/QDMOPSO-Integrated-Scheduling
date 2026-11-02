@@ -1,0 +1,188 @@
+{
+  "hv_normalized_mean": {
+    "instances": [
+      "S1",
+      "M2",
+      "L3",
+      "G100",
+      "G200",
+      "G300"
+    ],
+    "M1_excluded": true,
+    "n_blocks": 6,
+    "Friedman_chi_square": 18.933333333333337,
+    "Friedman_asymptotic_p": 0.0008100042507917011,
+    "Kendall_W": 0.7888888888888891,
+    "mean_ranks": {
+      "QDMOPSO": 1.0,
+      "MOPSO": 2.1666666666666665,
+      "MOWOA": 4.5,
+      "MOGWO": 3.8333333333333335,
+      "MOACO": 3.5
+    },
+    "Q_vs_baselines": [
+      {
+        "baseline": "MOPSO",
+        "exact_two_sided_p": 0.03125,
+        "per_case_favorable_differences": [
+          0.011001845428426804,
+          0.01232031255980226,
+          0.006584427207960264,
+          0.012407341521753046,
+          0.003110989459954583,
+          0.0010456009881165684
+        ],
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_rank_advantage": 1.1666666666666667,
+        "holm_adjusted_p": 0.125
+      },
+      {
+        "baseline": "MOWOA",
+        "exact_two_sided_p": 0.03125,
+        "per_case_favorable_differences": [
+          0.018169263524816126,
+          0.03958455252371462,
+          0.013210165857184153,
+          0.018848509852699702,
+          0.010695556523687033,
+          0.013466304915197846
+        ],
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_rank_advantage": 3.5,
+        "holm_adjusted_p": 0.125
+      },
+      {
+        "baseline": "MOGWO",
+        "exact_two_sided_p": 0.03125,
+        "per_case_favorable_differences": [
+          0.04961250282223367,
+          0.04519640503287348,
+          0.030692778606978943,
+          0.006572390828967545,
+          0.004208728791196492,
+          0.004258668173453217
+        ],
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_rank_advantage": 2.8333333333333335,
+        "holm_adjusted_p": 0.125
+      },
+      {
+        "baseline": "MOACO",
+        "exact_two_sided_p": 0.03125,
+        "per_case_favorable_differences": [
+          0.013402213489626114,
+          0.022188045954021574,
+          0.011869893696199951,
+          0.015252956066067802,
+          0.00840931648782095,
+          0.008242671826127479
+        ],
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_rank_advantage": 2.5,
+        "holm_adjusted_p": 0.125
+      }
+    ],
+    "scope": "Six fixed instance blocks; Friedman asymptotic p exploratory with only six blocks. Exact paired signed-rank via all sign assignments (ties midrank; zeros removed); Holm across four comparisons separately per metric. HV primary, empirical IGD secondary. Posthoc values retained transparently regardless of omnibus; not nine independent Q trainings."
+  },
+  "igd_empirical_normalized_mean": {
+    "instances": [
+      "S1",
+      "M2",
+      "L3",
+      "G100",
+      "G200",
+      "G300"
+    ],
+    "M1_excluded": true,
+    "n_blocks": 6,
+    "Friedman_chi_square": 18.0,
+    "Friedman_asymptotic_p": 0.0012340980408667957,
+    "Kendall_W": 0.75,
+    "mean_ranks": {
+      "QDMOPSO": 1.0,
+      "MOPSO": 2.3333333333333335,
+      "MOWOA": 4.5,
+      "MOGWO": 3.8333333333333335,
+      "MOACO": 3.3333333333333335
+    },
+    "Q_vs_baselines": [
+      {
+        "baseline": "MOPSO",
+        "exact_two_sided_p": 0.03125,
+        "per_case_favorable_differences": [
+          0.011572580120335695,
+          0.003359445370476416,
+          0.004001396071608022,
+          0.012880893645379294,
+          0.00212074184327685,
+          0.0007555730094872676
+        ],
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_rank_advantage": 1.3333333333333333,
+        "holm_adjusted_p": 0.125
+      },
+      {
+        "baseline": "MOWOA",
+        "exact_two_sided_p": 0.03125,
+        "per_case_favorable_differences": [
+          0.012129217023243152,
+          0.029205015497677168,
+          0.008083518191528378,
+          0.014635487987114395,
+          0.007811496129184921,
+          0.009983267402105207
+        ],
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_rank_advantage": 3.5,
+        "holm_adjusted_p": 0.125
+      },
+      {
+        "baseline": "MOGWO",
+        "exact_two_sided_p": 0.03125,
+        "per_case_favorable_differences": [
+          0.048580545965381,
+          0.02931535838462083,
+          0.019605147286731992,
+          0.006632514045662242,
+          0.003846447966115246,
+          0.0032225363017217307
+        ],
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_rank_advantage": 2.8333333333333335,
+        "holm_adjusted_p": 0.125
+      },
+      {
+        "baseline": "MOACO",
+        "exact_two_sided_p": 0.03125,
+        "per_case_favorable_differences": [
+          0.01101202244977293,
+          0.01181171450095982,
+          0.006328029816736681,
+          0.01419661601424258,
+          0.007153250832740141,
+          0.006715964380268554
+        ],
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_rank_advantage": 2.3333333333333335,
+        "holm_adjusted_p": 0.125
+      }
+    ],
+    "scope": "Six fixed instance blocks; Friedman asymptotic p exploratory with only six blocks. Exact paired signed-rank via all sign assignments (ties midrank; zeros removed); Holm across four comparisons separately per metric. HV primary, empirical IGD secondary. Posthoc values retained transparently regardless of omnibus; not nine independent Q trainings."
+  }
+}

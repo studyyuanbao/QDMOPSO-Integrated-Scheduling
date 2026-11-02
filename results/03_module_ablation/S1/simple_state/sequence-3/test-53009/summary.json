@@ -1,0 +1,98 @@
+{
+  "case": "S1",
+  "variant": "simple_state",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4850,
+    "reconstruction": 38,
+    "local_search": 32,
+    "kick": 30
+  },
+  "output_front": [
+    [
+      39.053071939367726,
+      248.43774508024381
+    ],
+    [
+      38.549820759685765,
+      253.01711093368172
+    ],
+    [
+      38.518140241098635,
+      270.23846231683217
+    ],
+    [
+      39.053071939367726,
+      248.43774508024381
+    ],
+    [
+      38.549820759685765,
+      253.01711093368172
+    ],
+    [
+      38.518140241098635,
+      270.23846231683217
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 3
+  },
+  "output_hv": 0.41394857139965047,
+  "partial_generation_decisions": 0,
+  "sequence": 3,
+  "episode": null,
+  "mode": "test",
+  "seed": 53009,
+  "nfe": 5000,
+  "seconds": 3.717702299996745,
+  "trace_emit_seconds": 0.09886840410763398,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 97,
+  "state_calls": 98,
+  "initial_q_states": 5,
+  "final_q_states": 5,
+  "unique_decision_states": 5,
+  "action_counts": {
+    "6": 17,
+    "5": 26,
+    "4": 1,
+    "2": 10,
+    "0": 12,
+    "3": 7,
+    "1": 24
+  },
+  "component_counts": [
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 19,
+      "4": 19
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.41394857139965047,
+  "front_of_all_evaluations": [
+    [
+      38.518140241098635,
+      270.23846231683217
+    ],
+    [
+      38.549820759685765,
+      253.01711093368172
+    ],
+    [
+      39.053071939367726,
+      248.43774508024381
+    ]
+  ],
+  "reward_sum": -5.5053279197062155,
+  "sp_invalid_generations": 3,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "eae0eed0d5d493d8c81cb15861bd130142e959c51e7f32e0a1052861612a896f",
+  "q_output_sha256": "d55579b94df1cb19bfb8748d0b1298508413822e0b245a83278e45d95c2745e7",
+  "status": "completed"
+}

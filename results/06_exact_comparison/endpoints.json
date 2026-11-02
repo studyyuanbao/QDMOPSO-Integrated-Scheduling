@@ -1,0 +1,26 @@
+[
+  {
+    "label": "makespan",
+    "status": 2,
+    "runtime": 0.04799985885620117,
+    "solutions": 8,
+    "bound": 38.51814023714664,
+    "time_limit": 300,
+    "objective": 38.51814023714664,
+    "gap": 0.0,
+    "makespan": 38.51814023714664,
+    "cost": 292.39606109408294
+  },
+  {
+    "label": "cost",
+    "status": 2,
+    "runtime": 0.2259998321533203,
+    "solutions": 10,
+    "bound": 224.97565005581214,
+    "time_limit": 300,
+    "objective": 224.97565005581214,
+    "gap": 0.0,
+    "makespan": 43.74440082642895,
+    "cost": 224.97565005581217
+  }
+]

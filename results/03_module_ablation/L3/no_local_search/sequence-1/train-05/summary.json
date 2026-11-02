@@ -1,0 +1,98 @@
+{
+  "case": "L3",
+  "variant": "no_local_search",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4888,
+    "kick": 40,
+    "reconstruction": 22
+  },
+  "output_front": [
+    [
+      61.62716451527858,
+      786.5882480847197
+    ],
+    [
+      92.62716451527858,
+      780.7899242611068
+    ],
+    [
+      61.62716451527858,
+      786.5882480847197
+    ],
+    [
+      92.62716451527858,
+      780.7899242611068
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7472917329556116,
+  "partial_generation_decisions": 1,
+  "sequence": 1,
+  "episode": 5,
+  "mode": "train",
+  "seed": 51005,
+  "nfe": 5000,
+  "seconds": 10.631874699960463,
+  "trace_emit_seconds": 0.115228398994077,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 14,
+  "final_q_states": 17,
+  "unique_decision_states": 7,
+  "action_counts": {
+    "2": 15,
+    "6": 14,
+    "4": 12,
+    "1": 14,
+    "3": 12,
+    "0": 13,
+    "5": 18
+  },
+  "component_counts": [
+    {
+      "1": 98
+    },
+    {
+      "0": 98
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 19
+    },
+    {
+      "2": 98
+    },
+    {
+      "1": 58,
+      "0": 40
+    }
+  ],
+  "unseen_initial_decisions": 57,
+  "equal_q_decisions": 4,
+  "analysis_hv": 0.7472917329556116,
+  "front_of_all_evaluations": [
+    [
+      61.62716451527858,
+      786.5882480847197
+    ],
+    [
+      92.62716451527858,
+      780.7899242611068
+    ]
+  ],
+  "reward_sum": -0.7898958109779526,
+  "sp_invalid_generations": 57,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "8c0d606ec3d86c6e158800b545682858dcfff962839e8b92f24d9e096539c393",
+  "q_output_sha256": "674186bb70c28c081400652fc6b272c7c3c14a798bd8548f91982c80715a33f0",
+  "status": "completed"
+}

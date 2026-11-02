@@ -1,0 +1,6 @@
+{
+  "SP": "Euclidean nearest-neighbor spacing in raw objective units; round to 10 decimals for validity/deduplication; at least 3 points; not relabeled Spread or Manhattan SP",
+  "HV": "fixed input-derived analysis reference and coordinate scaling; no internal-learning HV mixed",
+  "IGD": "mean Euclidean distance from same-instance empirical reference to output in fixed normalized coordinates; in-sample pooled empirical reference, not true Pareto front",
+  "aggregation": "each Q training group 3 tests; group means equally weighted, 3 groups per case. Baseline seeds same group partition. Descriptive run SD conditional on trained tables, not training-replicate uncertainty."
+}

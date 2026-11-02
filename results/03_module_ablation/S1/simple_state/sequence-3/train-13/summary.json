@@ -1,0 +1,98 @@
+{
+  "case": "S1",
+  "variant": "simple_state",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4904,
+    "reconstruction": 20,
+    "local_search": 16,
+    "kick": 10
+  },
+  "output_front": [
+    [
+      39.557137181038115,
+      241.4871449438736
+    ],
+    [
+      38.549820759685765,
+      255.0174746531971
+    ],
+    [
+      38.518140241098635,
+      256.78757425742026
+    ],
+    [
+      39.557137181038115,
+      241.4871449438736
+    ],
+    [
+      38.549820759685765,
+      255.0174746531971
+    ],
+    [
+      38.518140241098635,
+      256.78757425742026
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 3
+  },
+  "output_hv": 0.4184937720423026,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 13,
+  "mode": "train",
+  "seed": 51213,
+  "nfe": 5000,
+  "seconds": 3.548077200015541,
+  "trace_emit_seconds": 0.09334449621383101,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 5,
+  "final_q_states": 5,
+  "unique_decision_states": 5,
+  "action_counts": {
+    "1": 16,
+    "3": 12,
+    "6": 7,
+    "2": 24,
+    "0": 22,
+    "4": 10,
+    "5": 8
+  },
+  "component_counts": [
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.4184937720423026,
+  "front_of_all_evaluations": [
+    [
+      38.518140241098635,
+      256.78757425742026
+    ],
+    [
+      38.549820759685765,
+      255.0174746531971
+    ],
+    [
+      39.557137181038115,
+      241.4871449438736
+    ]
+  ],
+  "reward_sum": -3.291697130455034,
+  "sp_invalid_generations": 40,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "3fd42faf379fa5987854de713011f3aa7f9e3447c6fa50a1b59ff42d81603ca8",
+  "q_output_sha256": "20004d1e04de851ff5c5dceb2737bd2f4d0ce2dda805e07ec24486eab2782d51",
+  "status": "completed"
+}

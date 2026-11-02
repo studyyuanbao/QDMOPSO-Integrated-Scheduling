@@ -1,0 +1,75 @@
+{
+  "case": "M1",
+  "algorithm": "MOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 4.968660399958026,
+  "total_seconds_including_finalization": 4.971649399958551,
+  "archive_finalization_seconds": 1.1800031643360853e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 4,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.2263170965015888,
+    "independent_checks": 0.3399391999701038
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "config_source_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "configuration_id": "MOPSO-08",
+  "job_id": "MOPSO-08-test-55002",
+  "order": 92,
+  "mode": "test",
+  "episode": null,
+  "seed": 55002,
+  "parameters": {
+    "mopso_w": 1.0,
+    "mopso_c1": 2.0,
+    "mopso_c2": 2.0,
+    "mopso_vmax": 3.0
+  },
+  "output_hv_normalized": 0.4857861324539005,
+  "output_spacing_raw": 5.387662627653408,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      37.053071939367726,
+      259.47053979347754
+    ],
+    [
+      37.33462431629892,
+      248.2365495807975
+    ],
+    [
+      40.518140241098635,
+      248.06162712675592
+    ],
+    [
+      51.518140241098635,
+      240.19919262146303
+    ]
+  ],
+  "analysis_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "igd": null,
+  "igd_reason": "calibration does not use formal test reference front",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

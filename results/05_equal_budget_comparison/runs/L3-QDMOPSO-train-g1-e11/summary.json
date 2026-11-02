@@ -1,0 +1,68 @@
+{
+  "case": "L3",
+  "algorithm": "QDMOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 16.218134499969892,
+  "total_seconds_including_finalization": 16.230448199959937,
+  "archive_finalization_seconds": 0.002675600000657141,
+  "pending_evaluated_candidates_incorporated": 32,
+  "output_archive_size": 4,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4882,
+    "kick": 30,
+    "reconstruction": 22,
+    "local_search": 16
+  },
+  "complete_q_generations": 97,
+  "q_decisions": 98,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 3.5996818011044525,
+    "independent_checks": 0.9097661991836503
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "6a6a487f648455804c204a87628f5689de601386fb63fd39f1c7afe39680fe2b",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "L3-QDMOPSO-train-g1-e11",
+  "order": 221,
+  "mode": "train",
+  "episode": 11,
+  "seed": 56011,
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "output_hv_normalized": 0.7362593395961357,
+  "output_spacing_raw": null,
+  "output_spacing_valid": false,
+  "output_front": [
+    [
+      60.59460401231037,
+      922.4825814905197
+    ],
+    [
+      71.59460401231037,
+      916.7542084614545
+    ]
+  ],
+  "analysis_reference": [
+    353.82833133962515,
+    8216.712124998166
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": "29b76ae4815d145ebfb2b874012f0a990843542a585aac654c2b22802f61cb76",
+  "q_input_states": 24,
+  "q_output_sha256": "6c9a7bedd6a9be07e34d56804aab499cd0d8f86a00dfccdf91b06cc32aab18dd",
+  "q_output_states": 24,
+  "reward_sum": -0.7788139196080794,
+  "initial_q_loading_verified": true,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

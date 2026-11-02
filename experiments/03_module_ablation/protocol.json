@@ -1,0 +1,121 @@
+{
+  "budget": 5000,
+  "progress": "clip((NFE-50)/4950,0,1)",
+  "variants": [
+    "full",
+    "random_action",
+    "single_archive",
+    "no_local_search",
+    "no_reconstruction",
+    "no_kick",
+    "simple_state",
+    "no_sp_reward"
+  ],
+  "training_sequences": 3,
+  "episodes_per_sequence": 20,
+  "test_seeds": [
+    53001,
+    53002,
+    53003,
+    53004,
+    53005,
+    53006,
+    53007,
+    53008,
+    53009
+  ],
+  "partial_generation": "No fabricated reward or Q update; evaluated candidates incorporated once into final output archive",
+  "training_epsilon": 0.5,
+  "testing_epsilon": 0,
+  "first_generation_update": "skipped as prior study",
+  "terminal_bootstrap": "retained for completed generations",
+  "pilot_seed": 53991,
+  "hashes": {
+    "c4.py": "88707623615f3d6c41127a4d9966e0eaf11a93e66e6e78b9319f1c406f324a0d",
+    "c5.py": "0bea4c580d67094dedb78edebfae1d11ea0b40d42c542d32ebe9c9173ebe2b62",
+    "c6.py": "3a273755c18391a092f248cc89d205dee2520661c75028989f8a21975f5b5da4",
+    "c7-1.py": "8af43c1b5755726b2ec30c14313778549d2f0e017c2e690a0f88bbd61a7604c9",
+    "c7.py": "7b56da0b6a73b66fe217ebac29c7315c66ee0d8e465743e7adac1e19c546fc5c",
+    "c8-1.py": "0313ed2bdfe8c8c269038ac0f8b7add0bef55c497e71c8a22204262e4dd77fc8",
+    "c8-2.py": "3f13327aab6b178ecd33d320b75e59f112f328cffca51b5585c65cbf0cd26047",
+    "c8-3.py": "9386ceae3a1ae070d2157c307b23ce5621378aaf82c1aed939cf707aa637c99f",
+    "C8-5.py": "7d18a1b2dbdfa3d5dc25990c344a56918d43408420af6db763e7fe4c9d7d8dba",
+    "c8-6.py": "90171a4e094997c3b5261029960e5be27db77a297b46967545b0e8430ce1f4f6",
+    "c8.py": "60f018237f218915dc341539a01c2c498920875f12348ac056bc01223498cab6",
+    "compare1.py": "13516da20c6a6c7d0c2d97d566d42ca2d85bfcb5e3ee0fa021f8c8d50b52138f",
+    "compare2.py": "d62e2823cf0ca9a09d4d37ec59f9ca08c1d20b9eb8424d628455798062fd31c7",
+    "compare3.py": "3c57253fa3d5496b1184700c143dfb7b7eeea38d3c53d61fe6c0a264bbfdb8dd",
+    "compare_all.py": "aefa7494c82ca6612106e1217c12becbd2fadaacfe6aa30e068b44c63b869152",
+    "compare_mopso_versions.py": "c2d2e8ff5d1862aa726f18718a5e929644016b25eb1e0a2a0a48293ea9f973fe",
+    "decoder.py": "4dcf02576fc60f79788e15038bd90c4606bbf379b4dba97359fb7065fab9917e",
+    "draw_gantt.py": "870fc453a7b061c95e17ab91ab7a1dcb70c2d1ae1b51b9ae902914f8cf8a5187",
+    "feasible_init.py": "b048237bb260cb30074b67a97ad22076df18ce4c812341d68dc85e2db018d67f",
+    "get_reference_set.py": "e69c5f3868ffdc4502f36816ec6833c56a9bf31d0f00ae5ea07daaa661f17271",
+    "init.py": "e972865b4fe51b622f70e5cd1f7fa6e91f80f35ab00d25326b210323f44d16d2",
+    "init1.py": "8e22eae7648304073bab19eeda4ed517198b62c65dd6085ae0c3cfae42afcde2",
+    "main.py": "9ea0a5d5388e3715e4bd9ddfc575e830103de91ffacec4e883c3258e34099284",
+    "moabc.py": "ac7ad8faf27d5ba2425d87d3778ea62b16e8bfbb1c1be4473c56fb23e476cefe",
+    "moabc_1.py": "b16e12b66f7dc50089a3f09e04f5d788b820ab62dc3297c5161260af5e04bf11",
+    "moaco.py": "69c9af34a7cf60714ba4cc9c655d174b1fa727535b23fe79d2abdf17c205d7e1",
+    "moaco_1.py": "c2bd1b21337138fde868546a986a4d558829eb2d219fb20382ed550a81ae7b50",
+    "moaco_2.py": "e110c842ef31336962ad93dc2ac499ab48b238d23a7d1711ec8728934cdff8fc",
+    "mogwo.py": "494613da29eecc9897745a1788cd0760a3fc0f915e744cd3c2ca72f22fbae7e6",
+    "mopso.py": "8ebd84f235a30c4615339a342a83e8d93a6b13f29f6a020adc0aba2dbacc1e9c",
+    "mopso_basic.py": "c6ecbb9a889c3d6cf78f244b876d83bed7fca20ddb7eb4b75112bbb01110d087",
+    "mowoa.py": "0cb87b93558062c18a4e876e4bb503cbaa4ad3c776a8ca9bf8535a41a3786b53",
+    "nsga2.py": "566142ff3a6c4abdd60204fca258a59d707dcb4e73869fa62eaa3bfb415d3557",
+    "objective.py": "5b3dd2470ba39a7e16519befb5a1b96d62ca2e3a5fd55e4926a696767b5c22e8",
+    "particle.py": "42ffc343ff0e2478af19978973e686e571067d1a1d87744731a849600455ce40",
+    "plot_pareto.py": "dfe2110b39e226127c58aa1fad934f74fce0140f4d7fcc4110e7a83c27a60a3a",
+    "pso.py": "1cbb221c084b2b9c59dab46c0b337180ca835ced72a2d5862f84529d4ea11c55",
+    "pso_rl_new.py": "2350332e15db6d1a9c6a00160fc7125ded112c81037371b4d66eab2b9600f837",
+    "pso_rl_new1.py": "d87f5171ce59337d587f95995a7281190a5098dcda9f571d4238928c36e4a6bb",
+    "rl_agent_new.py": "ce2b3545270ff24db69af452c05b0272ae1a094203d3d4793be790b1363ee99e",
+    "spea2.py": "2c5ad2373b3004cd031b6966c7df2a0dfb125768032308cfed01049988b96383",
+    "structure_learning.py": "dd2a165ca73b08cb75af13720f505cc64dd9d4116005eb69229d7c2526e7a0d2",
+    "test_new_actions.py": "b4e838997e9bbfbf950f2a402c018ae134481d6934e5d2c8c3cee38fba1d6e68",
+    "utils.py": "2b7bb9168f01018591c9af2368f5381f2e4609fdd40e00cd0e5b86938adf0a58"
+  },
+  "run_script_sha256": "4217fb6d3875e61d7afb8b7e3355884747348eaad4f5a948e76ccb0560e21bbd",
+  "python": "3.13.5",
+  "cases": [
+    "S1",
+    "M2",
+    "L3"
+  ],
+  "particles": 50,
+  "alpha": 0.25,
+  "gamma": 0.98,
+  "reward_weights": [
+    0.8,
+    0.2
+  ],
+  "switch_penalty": 0.01,
+  "archive_capacity": {
+    "dual": [
+      200,
+      200
+    ],
+    "single": 400
+  },
+  "random_action_training": false,
+  "single_archive": "Pareto nondominance, rounded-eight-decimal deduplication, normalized crowding truncation capacity400",
+  "simple_state": "progress bucket only; other components computed for recording but not in Q key",
+  "sp_rule": "work/valid-sp-revision audited local rules, alpha etc set in algorithm",
+  "training_seeds": [
+    "51001-51020",
+    "51101-51120",
+    "51201-51220"
+  ],
+  "case_inputs_sha256": {
+    "S1": "56ff1821133c8231e3b06e6fab5e58f1b67f24a28a367605a00f59fe8c72b38f",
+    "M2": "08ee4a3db6e69062851e8ac706d867035b7ba007d9b0da647a23c07db827add1",
+    "L3": "418100e3daa44da04c7e40ff58f0add7a1465fc662457655d6ae3fd3f8a56214"
+  },
+  "budget_stop": "After completing generation bookkeeping if budget reached exactly; otherwise before evaluation5001; no extra next-generation choice at cap",
+  "recording_sources": {
+    "run_ablation.py": "4217fb6d3875e61d7afb8b7e3355884747348eaad4f5a948e76ccb0560e21bbd",
+    "summarize_ablation.py": "f066462ff98d5a74582a69396d441633ed504ddfdeaf7f0930b64ebcbac00f64",
+    "controller.py": "b04b4c17e18ca8b182380bb630700976ed67acdceda0b8f08c891aebc267656f"
+  }
+}

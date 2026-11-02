@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "case": "S1",
+      "variant": "full",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "S1",
+      "variant": "random_action",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "S1",
+      "variant": "single_archive",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "S1",
+      "variant": "no_local_search",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "S1",
+      "variant": "no_reconstruction",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "S1",
+      "variant": "no_kick",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "S1",
+      "variant": "simple_state",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "S1",
+      "variant": "no_sp_reward",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "M2",
+      "variant": "full",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "M2",
+      "variant": "random_action",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "M2",
+      "variant": "single_archive",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "M2",
+      "variant": "no_local_search",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "M2",
+      "variant": "no_reconstruction",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "M2",
+      "variant": "no_kick",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "M2",
+      "variant": "simple_state",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "M2",
+      "variant": "no_sp_reward",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "L3",
+      "variant": "full",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "L3",
+      "variant": "random_action",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "L3",
+      "variant": "single_archive",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "L3",
+      "variant": "no_local_search",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "L3",
+      "variant": "no_reconstruction",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "L3",
+      "variant": "no_kick",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "L3",
+      "variant": "simple_state",
+      "nfe": 5000,
+      "passed": true
+    },
+    {
+      "case": "L3",
+      "variant": "no_sp_reward",
+      "nfe": 5000,
+      "passed": true
+    }
+  ],
+  "scope": "24 constructed integration runs; seed53991 excluded from formal tests; S1 final boundary/log schema rechecked"
+}

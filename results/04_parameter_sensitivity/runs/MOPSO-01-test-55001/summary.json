@@ -1,0 +1,71 @@
+{
+  "case": "M1",
+  "algorithm": "MOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 5.230365600029472,
+  "total_seconds_including_finalization": 5.233270900032949,
+  "archive_finalization_seconds": 1.2599979527294636e-05,
+  "pending_evaluated_candidates_incorporated": 0,
+  "output_archive_size": 4,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4950
+  },
+  "complete_q_generations": 0,
+  "q_decisions": 0,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.2713266992359422,
+    "independent_checks": 0.3532723000389524
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "config_source_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "configuration_id": "MOPSO-01",
+  "job_id": "MOPSO-01-test-55001",
+  "order": 10,
+  "mode": "test",
+  "episode": null,
+  "seed": 55001,
+  "parameters": {
+    "mopso_w": 0.4,
+    "mopso_c1": 2.0,
+    "mopso_c2": 2.0,
+    "mopso_vmax": 0.5
+  },
+  "output_hv_normalized": 0.5548574435606871,
+  "output_spacing_raw": 1.7573921336436236,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      28.33462431629892,
+      238.22984119991588
+    ],
+    [
+      32.33910213220707,
+      237.08777834099914
+    ],
+    [
+      38.518140241098635,
+      233.37625941360025
+    ]
+  ],
+  "analysis_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "igd": null,
+  "igd_reason": "calibration does not use formal test reference front",
+  "q_input_sha256": null,
+  "q_input_states": 0,
+  "q_output_sha256": null,
+  "q_output_states": null,
+  "reward_sum": 0,
+  "initial_q_loading_verified": false,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

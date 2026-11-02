@@ -1,0 +1,84 @@
+{
+  "case": "M1",
+  "algorithm": "QDMOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 5.787014400004409,
+  "total_seconds_including_finalization": 5.799337600008585,
+  "archive_finalization_seconds": 0.0030889000045135617,
+  "pending_evaluated_candidates_incorporated": 30,
+  "output_archive_size": 12,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4830,
+    "kick": 40,
+    "reconstruction": 38,
+    "local_search": 42
+  },
+  "complete_q_generations": 96,
+  "q_decisions": 97,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.2590102993417531,
+    "independent_checks": 0.340686397976242
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "config_source_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "configuration_id": "QDMOPSO-04",
+  "job_id": "QDMOPSO-04-train-11",
+  "order": 145,
+  "mode": "train",
+  "episode": 11,
+  "seed": 54011,
+  "parameters": {
+    "q_learning_alpha": 0.1,
+    "q_discount_gamma": 0.98
+  },
+  "output_hv_normalized": 0.5612879222581647,
+  "output_spacing_raw": 3.3409972792075306,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      28.053071939367726,
+      250.7745224527766
+    ],
+    [
+      28.33462431629892,
+      240.88930084495158
+    ],
+    [
+      29.006426345724037,
+      231.50126562390963
+    ],
+    [
+      33.549820759685765,
+      229.82794014559383
+    ],
+    [
+      35.78435913540969,
+      228.44411379796878
+    ],
+    [
+      39.071906368965145,
+      227.49684753521566
+    ]
+  ],
+  "analysis_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "igd": null,
+  "igd_reason": "calibration does not use formal test reference front",
+  "q_input_sha256": "5384b5528deb8952440a577aedc5c902ea39df3b8a36b4d47e259f9813610529",
+  "q_input_states": 26,
+  "q_output_sha256": "770ff46fc3d9aa415e0b6d3500229c63dab7ed6ff9918cda1d72d37a98943649",
+  "q_output_states": 26,
+  "reward_sum": -1.2376207420077565,
+  "initial_q_loading_verified": true,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

@@ -1,0 +1,101 @@
+{
+  "case": "M2",
+  "variant": "no_local_search",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4914,
+    "reconstruction": 26,
+    "kick": 10
+  },
+  "output_front": [
+    [
+      52.13095720680039,
+      509.977505037071
+    ],
+    [
+      46.49140523723901,
+      521.6229324510668
+    ],
+    [
+      52.13095720680039,
+      509.977505037071
+    ],
+    [
+      46.49140523723901,
+      521.6229324510668
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.6413345043695378,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 4,
+  "mode": "train",
+  "seed": 51204,
+  "nfe": 5000,
+  "seconds": 6.887516400020104,
+  "trace_emit_seconds": 0.12158490053843707,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 18,
+  "final_q_states": 20,
+  "unique_decision_states": 9,
+  "action_counts": {
+    "6": 17,
+    "3": 14,
+    "5": 12,
+    "0": 20,
+    "4": 10,
+    "1": 13,
+    "2": 13
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 96,
+      "1": 2,
+      "-1": 1
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 60,
+      "2": 2,
+      "0": 37
+    }
+  ],
+  "unseen_initial_decisions": 21,
+  "equal_q_decisions": 4,
+  "analysis_hv": 0.6413345043695378,
+  "front_of_all_evaluations": [
+    [
+      46.49140523723901,
+      521.6229324510668
+    ],
+    [
+      52.13095720680039,
+      509.977505037071
+    ]
+  ],
+  "reward_sum": -1.0286699965670072,
+  "sp_invalid_generations": 58,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "efcdfb376264985a9f8f2792571194975656cbc5cc1cb27dbf739a7f7ab189db",
+  "q_output_sha256": "93b3552c64f71f4d89aa6191d3ab0a99cab37a3576b91606028eb679292ad0d9",
+  "status": "completed"
+}

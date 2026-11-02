@@ -1,0 +1,10 @@
+{
+  "protocol.json": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "jobs.json": "5d77cb829fc4c50c0f13f93084b34f51751fbe6733b90aae5e3344c583ad7cc6",
+  "M1-config.py": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "analysis-reference.json": "d5a9053be59fd3fbed803a2ae9121fcae59fe96924bfd3799340ca4d3eb83b2d",
+  "calibration-candidates.json": "71bc9e3f461595a5e4752639d7ebd0874143f5203d2ecb061be5a461861756f5",
+  "run_job.py": "b31cd447a86cee3dffd592fbfcb3d0cbeb96d524cf696858ba2f13f5bf4529f4",
+  "summarize_study.py": "378345e4250cae78db5a552b97680dd0e8c9958f5a6de5ca256064e8a530c796",
+  "controller.py": "88854dfecd3b1eb1490ca9516383233386997ec7bd2f2abc967f74d58fd37577"
+}

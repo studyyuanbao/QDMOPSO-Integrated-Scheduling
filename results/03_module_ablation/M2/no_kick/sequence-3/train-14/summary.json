@@ -1,0 +1,100 @@
+{
+  "case": "M2",
+  "variant": "no_kick",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4912,
+    "reconstruction": 22,
+    "local_search": 16
+  },
+  "output_front": [
+    [
+      49.62748730832775,
+      496.83107412868844
+    ],
+    [
+      48.557137181038115,
+      507.51354973510604
+    ],
+    [
+      49.62748730832775,
+      496.83107412868844
+    ],
+    [
+      48.557137181038115,
+      507.51354973510604
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.6359823099278304,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 14,
+  "mode": "train",
+  "seed": 51214,
+  "nfe": 5000,
+  "seconds": 6.748120400006883,
+  "trace_emit_seconds": 0.13181990128941834,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 28,
+  "final_q_states": 29,
+  "unique_decision_states": 9,
+  "action_counts": {
+    "5": 17,
+    "2": 12,
+    "6": 10,
+    "4": 10,
+    "3": 11,
+    "1": 11,
+    "0": 28
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 96,
+      "-1": 2,
+      "1": 1
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 88,
+      "0": 11
+    }
+  ],
+  "unseen_initial_decisions": 1,
+  "equal_q_decisions": 1,
+  "analysis_hv": 0.6359823099278304,
+  "front_of_all_evaluations": [
+    [
+      48.557137181038115,
+      507.51354973510604
+    ],
+    [
+      49.62748730832775,
+      496.83107412868844
+    ]
+  ],
+  "reward_sum": -0.7300050635399301,
+  "sp_invalid_generations": 86,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "93329ac4b8650c1cdcecfe32727313462db6690a9a3d66095f41aad87427c27f",
+  "q_output_sha256": "20aa28e6462e678aac0db3b06962db68e464577d844c2bf23729772e27164350",
+  "status": "completed"
+}

@@ -1,0 +1,99 @@
+{
+  "case": "S1",
+  "variant": "no_kick",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4908,
+    "reconstruction": 28,
+    "local_search": 14
+  },
+  "output_front": [
+    [
+      39.557137181038115,
+      247.51093082847154
+    ],
+    [
+      38.518140241098635,
+      260.7737581660434
+    ],
+    [
+      39.557137181038115,
+      247.51093082847154
+    ],
+    [
+      38.518140241098635,
+      260.7737581660434
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.41443746037177553,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": 2,
+  "mode": "train",
+  "seed": 51102,
+  "nfe": 5000,
+  "seconds": 3.546065100003034,
+  "trace_emit_seconds": 0.10694339976180345,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 14,
+  "final_q_states": 18,
+  "unique_decision_states": 11,
+  "action_counts": {
+    "0": 13,
+    "5": 13,
+    "3": 11,
+    "4": 16,
+    "1": 14,
+    "6": 16,
+    "2": 16
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 94,
+      "-1": 5
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 20,
+      "3": 19,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 57,
+      "0": 42
+    }
+  ],
+  "unseen_initial_decisions": 39,
+  "equal_q_decisions": 4,
+  "analysis_hv": 0.41443746037177553,
+  "front_of_all_evaluations": [
+    [
+      38.518140241098635,
+      260.7737581660434
+    ],
+    [
+      39.557137181038115,
+      247.51093082847154
+    ]
+  ],
+  "reward_sum": -1.0273407913948378,
+  "sp_invalid_generations": 56,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "4ce2ca677e8b283d408ad2ae7d43a52bba112b6fd466919273d4a634efe6c072",
+  "q_output_sha256": "ab8b7ae4a6433ecef39a4501cd0a74df2a5a8238c8c303ff7fbba758060aeafb",
+  "status": "completed"
+}

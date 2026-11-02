@@ -1,0 +1,22 @@
+{
+  "case": "G100",
+  "source": "union of final outputs of all 45 formal tests only, deduplicated and nondominated; no training/M1/pilot/old data",
+  "raw_front": [
+    [
+      196.52800000000002,
+      8713.50102
+    ],
+    [
+      199.4019,
+      8708.39674
+    ],
+    [
+      205.58290000000002,
+      8052.5824699999985
+    ]
+  ],
+  "normalization_divisor": [
+    1301.64947,
+    100789.423064
+  ]
+}

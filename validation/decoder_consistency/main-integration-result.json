@@ -1,0 +1,18 @@
+{
+  "scope": "main.py imports, revised decoder/objective integration only; not historical reproduction",
+  "product_counts": [
+    1,
+    1,
+    1
+  ],
+  "tasks": 21,
+  "particles": 10,
+  "iterations": 12,
+  "seed": 42,
+  "checks": {
+    "evaluations": 130,
+    "finite": 130
+  },
+  "result_type": "dict",
+  "history_length": 0
+}

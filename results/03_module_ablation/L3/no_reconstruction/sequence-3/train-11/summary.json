@@ -1,0 +1,100 @@
+{
+  "case": "L3",
+  "variant": "no_reconstruction",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4904,
+    "local_search": 26,
+    "kick": 20
+  },
+  "output_front": [
+    [
+      67.55270499526512,
+      804.478187978607
+    ],
+    [
+      98.80565500353336,
+      786.7425275279804
+    ],
+    [
+      67.55270499526512,
+      804.478187978607
+    ],
+    [
+      98.80565500353336,
+      786.7425275279804
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.7314212005101448,
+  "partial_generation_decisions": 1,
+  "sequence": 3,
+  "episode": 11,
+  "mode": "train",
+  "seed": 51211,
+  "nfe": 5000,
+  "seconds": 10.931578999967314,
+  "trace_emit_seconds": 0.12609909963794053,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 97,
+  "decisions": 99,
+  "state_calls": 99,
+  "initial_q_states": 20,
+  "final_q_states": 21,
+  "unique_decision_states": 9,
+  "action_counts": {
+    "6": 11,
+    "3": 14,
+    "2": 8,
+    "4": 29,
+    "0": 14,
+    "1": 13,
+    "5": 10
+  },
+  "component_counts": [
+    {
+      "1": 99
+    },
+    {
+      "0": 97,
+      "1": 2
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 20
+    },
+    {
+      "2": 99
+    },
+    {
+      "1": 19,
+      "2": 2,
+      "0": 78
+    }
+  ],
+  "unseen_initial_decisions": 1,
+  "equal_q_decisions": 1,
+  "analysis_hv": 0.7314212005101448,
+  "front_of_all_evaluations": [
+    [
+      67.55270499526512,
+      804.478187978607
+    ],
+    [
+      98.80565500353336,
+      786.7425275279804
+    ]
+  ],
+  "reward_sum": -0.6838552231402301,
+  "sp_invalid_generations": 18,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "0b0d82e5fc3a558d5b24803de69df9f93dfad6ce4de500a15a52a9559f67844e",
+  "q_output_sha256": "1449c4ad1454269bdebb6af45a255a1f32cdc8aa1b319d22360a8316f39b26ae",
+  "status": "completed"
+}

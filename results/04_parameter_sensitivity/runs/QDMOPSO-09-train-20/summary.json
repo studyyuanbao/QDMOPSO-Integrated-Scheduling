@@ -1,0 +1,80 @@
+{
+  "case": "M1",
+  "algorithm": "QDMOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 5.76602629997069,
+  "total_seconds_including_finalization": 5.777819700015243,
+  "archive_finalization_seconds": 0.0029881999944336712,
+  "pending_evaluated_candidates_incorporated": 30,
+  "output_archive_size": 10,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4870,
+    "reconstruction": 40,
+    "local_search": 20,
+    "kick": 20
+  },
+  "complete_q_generations": 97,
+  "q_decisions": 98,
+  "max_cost_check_error": 0.0,
+  "measured_partial_overhead_seconds": {
+    "emit": 1.264510297740344,
+    "independent_checks": 0.34309319977182895
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "05adcdbb2d04f496112f222a97d208513424c8ea3433322008d3c8cfba30127c",
+  "config_source_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "configuration_id": "QDMOPSO-09",
+  "job_id": "QDMOPSO-09-train-20",
+  "order": 177,
+  "mode": "train",
+  "episode": 20,
+  "seed": 54020,
+  "parameters": {
+    "q_learning_alpha": 0.4,
+    "q_discount_gamma": 0.98
+  },
+  "output_hv_normalized": 0.559532046588458,
+  "output_spacing_raw": 5.704674006746438,
+  "output_spacing_valid": true,
+  "output_front": [
+    [
+      28.557137181038115,
+      244.3246306180952
+    ],
+    [
+      29.006426345724037,
+      235.41553832837792
+    ],
+    [
+      31.006426345724037,
+      234.96843347776786
+    ],
+    [
+      32.071906368965145,
+      227.34052496496932
+    ],
+    [
+      47.55005863673824,
+      224.16837974595492
+    ]
+  ],
+  "analysis_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "igd": null,
+  "igd_reason": "calibration does not use formal test reference front",
+  "q_input_sha256": "0b67cdb2378eccc4ca3e9240c952d196a56d0571970f5683c6b9180c6b377b6e",
+  "q_input_states": 29,
+  "q_output_sha256": "dbc432d0bf05c0a200365366a527252c58eca76a45f8c81d9d2a7ac662124335",
+  "q_output_states": 29,
+  "reward_sum": -1.1432703247911513,
+  "initial_q_loading_verified": true,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

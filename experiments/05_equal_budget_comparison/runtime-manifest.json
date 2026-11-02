@@ -1,0 +1,10 @@
+{
+  "jobs.json": "13bb6403e442db4c3ef59bf4e0ab9505d7ee2c61b74d54c7614f4674d421cd26",
+  "protocol.json": "0ca46c2b8f9de8175100b2c8b477bc6bfc409804c7ee98102f91effb8de30a6d",
+  "run_job.py": "f9fe4cd2eded6a36cb3bfde28a534e5241210d61409b13008d3cc2c6b81653d6",
+  "controller.py": "3461ce56383f48a306ef3b61eeeea5defdd0996f3f94d144641221a8416b824d",
+  "summarize_progress.py": "964f0255e646d01e536aa11883766b5637ca75fccf872e21dc7184864c4a4732",
+  "analysis-references.json": "98e9b828ae6dd5c70b9859b0601c5d6837a96148ac85750ed3eea00da67c6f16",
+  "inputs.json": "2cbd6f401208dbc19193f71f3b27b50a30bb875591567afdb0d16c0f00683f27",
+  "code-hashes.json": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3"
+}

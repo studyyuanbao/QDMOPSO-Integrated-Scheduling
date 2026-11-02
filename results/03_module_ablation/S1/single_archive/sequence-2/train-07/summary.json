@@ -1,0 +1,99 @@
+{
+  "case": "S1",
+  "variant": "single_archive",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4874,
+    "reconstruction": 8,
+    "local_search": 18,
+    "kick": 50
+  },
+  "output_front": [
+    [
+      39.557137181038115,
+      251.489922589439
+    ],
+    [
+      38.518140241098635,
+      253.9818749455594
+    ],
+    [
+      41.55005863673824,
+      248.40036130146444
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 0
+  },
+  "output_hv": 0.4138608846764503,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": 7,
+  "mode": "train",
+  "seed": 51107,
+  "nfe": 5000,
+  "seconds": 3.7937661999603733,
+  "trace_emit_seconds": 0.12408280133968219,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 23,
+  "final_q_states": 23,
+  "unique_decision_states": 6,
+  "action_counts": {
+    "2": 23,
+    "1": 13,
+    "3": 9,
+    "0": 15,
+    "4": 10,
+    "6": 25,
+    "5": 3
+  },
+  "component_counts": [
+    {
+      "1": 98
+    },
+    {
+      "0": 98
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 19
+    },
+    {
+      "2": 98
+    },
+    {
+      "1": 22,
+      "0": 76
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.4138608846764503,
+  "front_of_all_evaluations": [
+    [
+      38.518140241098635,
+      253.9818749455594
+    ],
+    [
+      39.557137181038115,
+      251.489922589439
+    ],
+    [
+      41.55005863673824,
+      248.40036130146444
+    ]
+  ],
+  "reward_sum": -0.6814134222270803,
+  "sp_invalid_generations": 20,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "658e9949d21b037199eae465d1ff1f585897df0bd24d5872884ecea4203f581a",
+  "q_output_sha256": "55b10d482ffad884230fb51060cd74c71c9495691d2adafb013d234856e4c2da",
+  "status": "completed"
+}

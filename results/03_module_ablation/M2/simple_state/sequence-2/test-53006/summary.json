@@ -1,0 +1,97 @@
+{
+  "case": "M2",
+  "variant": "simple_state",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4890,
+    "reconstruction": 44,
+    "local_search": 16
+  },
+  "output_front": [
+    [
+      50.33462431629892,
+      507.8675677472369
+    ],
+    [
+      49.23685661639455,
+      533.0103636343634
+    ],
+    [
+      46.66452874644884,
+      555.5081964489102
+    ],
+    [
+      50.33462431629892,
+      507.8675677472369
+    ],
+    [
+      46.66452874644884,
+      555.5081964489102
+    ],
+    [
+      49.23685661639455,
+      533.0103636343634
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 3,
+    "DA": 3
+  },
+  "output_hv": 0.6409945991458267,
+  "partial_generation_decisions": 1,
+  "sequence": 2,
+  "episode": null,
+  "mode": "test",
+  "seed": 53006,
+  "nfe": 5000,
+  "seconds": 6.936374999990221,
+  "trace_emit_seconds": 0.10330930142663419,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 96,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 5,
+  "final_q_states": 5,
+  "unique_decision_states": 5,
+  "action_counts": {
+    "0": 27,
+    "1": 8,
+    "4": 8,
+    "6": 3,
+    "5": 26,
+    "3": 3,
+    "2": 23
+  },
+  "component_counts": [
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 19
+    }
+  ],
+  "unseen_initial_decisions": 0,
+  "equal_q_decisions": 0,
+  "analysis_hv": 0.6409945991458267,
+  "front_of_all_evaluations": [
+    [
+      46.66452874644884,
+      555.5081964489102
+    ],
+    [
+      49.23685661639455,
+      533.0103636343634
+    ],
+    [
+      50.33462431629892,
+      507.8675677472369
+    ]
+  ],
+  "reward_sum": -0.35541186583929546,
+  "sp_invalid_generations": 42,
+  "reward_clip_generations": 0,
+  "q_input_sha256": "f8ec1a6174cc10f557b7a81e4adb1f2ccd48ff206431304a97e25ffa92bdb831",
+  "q_output_sha256": "c99e573abdc436be9ab62c3b5ca7fa72f5fd17dcf7ec6a1e87f068396d969450",
+  "status": "completed"
+}

@@ -1,0 +1,64 @@
+{
+  "case": "G200",
+  "algorithm": "QDMOPSO",
+  "status": "PASS",
+  "target_nfe": 5000,
+  "nfe": 5000,
+  "search_seconds_including_checks_and_recording": 133.97909789998084,
+  "total_seconds_including_finalization": 134.00315160001628,
+  "archive_finalization_seconds": 0.00739320000866428,
+  "pending_evaluated_candidates_incorporated": 38,
+  "output_archive_size": 2,
+  "decode": {
+    "calls": 5000
+  },
+  "evaluations_by_source": {
+    "initialization": 50,
+    "swarm": 4888,
+    "reconstruction": 16,
+    "local_search": 26,
+    "kick": 20
+  },
+  "complete_q_generations": 97,
+  "q_decisions": 98,
+  "max_cost_check_error": 1.4551915228366852e-11,
+  "measured_partial_overhead_seconds": {
+    "emit": 23.54834660119377,
+    "independent_checks": 5.699045298213605
+  },
+  "time_scope": "instrumented; only complete PASS runs yield complete-budget timing; timeout is lower bound",
+  "source_manifest_sha256": "db2b7c3381e4703e77b735178be14f6d25147e53af3dbe477315e5f116f4d2b3",
+  "config_source_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+  "configuration_id": "original-paper-parameters",
+  "job_id": "G200-QDMOPSO-train-g2-e05",
+  "order": 448,
+  "mode": "train",
+  "episode": 5,
+  "seed": 56105,
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "output_hv_normalized": 0.8156278865638195,
+  "output_spacing_raw": null,
+  "output_spacing_valid": false,
+  "output_front": [
+    [
+      309.82059999999996,
+      24422.54621
+    ]
+  ],
+  "analysis_reference": [
+    2447.2657000000004,
+    369212.6607400001
+  ],
+  "igd": null,
+  "igd_reason": "computed offline after all formal tests; training and pilots excluded",
+  "q_input_sha256": "bdce0c693cf52a38b6d27114773d5c0a702769ce82f5fb1a61f697aa210ea619",
+  "q_input_states": 10,
+  "q_output_sha256": "364481092ab26b8ae55dde50d5535c1f4728b52c8f5340a3c14bd0be7e521207",
+  "q_output_states": 11,
+  "reward_sum": -0.9573056224179521,
+  "initial_q_loading_verified": true,
+  "time_budget": "NFE stopped, no equal-walltime claim"
+}

@@ -1,0 +1,101 @@
+{
+  "case": "S1",
+  "variant": "random_action",
+  "module_evaluations": {
+    "initialization": 50,
+    "swarm": 4880,
+    "kick": 30,
+    "reconstruction": 24,
+    "local_search": 16
+  },
+  "output_front": [
+    [
+      39.557137181038115,
+      250.1016977767429
+    ],
+    [
+      40.557137181038115,
+      249.24459731647883
+    ],
+    [
+      39.557137181038115,
+      250.1016977767429
+    ],
+    [
+      40.557137181038115,
+      249.24459731647883
+    ]
+  ],
+  "final_archive_sizes": {
+    "CA": 2,
+    "DA": 2
+  },
+  "output_hv": 0.4054038914234764,
+  "partial_generation_decisions": 1,
+  "sequence": 0,
+  "episode": 1,
+  "mode": "pilot",
+  "seed": 53991,
+  "nfe": 5000,
+  "seconds": 3.5621307999826968,
+  "trace_emit_seconds": 0.08606350142508745,
+  "runtime_scope": "Instrumented wall time including logging and candidate snapshots; trace_emit_seconds measures only JSONL emit calls, not total overhead",
+  "updates": 0,
+  "decisions": 98,
+  "state_calls": 98,
+  "initial_q_states": 0,
+  "final_q_states": 0,
+  "unique_decision_states": 7,
+  "action_counts": {
+    "2": 16,
+    "5": 19,
+    "3": 7,
+    "6": 12,
+    "1": 13,
+    "4": 18,
+    "0": 13
+  },
+  "component_counts": [
+    {
+      "1": 98
+    },
+    {
+      "0": 97,
+      "1": 1
+    },
+    {
+      "0": 20,
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 19
+    },
+    {
+      "2": 98
+    },
+    {
+      "1": 96,
+      "2": 1,
+      "0": 1
+    }
+  ],
+  "unseen_initial_decisions": 98,
+  "equal_q_decisions": 98,
+  "analysis_hv": 0.4054038914234764,
+  "front_of_all_evaluations": [
+    [
+      39.557137181038115,
+      250.1016977767429
+    ],
+    [
+      40.557137181038115,
+      249.24459731647883
+    ]
+  ],
+  "reward_sum": -0.7966089770412539,
+  "sp_invalid_generations": 94,
+  "reward_clip_generations": 0,
+  "q_input_sha256": null,
+  "q_output_sha256": "926248e52d1fa532c317e37da24ed652ae64110f8219cb5e061668bd3091f048",
+  "status": "completed"
+}

@@ -1,0 +1,38 @@
+{
+  "S1": {
+    "tasks": 21,
+    "assembly_operations": 9,
+    "config_sha256": "887203b3e3e29a1a4b5586151b2c98b409c1f9c5bb7b166075ec8fbcf2d84786",
+    "input_sha256": null
+  },
+  "M2": {
+    "tasks": 42,
+    "assembly_operations": 18,
+    "config_sha256": "f206735da1c2053ef5160ebf4de3161d2d6c87ad0df0ff6eca41213ad7d5739f",
+    "input_sha256": null
+  },
+  "L3": {
+    "tasks": 68,
+    "assembly_operations": 29,
+    "config_sha256": "6a6a487f648455804c204a87628f5689de601386fb63fd39f1c7afe39680fe2b",
+    "input_sha256": null
+  },
+  "G100": {
+    "tasks": 244,
+    "assembly_operations": 100,
+    "config_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+    "input_sha256": "fbe6f6cc0b3ccd79e9661a1782154476f8ca630a52babe6dbe7c8534e405d6c5"
+  },
+  "G200": {
+    "tasks": 488,
+    "assembly_operations": 200,
+    "config_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+    "input_sha256": "f6c0f6e8d8e7bb14c3e8a96008ae974c5d80cbd986b47c366f788f56af775ddd"
+  },
+  "G300": {
+    "tasks": 747,
+    "assembly_operations": 300,
+    "config_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+    "input_sha256": "947d31e2208877f3e44e7c9422441fa4a484c5f9fc592b3c492906a05d79fb9e"
+  }
+}
