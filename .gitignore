@@ -91,3 +91,20 @@ validation/decoder_consistency/actual-schedule-validation-recheck.json
 /validation/decoder_consistency/main-integration/nsga2.py
 /validation/decoder_consistency/main-integration/pso.py
 /validation/decoder_consistency/main-integration/spea2.py
+
+# Internal publication review records retained only in the local workspace
+/docs/code_versions.md
+/docs/data_manifest.csv
+/docs/large_data_manifest.csv
+/docs/private_upload_audit.md
+/docs/publication_holds.csv
+/docs/release_readiness.md
+/docs/baseline_rights_audit.csv
+/docs/baseline_rights_audit.md
+/docs/data_completeness.md
+/docs/data_gap_manifest.csv
+/docs/missing_entry_recovery.csv
+/docs/path_adaptations.csv
+/tools/select_existing_evidence.py
+/results/02_baseline_comparison/historical_candidates/
+/experiments/01_fixed_strategies/qtable_candidates/

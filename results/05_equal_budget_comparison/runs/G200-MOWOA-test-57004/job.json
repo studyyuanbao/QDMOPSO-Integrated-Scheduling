@@ -1,0 +1,19 @@
+{
+  "id": "G200-MOWOA-test-57004",
+  "case": "G200",
+  "algorithm": "MOWOA",
+  "mode": "test",
+  "seed": 57004,
+  "training_group": 2,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "woa_a0": 2.0,
+    "woa_b": 1.0
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 502,
+  "configuration_id": "original-paper-parameters"
+}

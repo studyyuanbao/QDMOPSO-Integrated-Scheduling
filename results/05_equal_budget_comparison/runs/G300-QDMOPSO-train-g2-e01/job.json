@@ -1,0 +1,19 @@
+{
+  "id": "G300-QDMOPSO-train-g2-e01",
+  "case": "G300",
+  "algorithm": "QDMOPSO",
+  "mode": "train",
+  "seed": 56101,
+  "training_group": 2,
+  "episode": 1,
+  "previous_job": null,
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": false,
+  "order": 549,
+  "configuration_id": "original-paper-parameters"
+}

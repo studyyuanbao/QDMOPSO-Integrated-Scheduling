@@ -1,0 +1,19 @@
+{
+  "id": "G100-MOWOA-test-57009",
+  "case": "G100",
+  "algorithm": "MOWOA",
+  "mode": "test",
+  "seed": 57009,
+  "training_group": 3,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "woa_a0": 2.0,
+    "woa_b": 1.0
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 402,
+  "configuration_id": "original-paper-parameters"
+}

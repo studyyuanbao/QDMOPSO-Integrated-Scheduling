@@ -1,0 +1,13 @@
+{
+  "id": "MOGWO-01-test-55002",
+  "configuration_id": "MOGWO-01",
+  "algorithm": "MOGWO",
+  "parameters": {
+    "gwo_a0": 2.0
+  },
+  "mode": "test",
+  "episode": null,
+  "seed": 55002,
+  "previous_job": null,
+  "order": 281
+}

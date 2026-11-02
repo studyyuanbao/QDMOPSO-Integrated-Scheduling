@@ -1,0 +1,14 @@
+{
+  "id": "QDMOPSO-09-train-02",
+  "configuration_id": "QDMOPSO-09",
+  "algorithm": "QDMOPSO",
+  "parameters": {
+    "q_learning_alpha": 0.4,
+    "q_discount_gamma": 0.98
+  },
+  "mode": "train",
+  "episode": 2,
+  "seed": 54002,
+  "previous_job": "QDMOPSO-09-train-01",
+  "order": 159
+}

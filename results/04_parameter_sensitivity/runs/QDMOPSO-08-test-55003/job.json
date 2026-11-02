@@ -1,0 +1,14 @@
+{
+  "id": "QDMOPSO-08-test-55003",
+  "configuration_id": "QDMOPSO-08",
+  "algorithm": "QDMOPSO",
+  "parameters": {
+    "q_learning_alpha": 0.4,
+    "q_discount_gamma": 0.95
+  },
+  "mode": "test",
+  "episode": null,
+  "seed": 55003,
+  "previous_job": "QDMOPSO-08-train-20",
+  "order": 122
+}

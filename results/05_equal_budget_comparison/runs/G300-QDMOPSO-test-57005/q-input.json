@@ -1,0 +1,6 @@
+{
+  "path": "results/05_equal_budget_comparison/runs/G300-QDMOPSO-train-g2-e20/q-final.pkl",
+  "sha256": "0a76edb54c4c8b1bff9f2f80d198c5ee0050427f7c7acad4afc6fa35d9fc1a96",
+  "states": 23,
+  "mode": "test"
+}

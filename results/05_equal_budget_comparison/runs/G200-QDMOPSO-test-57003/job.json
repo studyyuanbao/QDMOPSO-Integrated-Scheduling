@@ -1,0 +1,19 @@
+{
+  "id": "G200-QDMOPSO-test-57003",
+  "case": "G200",
+  "algorithm": "QDMOPSO",
+  "mode": "test",
+  "seed": 57003,
+  "training_group": 1,
+  "episode": null,
+  "previous_job": "G200-QDMOPSO-train-g1-e20",
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 443,
+  "configuration_id": "original-paper-parameters"
+}

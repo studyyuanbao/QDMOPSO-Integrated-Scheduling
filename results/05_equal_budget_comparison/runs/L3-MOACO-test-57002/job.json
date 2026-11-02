@@ -1,0 +1,20 @@
+{
+  "id": "L3-MOACO-test-57002",
+  "case": "L3",
+  "algorithm": "MOACO",
+  "mode": "test",
+  "seed": 57002,
+  "training_group": 1,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "alpha": 1.0,
+    "beta": 2.0,
+    "rho": 0.5
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 308,
+  "configuration_id": "original-paper-parameters"
+}

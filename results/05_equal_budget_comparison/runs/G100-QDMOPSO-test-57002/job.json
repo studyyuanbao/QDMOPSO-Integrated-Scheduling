@@ -1,0 +1,19 @@
+{
+  "id": "G100-QDMOPSO-test-57002",
+  "case": "G100",
+  "algorithm": "QDMOPSO",
+  "mode": "test",
+  "seed": 57002,
+  "training_group": 1,
+  "episode": null,
+  "previous_job": "G100-QDMOPSO-train-g1-e20",
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 337,
+  "configuration_id": "original-paper-parameters"
+}

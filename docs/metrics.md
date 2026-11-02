@@ -2,7 +2,7 @@
 
 ## Original nine-instance studies
 
-The candidate `C8-5.py` builds an IGD reference set from the nondominated union of collected output archives and an HV reference point `(1.5 × max Time + 1, 1.5 × max Cost + 1)`. It computes HV area and IGD Euclidean distance on raw Time/Cost values. **The script and the nine paper results have not been connected by a complete run manifest.** Nine instance-specific reference coordinates, saved reference fronts, successful run counts, and any historical normalization remain unconfirmed. `compare_all.py` is a different comparison and cannot establish the five-algorithm paper protocol. Existing CSVs under `results/02_baseline_comparison/historical_candidates/` are unassigned candidates.
+The candidate `C8-5.py` builds an IGD reference set from the nondominated union of collected output archives and an HV reference point `(1.5 × max Time + 1, 1.5 × max Cost + 1)`. It computes HV area and IGD Euclidean distance on raw Time/Cost values. **The script and the nine paper results have not been connected by a complete run manifest.** Nine instance-specific reference coordinates, saved reference fronts, successful run counts, and any historical normalization remain unconfirmed. `compare_all.py` is a different comparison and cannot establish the five-algorithm paper protocol. Unassigned historical CSV candidates are retained in the separate internal review records, outside this repository.
 
 ## M1 parameter study
 

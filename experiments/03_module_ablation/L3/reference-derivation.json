@@ -1,0 +1,9 @@
+{
+  "reference": [
+    353.82833133962515,
+    8216.712124998166
+  ],
+  "horizon": 321.6621193996592,
+  "cost_bound": 7469.738295452878,
+  "scope": "Conservative compact-schedule bound used for analysis only; check actual points against reference"
+}

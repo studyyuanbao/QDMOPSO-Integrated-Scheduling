@@ -1,0 +1,16 @@
+{
+  "id": "MOPSO-02-test-55002",
+  "configuration_id": "MOPSO-02",
+  "algorithm": "MOPSO",
+  "parameters": {
+    "mopso_w": 0.4,
+    "mopso_c1": 1.0,
+    "mopso_c2": 1.0,
+    "mopso_vmax": 0.5
+  },
+  "mode": "test",
+  "episode": null,
+  "seed": 55002,
+  "previous_job": null,
+  "order": 127
+}

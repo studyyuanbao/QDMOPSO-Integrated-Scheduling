@@ -1,0 +1,6 @@
+{
+  "path": "results/05_equal_budget_comparison/runs/M2-QDMOPSO-train-g3-e20/q-final.pkl",
+  "sha256": "e8a618cb384b00473e3c2ea92642f3bdb62672c9c61f0ccde0d7309401a150d9",
+  "states": 26,
+  "mode": "test"
+}

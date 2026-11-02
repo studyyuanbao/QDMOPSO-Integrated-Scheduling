@@ -1,0 +1,14 @@
+{
+  "id": "MOWOA-02-test-55002",
+  "configuration_id": "MOWOA-02",
+  "algorithm": "MOWOA",
+  "parameters": {
+    "woa_a0": 1.0,
+    "woa_b": 0.5
+  },
+  "mode": "test",
+  "episode": null,
+  "seed": 55002,
+  "previous_job": null,
+  "order": 14
+}

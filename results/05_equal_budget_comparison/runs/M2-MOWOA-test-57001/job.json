@@ -1,0 +1,19 @@
+{
+  "id": "M2-MOWOA-test-57001",
+  "case": "M2",
+  "algorithm": "MOWOA",
+  "mode": "test",
+  "seed": 57001,
+  "training_group": 1,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "woa_a0": 2.0,
+    "woa_b": 1.0
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 184,
+  "configuration_id": "original-paper-parameters"
+}

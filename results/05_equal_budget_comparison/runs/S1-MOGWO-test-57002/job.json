@@ -1,0 +1,18 @@
+{
+  "id": "S1-MOGWO-test-57002",
+  "case": "S1",
+  "algorithm": "MOGWO",
+  "mode": "test",
+  "seed": 57002,
+  "training_group": 1,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "gwo_a0": 2.0
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 89,
+  "configuration_id": "original-paper-parameters"
+}

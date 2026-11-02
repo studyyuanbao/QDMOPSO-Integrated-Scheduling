@@ -1,0 +1,21 @@
+{
+  "id": "G200-MOPSO-test-57004",
+  "case": "G200",
+  "algorithm": "MOPSO",
+  "mode": "test",
+  "seed": 57004,
+  "training_group": 2,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "mopso_w": 0.4,
+    "mopso_c1": 2.0,
+    "mopso_c2": 2.0,
+    "mopso_vmax": 0.5
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 493,
+  "configuration_id": "original-paper-parameters"
+}

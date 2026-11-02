@@ -1,0 +1,6 @@
+{
+  "path": "results/04_parameter_sensitivity/runs/QDMOPSO-05-train-14/q-final.pkl",
+  "sha256": "6270b2512944328f77b02b77eebb66d3a458cb7093fe7611ad56db893a84bb6f",
+  "states": 29,
+  "mode": "train"
+}

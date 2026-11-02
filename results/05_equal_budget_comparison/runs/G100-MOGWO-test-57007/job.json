@@ -1,0 +1,18 @@
+{
+  "id": "G100-MOGWO-test-57007",
+  "case": "G100",
+  "algorithm": "MOGWO",
+  "mode": "test",
+  "seed": 57007,
+  "training_group": 3,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "gwo_a0": 2.0
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 409,
+  "configuration_id": "original-paper-parameters"
+}

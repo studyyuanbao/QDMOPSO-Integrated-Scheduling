@@ -1,0 +1,21 @@
+{
+  "id": "M2-MOPSO-test-57005",
+  "case": "M2",
+  "algorithm": "MOPSO",
+  "mode": "test",
+  "seed": 57005,
+  "training_group": 2,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "mopso_w": 0.4,
+    "mopso_c1": 2.0,
+    "mopso_c2": 2.0,
+    "mopso_vmax": 0.5
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 179,
+  "configuration_id": "original-paper-parameters"
+}

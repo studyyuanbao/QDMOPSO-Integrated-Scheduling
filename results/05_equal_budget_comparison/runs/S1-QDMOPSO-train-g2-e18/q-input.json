@@ -1,0 +1,6 @@
+{
+  "path": "results/05_equal_budget_comparison/runs/S1-QDMOPSO-train-g2-e17/q-final.pkl",
+  "sha256": "9d48d3a29e107fc581ddeb79da28ed4ae2d1c33434d82c77ec1018cbbdc4c781",
+  "states": 28,
+  "mode": "train"
+}

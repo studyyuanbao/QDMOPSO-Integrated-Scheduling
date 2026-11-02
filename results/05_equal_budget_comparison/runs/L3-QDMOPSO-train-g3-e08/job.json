@@ -1,0 +1,19 @@
+{
+  "id": "L3-QDMOPSO-train-g3-e08",
+  "case": "L3",
+  "algorithm": "QDMOPSO",
+  "mode": "train",
+  "seed": 56208,
+  "training_group": 3,
+  "episode": 8,
+  "previous_job": "L3-QDMOPSO-train-g3-e07",
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": false,
+  "order": 264,
+  "configuration_id": "original-paper-parameters"
+}

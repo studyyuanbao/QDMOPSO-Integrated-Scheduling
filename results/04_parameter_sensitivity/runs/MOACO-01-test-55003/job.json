@@ -1,0 +1,15 @@
+{
+  "id": "MOACO-01-test-55003",
+  "configuration_id": "MOACO-01",
+  "algorithm": "MOACO",
+  "parameters": {
+    "alpha": 1.0,
+    "beta": 2.0,
+    "rho": 0.5
+  },
+  "mode": "test",
+  "episode": null,
+  "seed": 55003,
+  "previous_job": null,
+  "order": 9
+}

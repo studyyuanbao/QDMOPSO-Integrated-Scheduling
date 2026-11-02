@@ -1,0 +1,18 @@
+{
+  "id": "M2-MOGWO-test-57006",
+  "case": "M2",
+  "algorithm": "MOGWO",
+  "mode": "test",
+  "seed": 57006,
+  "training_group": 2,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "gwo_a0": 2.0
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 198,
+  "configuration_id": "original-paper-parameters"
+}

@@ -1,0 +1,15 @@
+{
+  "config_path": "experiments/04_parameter_sensitivity/M1-config.py",
+  "config_sha256": "4b43c07069cb9c64c3588efdc92f8b87b4c51e849fbec3c4b0b1d9c8c48053cb",
+  "tasks": 21,
+  "procurement_tasks": 12,
+  "assembly_operations": 9,
+  "compact_schedule_horizon_bound": 94.66211939965923,
+  "cost_bound": 894.6348357976146,
+  "analysis_hv_reference": [
+    104.12833133962516,
+    984.0983193773761
+  ],
+  "normalization": "coordinate divided by the corresponding fixed analysis reference; HV divided by reference area",
+  "status": "pre-run input-derived analysis reference; distinct from internal learning HV reference; not chosen from run results"
+}

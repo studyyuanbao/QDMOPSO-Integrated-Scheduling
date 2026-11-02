@@ -1,0 +1,20 @@
+{
+  "id": "S1-MOACO-test-57008",
+  "case": "S1",
+  "algorithm": "MOACO",
+  "mode": "test",
+  "seed": 57008,
+  "training_group": 3,
+  "episode": null,
+  "previous_job": null,
+  "parameters": {
+    "alpha": 1.0,
+    "beta": 2.0,
+    "rho": 0.5
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 104,
+  "configuration_id": "original-paper-parameters"
+}

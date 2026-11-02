@@ -1,0 +1,19 @@
+{
+  "id": "M2-QDMOPSO-test-57009",
+  "case": "M2",
+  "algorithm": "QDMOPSO",
+  "mode": "test",
+  "seed": 57009,
+  "training_group": 3,
+  "episode": null,
+  "previous_job": "M2-QDMOPSO-train-g3-e20",
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": true,
+  "order": 174,
+  "configuration_id": "original-paper-parameters"
+}

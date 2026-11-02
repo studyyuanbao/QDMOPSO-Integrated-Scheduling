@@ -1,0 +1,19 @@
+{
+  "id": "G100-QDMOPSO-train-g3-e18",
+  "case": "G100",
+  "algorithm": "QDMOPSO",
+  "mode": "train",
+  "seed": 56218,
+  "training_group": 3,
+  "episode": 18,
+  "previous_job": "G100-QDMOPSO-train-g3-e17",
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": false,
+  "order": 379,
+  "configuration_id": "original-paper-parameters"
+}

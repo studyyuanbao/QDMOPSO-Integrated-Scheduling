@@ -1,0 +1,19 @@
+{
+  "id": "M2-QDMOPSO-train-g1-e01",
+  "case": "M2",
+  "algorithm": "QDMOPSO",
+  "mode": "train",
+  "seed": 56001,
+  "training_group": 1,
+  "episode": 1,
+  "previous_job": null,
+  "parameters": {
+    "q_learning_alpha": 0.25,
+    "q_discount_gamma": 0.98
+  },
+  "nfe": 5000,
+  "particles": 50,
+  "formal_statistics": false,
+  "order": 106,
+  "configuration_id": "original-paper-parameters"
+}

@@ -1,0 +1,92 @@
+{
+  "S1": {
+    "config_path": "experiments/05_equal_budget_comparison/instances/S1/config.py",
+    "config_sha256": "887203b3e3e29a1a4b5586151b2c98b409c1f9c5bb7b166075ec8fbcf2d84786",
+    "tasks": 21,
+    "procurement_tasks": 12,
+    "assembly_operations": 9,
+    "compact_schedule_horizon_bound": 83.66211939965923,
+    "cost_bound": 784.169988037751,
+    "analysis_hv_reference": [
+      92.02833133962517,
+      862.5869868415261
+    ],
+    "normalization": "coordinate divided by the corresponding fixed analysis reference; HV divided by reference area",
+    "status": "pre-run input-derived analysis reference; distinct from internal learning HV reference; not chosen from run results"
+  },
+  "M2": {
+    "config_path": "experiments/05_equal_budget_comparison/instances/M2/config.py",
+    "config_sha256": "f206735da1c2053ef5160ebf4de3161d2d6c87ad0df0ff6eca41213ad7d5739f",
+    "tasks": 42,
+    "procurement_tasks": 24,
+    "assembly_operations": 18,
+    "compact_schedule_horizon_bound": 181.66211939965925,
+    "cost_bound": 2825.6075521955704,
+    "analysis_hv_reference": [
+      199.82833133962518,
+      3108.168307415128
+    ],
+    "normalization": "coordinate divided by the corresponding fixed analysis reference; HV divided by reference area",
+    "status": "pre-run input-derived analysis reference; distinct from internal learning HV reference; not chosen from run results"
+  },
+  "L3": {
+    "config_path": "experiments/05_equal_budget_comparison/instances/L3/config.py",
+    "config_sha256": "6a6a487f648455804c204a87628f5689de601386fb63fd39f1c7afe39680fe2b",
+    "tasks": 68,
+    "procurement_tasks": 39,
+    "assembly_operations": 29,
+    "compact_schedule_horizon_bound": 321.6621193996592,
+    "cost_bound": 7469.7382954528775,
+    "analysis_hv_reference": [
+      353.82833133962515,
+      8216.712124998166
+    ],
+    "normalization": "coordinate divided by the corresponding fixed analysis reference; HV divided by reference area",
+    "status": "pre-run input-derived analysis reference; distinct from internal learning HV reference; not chosen from run results"
+  },
+  "G100": {
+    "config_path": "experiments/05_equal_budget_comparison/instances/G100/config.py",
+    "config_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+    "tasks": 244,
+    "procurement_tasks": 144,
+    "assembly_operations": 100,
+    "compact_schedule_horizon_bound": 1183.3177,
+    "cost_bound": 91626.74824,
+    "analysis_hv_reference": [
+      1301.64947,
+      100789.423064
+    ],
+    "normalization": "coordinate divided by the corresponding fixed analysis reference; HV divided by reference area",
+    "status": "pre-run input-derived analysis reference; distinct from internal learning HV reference; not chosen from run results"
+  },
+  "G200": {
+    "config_path": "experiments/05_equal_budget_comparison/instances/G200/config.py",
+    "config_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+    "tasks": 488,
+    "procurement_tasks": 288,
+    "assembly_operations": 200,
+    "compact_schedule_horizon_bound": 2224.7870000000003,
+    "cost_bound": 335647.87340000004,
+    "analysis_hv_reference": [
+      2447.2657000000004,
+      369212.6607400001
+    ],
+    "normalization": "coordinate divided by the corresponding fixed analysis reference; HV divided by reference area",
+    "status": "pre-run input-derived analysis reference; distinct from internal learning HV reference; not chosen from run results"
+  },
+  "G300": {
+    "config_path": "experiments/05_equal_budget_comparison/instances/G300/config.py",
+    "config_sha256": "bc7420e6fd9a53d5b25f61ba63864b3277af990704689bef24db77c6cd352be7",
+    "tasks": 747,
+    "procurement_tasks": 447,
+    "assembly_operations": 300,
+    "compact_schedule_horizon_bound": 3436.8618,
+    "cost_bound": 794771.29266,
+    "analysis_hv_reference": [
+      3780.5479800000003,
+      874248.4219260002
+    ],
+    "normalization": "coordinate divided by the corresponding fixed analysis reference; HV divided by reference area",
+    "status": "pre-run input-derived analysis reference; distinct from internal learning HV reference; not chosen from run results"
+  }
+}
